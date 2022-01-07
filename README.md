@@ -12,6 +12,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Theory](#theory)
   - [Ensemble/Bayesian-papers](#Ensemble/Bayesian-papers)
   - [Dropout-based-Methods](#Dropout-based-Methods)
+  - [Learning-loss/Auxiliary-network-Methods](#Learning-loss/Auxiliary-network-Methods)
   - [Calibration](#Calibration)
   - [Prior-networks](#Prior-networks)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
@@ -79,6 +80,23 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
+## Dropout-based-Methods
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
+
 ## Learning loss/Auxiliary network-Methods
 **Arxiv**
 - 11
@@ -94,23 +112,6 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 **Journal**
 - Confidence Estimation via Auxiliary Models [[TPAMI2021]](https://arxiv.org/abs/2012.06508)
-- 22
-- 33
-
-## Dropout-based-Methods
-**Arxiv**
-- 11
-- 22
-- 33
-
-
-**Conference**
-- 11
-- 22
-- 33
-
-**Journal**
-- 11
 - 22
 - 33
 

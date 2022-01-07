@@ -30,7 +30,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 # Papers
 ## Survey
 **Arxiv**
-- 11
+- Ensemble deep learning: A review. [[6 Apr 2021]](https://arxiv.org/abs/2104.02395)
 - 22
 - 33
 
@@ -64,7 +64,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Ensemble/Bayesian-papers
 **Arxiv**
-- 11
+- Simple and scalable predictive uncertainty estimation using deep ensembles [[NIPS2017]](https://arxiv.org/abs/1612.01474)
 - 22
 - 33
 

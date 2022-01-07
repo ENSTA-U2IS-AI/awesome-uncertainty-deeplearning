@@ -12,8 +12,14 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Theory](#theory)
   - [Ensemble/Bayesian-papers](#Ensemble/Bayesian-papers)
   - [Dropout-based-Methods](#Dropout-based-Methods)
+  - [Calibration](#Calibration)
+  - [Prior-networks](#Prior-networks)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
   - [Applications](#Applications)
+    - [Classification](#Classification)
+    - [Semantic-Segmentation](#Semantic-Segmentation)
+    - [Regression](#Regression)
+    - [Annomaly-detection](#Annomaly-detection)
 - [Datasets](#Datasets)
 - [Benchmarks](#benchmarks)
 - [Library](#library)
@@ -88,8 +94,42 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 11
 - 22
 - 33
+## Calibration
+
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
+## Prior-networks
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
 
 ## Deterministic-Uncertainty-Methods
+
 **Arxiv**
 - 11
 - 22
@@ -107,6 +147,9 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 33
 
 ## Applications
+
+
+### Classification
 **Arxiv**
 - 11
 - 22
@@ -123,7 +166,58 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-# Applications
+
+### Semantic-Segmentation
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
+
+### Regression
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
+
+### Annomaly-detection
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- 11
+- 22
+- 33
+
+**Journal**
+- 11
+- 22
+- 33
+
 # Datasets
 # Benchmarks
 # library

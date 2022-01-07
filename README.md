@@ -10,7 +10,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - [Papers](#papers)
   - [Survey](#survey)
   - [Theory](#theory)
-  - [Ensemble/Bayesian-papers](#Ensemble/Bayesian-papers)
+  - [Ensemble/Bayesian-Methods](#Ensemble/Bayesian-Methods)
   - [Dropout-based-Methods](#Dropout-based-Methods)
   - [Learning-loss/Auxiliary-network-Methods](#Learning-loss/Auxiliary-network-Methods)
   - [Calibration](#Calibration)
@@ -63,7 +63,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Ensemble/Bayesian-papers
+## Ensemble/Bayesian-Methods
 **Arxiv**
 - Simple and scalable predictive uncertainty estimation using deep ensembles [[NIPS2017]](https://arxiv.org/abs/1612.01474)
 - 22
@@ -97,7 +97,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Learning loss/Auxiliary network-Methods
+## Learning-loss/Auxiliary-network-Methods
 **Arxiv**
 - 11
 - 22

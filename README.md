@@ -78,6 +78,25 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 11
 - 22
 - 33
+
+## Learning loss/Auxiliary network-Methods
+**Arxiv**
+- 11
+- 22
+- 33
+
+**Conference**
+- SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
+- Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
+- On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) [[Pytorch]](https://github.com/mattpoggi/mono-uncertainty)
+- Addressing failure prediction by learning model confidence [[NeurIPS2019]](https://github.com/valeoai/ConfidNet)
+- Learning loss for active learning [[CVPR2019]](https://arxiv.org/abs/1905.03677) [[Pytorch]](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning) (unofficial codes)
+
+**Journal**
+- Confidence Estimation via Auxiliary Models [[TPAMI2021]](https://arxiv.org/abs/2012.06508)
+- 22
+- 33
+
 ## Dropout-based-Methods
 **Arxiv**
 - 11
@@ -94,8 +113,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 11
 - 22
 - 33
-## Calibration
 
+## Calibration
 **Arxiv**
 - 11
 - 22
@@ -111,6 +130,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 11
 - 22
 - 33
+
 ## Prior-networks
 **Arxiv**
 - 11
@@ -192,9 +212,14 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- 11
-- 22
-- 33
+
+- SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
+- Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
+- On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) [[Pytorch]](https://github.com/mattpoggi/mono-uncertainty)
+- Fast Uncertainty Estimation for Deep Learning Based Optical Flow [[IROS2020]](https://authors.library.caltech.edu/104758/)
+- Inferring Distributions Over Depth from a Single Image [[IROS2019]](https://arxiv.org/abs/1912.06268) [[Tensorflow]](https://github.com/gengshan-y/monodepth-uncertainty)
+- Multi-Task Learning based on Separable Formulation of Depth Estimation and its Uncertainty [[CVPRW]](https://openaccess.thecvf.com/content_CVPRW_2019/html/Uncertainty_and_Robustness_in_Deep_Visual_Learning/Asai_Multi-Task_Learning_based_on_Separable_Formulation_of_Depth_Estimation_and_CVPRW_2019_paper.html)
+- Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) [[Tensorflow]](https://github.com/lmb-freiburg/netdef_models)
 
 **Journal**
 - 11

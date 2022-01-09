@@ -13,7 +13,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Ensemble/Bayesian-Methods](#ensemblebayesian-methods)
   - [Dropout-based-Methods](#Dropout-based-Methods)
   - [Learning-loss/Auxiliary-network-Methods](#learning-lossauxiliary-network-methods)
-  - [Data-augmentation/Generation-based-Methods](#Data-augmentation/Generation-based-methods)
+  - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
   - [Prior-networks](#Prior-networks)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
@@ -129,7 +129,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 33
 
 
-#Data-augmentation/Generation-based-methods
+# Data-augmentation/Generation-based-methods
 **Arxiv**
 - 11
 - 22
@@ -156,7 +156,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 **Conference**
 - 11
-- 22
+- Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) [[Pytorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
 - On calibration of modern neural networks. [[ICML2017]](https://arxiv.org/abs/1706.04599)
 
 **Journal**
@@ -252,7 +252,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
-- Uncertainty Estimates and Multi-Hypotheses Networks for Optical Flow [[ECCV2020]](https://arxiv.org/abs/1802.07095)
+- Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) [[Pytorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
 - On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) [[Pytorch]](https://github.com/mattpoggi/mono-uncertainty)
 - Fast Uncertainty Estimation for Deep Learning Based Optical Flow [[IROS2020]](https://authors.library.caltech.edu/104758/)
 - Inferring Distributions Over Depth from a Single Image [[IROS2019]](https://arxiv.org/abs/1912.06268) [[Tensorflow]](https://github.com/gengshan-y/monodepth-uncertainty)

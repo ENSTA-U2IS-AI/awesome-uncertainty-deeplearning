@@ -5,7 +5,7 @@
 This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and Deep learning, including papers, code, etc. Feel free to star and fork.
 
 # Contents
-- [awesome-domain-adaptation](#awesome-domain-adaptation)
+<!-- - [awesome-domain-adaptation](#awesome-domain-adaptation) -->
 - [Contents](#contents)
 - [Papers](#papers)
   - [Survey](#survey)
@@ -157,6 +157,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 **Conference**
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) [[Pytorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
+- Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPRW2020]](https://arxiv.org/abs/1906.01620) [[Pytorch]](https://github.com/fregu856/evaluating_bdl)
+- Measuring Calibration in Deep Learning [[CVPRW2019]](https://arxiv.org/abs/1904.01685)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
 - On calibration of modern neural networks. [[ICML2017]](https://arxiv.org/abs/1706.04599)
 

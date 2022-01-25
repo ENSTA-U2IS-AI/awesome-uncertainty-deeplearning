@@ -132,12 +132,13 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Data-augmentation/Generation-based-methods
 **Arxiv**
-- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[arxiv2022]](https://arxiv.org/abs/1910.04858v3)
+- 11
 - 22
 - 33
 
 
 **Conference**
+- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440)[[Pytorch]](https://github.com/YingdaXia/SynthCP) (not sure)
 - Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595)[[Pytorch]](https://github.com/cvlab-epfl/detecting-the-unexpected) (not sure)
 - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks [[NIPS2019]](https://arxiv.org/abs/1905.11001)
@@ -247,13 +248,12 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ### Regression
 **Arxiv**
-- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[arxiv2022]](https://arxiv.org/abs/1910.04858v3)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 - 33
 
 
 **Conference**
-
+- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) [[Pytorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
@@ -309,5 +309,5 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning[[arxiv2021]](https://arxiv.org/abs/2106.04015)[[Tensorflow]](https://github.com/google/uncertainty-baselines)
 # library
 # lectures-and-tutorials
-YARIN GAL: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
+- Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
 # other-resources

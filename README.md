@@ -132,7 +132,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Data-augmentation/Generation-based-methods
 **Arxiv**
-- 11
+- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[arxiv2022]](https://arxiv.org/abs/1910.04858v3)
 - 22
 - 33
 
@@ -150,7 +150,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Calibration
 **Arxiv**
-- Evaluating and Calibrating Uncertainty Prediction in Regression Tasks[[arxiv2020]](https://arxiv.org/abs/1905.11659)
+- The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[arxiv2021]](https://arxiv.org/abs/2111.15430)[[Pytorch]](https://github.com/by-liu/mbls)
+- Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 - 22
 - 33
 
@@ -246,8 +247,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ### Regression
 **Arxiv**
+- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[arxiv2022]](https://arxiv.org/abs/1910.04858v3)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
-- 22
 - 33
 
 
@@ -302,9 +303,11 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)
 - 22
 - 33
+
 # Datasets
 # Benchmarks
 - Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning[[arxiv2021]](https://arxiv.org/abs/2106.04015)[[Tensorflow]](https://github.com/google/uncertainty-baselines)
 # library
 # lectures-and-tutorials
+YARIN GAL: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
 # other-resources

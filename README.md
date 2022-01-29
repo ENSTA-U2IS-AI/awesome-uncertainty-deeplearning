@@ -15,7 +15,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Learning-loss/Auxiliary-network-Methods](#learning-lossauxiliary-network-methods)
   - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
-  - [Prior-networks/Evidential-regression-networks](#Prior-networksevidential-regression-networks)
+  - [Prior-networks/Evidential-deep-learning](#Prior-networksevidential-deep-learning)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
   - [Applications](#Applications)
     - [Classification](#Classification)
@@ -165,7 +165,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Prior-networks/Evidential-regression-networks
+## Prior-networks/Evidential-deep-learning
 **Arxiv**
 - 11
 - 22
@@ -175,7 +175,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 **Conference**
 - Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](https://arxiv.org/abs/2112.09368)
 - Deep Evidential Regression [[NIPS2020]](https://arxiv.org/abs/1910.02600) [[Tensorflow]](https://github.com/aamini/evidential-deep-learning)
-- 33
+- Evidential Deep Learning to Quantify Classification Uncertainty [[NIPS2018]](https://arxiv.org/abs/1806.01768) [[Pytorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
 
 **Journal**
 - 11

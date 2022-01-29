@@ -15,7 +15,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Learning-loss/Auxiliary-network-Methods](#learning-lossauxiliary-network-methods)
   - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
-  - [Prior-networks](#Prior-networks)
+  - [Prior-networks/Evidential-regression-networks](#Prior-networksevidential-regression-networks)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
   - [Applications](#Applications)
     - [Classification](#Classification)
@@ -72,10 +72,6 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
-
-
-
-
 
 **Conference**
 - 11
@@ -169,7 +165,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Prior-networks
+## Prior-networks/Evidential-regression-networks
 **Arxiv**
 - 11
 - 22
@@ -177,8 +173,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- 11
-- 22
+- Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](https://arxiv.org/abs/2112.09368)
+- Deep Evidential Regression [[NIPS2020]](https://arxiv.org/abs/1910.02600) [[Tensorflow]](https://github.com/aamini/evidential-deep-learning)
 - 33
 
 **Journal**
@@ -310,4 +306,5 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 # library
 # lectures-and-tutorials
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
+- MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
 # other-resources

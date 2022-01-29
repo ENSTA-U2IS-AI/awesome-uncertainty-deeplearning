@@ -306,5 +306,5 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 # library
 # lectures-and-tutorials
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
-- MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
+- MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
 # other-resources

@@ -17,6 +17,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Calibration](#Calibration)
   - [Prior-networks/Evidential-deep-learning](#Prior-networksevidential-deep-learning)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
+  - [Prediction-Intervals](#Prediction-Intervals)
   - [Applications](#Applications)
     - [Classification](#Classification)
     - [Semantic-Segmentation](#Semantic-Segmentation)
@@ -89,14 +90,13 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Dropout-based-Methods
 **Arxiv**
-- 11
+- SoftDropConnect (SDC) – Effective and Efficient Quantification of the Network Uncertainty in Deep MR Image Analysis [[20 Jan 2022]](https://arxiv.org/abs/2201.08418)
 - 22
 - 33
 
 
 **Conference**
 - 11
-- 22
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](https://arxiv.org/abs/1710.06677)
 - Concrete Dropout [[NIPS2017]](https://arxiv.org/abs/1705.07832)
 
@@ -200,6 +200,24 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
+## Prediction-Intervals
+
+**Arxiv**
+- 11
+- 22
+- 33
+
+
+**Conference**
+- Prediction Intervals: Split Normal Mixture from Quality-Driven Deep Ensembles [[PMLR2020]](http://proceedings.mlr.press/v124/saleh-salem20a.html)
+- 22
+- 33
+
+**Journal**
+- Exploring uncertainty in regression neural networks for construction of prediction intervals [[Neurocomputing2022]](https://www.sciencedirect.com/science/article/abs/pii/S0925231222001102)
+- 22
+- 33
+
 ## Applications
 
 
@@ -252,6 +270,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
+- Deep Evidential Regression [[NIPS2020]](https://arxiv.org/abs/1910.02600) [[Tensorflow]](https://github.com/aamini/evidential-deep-learning)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) [[Pytorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
 - On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) [[Pytorch]](https://github.com/mattpoggi/mono-uncertainty)
 - Fast Uncertainty Estimation for Deep Learning Based Optical Flow [[IROS2020]](https://authors.library.caltech.edu/104758/)
@@ -261,9 +280,9 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
 
 **Journal**
+- Exploring uncertainty in regression neural networks for construction of prediction intervals [[Neurocomputing2022]](https://www.sciencedirect.com/science/article/abs/pii/S0925231222001102)
 - Calibrated Prediction Intervals for Neural Network Regressors [[IEEE Access 2018]](https://arxiv.org/abs/1803.09546)[[Python]](https://github.com/cruvadom/Prediction_Intervals)
 - 22
-- 33
 
 ### Annomaly-detection
 **Arxiv**

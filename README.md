@@ -11,13 +11,13 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Survey](#survey)
   - [Theory](#theory)
   - [Ensemble/Bayesian-Methods](#ensemblebayesian-methods)
-  - [Dropout-based-Methods](#Dropout-based-Methods)
+  - [Sampling/Dropout-based-Methods](#samplingdropout-based-Methods)
   - [Learning-loss/Auxiliary-network-Methods](#learning-lossauxiliary-network-methods)
   - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
   - [Prior-networks/Evidential-deep-learning](#Prior-networksevidential-deep-learning)
   - [Deterministic-Uncertainty-Methods](#Deterministic-Uncertainty-Methods)
-  - [Prediction-Intervals](#Prediction-Intervals)
+  - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
   - [Applications](#Applications)
     - [Classification](#Classification)
     - [Semantic-Segmentation](#Semantic-Segmentation)
@@ -25,10 +25,10 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
     - [Annomaly-detection](#Annomaly-detection)
     - [Out of Distribution Dectection](#Out-of-Distribution-Dectection)
 - [Datasets](#Datasets)
-- [Benchmarks](#benchmarks)
-- [Library](#library)
-- [Lectures and Tutorials](#lectures-and-tutorials)
-- [Other Resources](#other-resources)
+- [Benchmarks](#Benchmarks)
+- [Library](#Library)
+- [Lectures and Tutorials](#Lectures-and-tutorials)
+- [Other Resources](#Other-resources)
 
 
 # Papers
@@ -69,9 +69,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
-- 11
-- 22
-- 33
+- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arxiv2020]](https://arxiv.org/abs/2012.02818)
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
 
 **Conference**
@@ -81,14 +79,15 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) [[Pytorch]](https://github.com/ezjong/lightprobnets)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
+- High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](https://arxiv.org/abs/1802.07167) [[Tensorflow]](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)
+- Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) [[Tensorflow]](https://github.com/lmb-freiburg/netdef_models)
 - Simple and scalable predictive uncertainty estimation using deep ensembles [[NIPS2017]](https://arxiv.org/abs/1612.01474)
 
 **Journal**
-- 11
-- 22
+- One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)
 - Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](https://link.springer.com/article/10.1007%2FBF00126502)
 
-## Dropout-based-Methods
+## Sampling/Dropout-based-Methods
 **Arxiv**
 - SoftDropConnect (SDC) – Effective and Efficient Quantification of the Network Uncertainty in Deep MR Image Analysis [[20 Jan 2022]](https://arxiv.org/abs/2201.08418)
 - 22
@@ -96,9 +95,10 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- 11
+- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](https://arxiv.org/abs/1710.06677)
 - Concrete Dropout [[NIPS2017]](https://arxiv.org/abs/1705.07832)
+- Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](https://arxiv.org/abs/1506.02142)
 
 **Journal**
 - 11
@@ -134,7 +134,6 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440)[[Pytorch]](https://github.com/YingdaXia/SynthCP) (not sure)
 - Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595)[[Pytorch]](https://github.com/cvlab-epfl/detecting-the-unexpected) (not sure)
 - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks [[NIPS2019]](https://arxiv.org/abs/1905.11001)
@@ -200,7 +199,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Prediction-Intervals
+## Quantile-Regression/Predicted-Intervals
 
 **Arxiv**
 - 11
@@ -209,9 +208,9 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- Prediction Intervals: Split Normal Mixture from Quality-Driven Deep Ensembles [[PMLR2020]](http://proceedings.mlr.press/v124/saleh-salem20a.html)
-- 22
-- 33
+- Prediction Intervals: Split Normal Mixture from Quality-Driven Deep Ensembles [[UAI2020]](http://proceedings.mlr.press/v124/saleh-salem20a.html) [[Pytorch]](https://github.com/tarik/pi-snm-qde)
+- Single-Model Uncertainties for Deep Learning [[NIPS2019]](https://arxiv.org/abs/1811.00908) [[Pytorch]](https://github.com/facebookresearch/SingleModelUncertainty/)
+- High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](https://arxiv.org/abs/1802.07167) [[Tensorflow]](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)
 
 **Journal**
 - Exploring uncertainty in regression neural networks for construction of prediction intervals [[Neurocomputing2022]](https://www.sciencedirect.com/science/article/abs/pii/S0925231222001102)
@@ -231,7 +230,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 **Conference**
 - 11
 - 22
-- 33
+- Lightweight Probabilistic Deep Networks [[CVPR2018]](https://arxiv.org/abs/1805.11327)[[Pytorch]](https://github.com/ezjong/lightprobnets)
 
 **Journal**
 - 11
@@ -262,9 +261,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 ### Regression
 **Arxiv**
+- On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[arxiv2022]](https://arxiv.org/abs/2202.12369)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
-- 33
-
 
 **Conference**
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
@@ -276,6 +274,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - Fast Uncertainty Estimation for Deep Learning Based Optical Flow [[IROS2020]](https://authors.library.caltech.edu/104758/)
 - Inferring Distributions Over Depth from a Single Image [[IROS2019]](https://arxiv.org/abs/1912.06268) [[Tensorflow]](https://github.com/gengshan-y/monodepth-uncertainty)
 - Multi-Task Learning based on Separable Formulation of Depth Estimation and its Uncertainty [[CVPRW]](https://openaccess.thecvf.com/content_CVPRW_2019/html/Uncertainty_and_Robustness_in_Deep_Visual_Learning/Asai_Multi-Task_Learning_based_on_Separable_Formulation_of_Depth_Estimation_and_CVPRW_2019_paper.html)
+- Lightweight Probabilistic Deep Networks [[CVPR2018]](https://arxiv.org/abs/1805.11327)[[Pytorch]](https://github.com/ezjong/lightprobnets)
 - Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) [[Tensorflow]](https://github.com/lmb-freiburg/netdef_models)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
 
@@ -320,10 +319,16 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 33
 
 # Datasets
+- MUAD: Multiple Uncertainties for Autonomous Driving benchmark for multiple uncertainty types and tasks [[arxiv2022]](https://arxiv.org/abs/2203.01437)
+
 # Benchmarks
-- Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning[[arxiv2021]](https://arxiv.org/abs/2106.04015)[[Tensorflow]](https://github.com/google/uncertainty-baselines)
-# library
-# lectures-and-tutorials
+- Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning [[arxiv2021]](https://arxiv.org/abs/2106.04015)[[Tensorflow]](https://github.com/google/uncertainty-baselines)
+
+# Library
+- Uncertainty Toolbox [[github]](https://github.com/uncertainty-toolbox)
+
+# Lectures-and-tutorials
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
 - MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
-# other-resources
+
+# Other-resources

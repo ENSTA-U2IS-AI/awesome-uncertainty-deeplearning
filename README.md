@@ -12,7 +12,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
   - [Theory](#theory)
   - [Ensemble/Bayesian-Methods](#ensemblebayesian-methods)
   - [Sampling/Dropout-based-Methods](#samplingdropout-based-Methods)
-  - [Learning-loss/Auxiliary-network-Methods](#learning-lossauxiliary-network-methods)
+  - [Learning-loss-distributions/Auxiliary-network-Methods](#learning-loss-distributionsauxiliary-network-methods)
   - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
   - [Prior-networks/Evidential-deep-learning](#Prior-networksevidential-deep-learning)
@@ -73,9 +73,8 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
 
 **Conference**
-- 11
-- 33
-- 22
+- Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) [[Pytorch/Tensorflow]](https://github.com/nikitadurasov/masksembles)
+- BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[Tensorflow]](https://github.com/google/edward2) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) [[Pytorch]](https://github.com/ezjong/lightprobnets)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
@@ -105,7 +104,7 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 - 22
 - 33
 
-## Learning-loss/Auxiliary-network-Methods
+## Learning-loss-distributions/Auxiliary-network-Methods
 **Arxiv**
 - 11
 - 22
@@ -134,8 +133,10 @@ This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and De
 
 
 **Conference**
-- Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440)[[Pytorch]](https://github.com/YingdaXia/SynthCP) (not sure)
-- Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595)[[Pytorch]](https://github.com/cvlab-epfl/detecting-the-unexpected) (not sure)
+- MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks [[ICCV2021]](https://arxiv.org/abs/2103.06132) [[Pytorch]](https://github.com/alexrame/mixmo-pytorch)
+- Training independent subnetworks for robust prediction [[ICLR2021]](https://arxiv.org/abs/2010.06610)
+- Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440) [[Pytorch]](https://github.com/YingdaXia/SynthCP)
+- Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595) [[Pytorch]](https://github.com/cvlab-epfl/detecting-the-unexpected)
 - On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks [[NIPS2019]](https://arxiv.org/abs/1905.11001)
 
 **Journal**

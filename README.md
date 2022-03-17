@@ -84,6 +84,8 @@ if you think we missed a paper, please send us an email at:
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[Tensorflow]](https://github.com/google/edward2) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
+- TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) [[Pytorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
+- A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NIPS2019]](https://arxiv.org/abs/1902.02476) [[Pytorch]](https://github.com/wjmaddox/swa_gaussian)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) [[Pytorch]](https://github.com/ezjong/lightprobnets)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
 - High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](https://arxiv.org/abs/1802.07167) [[Tensorflow]](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)

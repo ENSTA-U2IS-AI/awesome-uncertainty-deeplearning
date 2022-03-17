@@ -51,7 +51,7 @@ if you think we missed a paper, please send us an email at:
 **Arxiv**
 - Bayesian Model Selection, the Marginal Likelihood, and Generalization [[arxiv2022]](https://arxiv.org/abs/2202.11678)
 - Testing for Outliers with Conformal p-values  [[arxiv2021]](https://arxiv.org/abs/2104.08279) [[python]](https://github.com/msesia/conditional-conformal-pvalues)
-- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676#:~:text=Conditional%20Neural%20Processes%20(CNP%3B%20Garnelo,a%20simple%20maximum%20likelihood%20procedure.)
+- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676#:~:text=Conditional%20Neural%20Processes%20(CNP%3B%20Garnelo,a%20simple%20maximum%20likelihood%20procedure)
 - DEUP: Direct Epistemic Uncertainty Prediction [[arxiv2020]](https://arxiv.org/abs/2102.08501)
 
 
@@ -209,7 +209,7 @@ if you think we missed a paper, please send us an email at:
 -Predictive uncertainty estimation via prior networks [[NIPS2018]](https://proceedings.neurips.cc/paper/2018/hash/3ea2db50e62ceefceaf70a9d9a56a6f4-Abstract.html)
 
 **Journal**
-- Information Aware max-norm Dirichlet networks for predictive uncertainty estimation [[NeuralNetworks2021]](https://arxiv.org/abs/1910.04819#:~:text=Information%20Aware%20Max%2DNorm%20Dirichlet%20Networks%20for%20Predictive%20Uncertainty%20Estimation,-Theodoros%20Tsiligkaridis&text=Precise%20estimation%20of%20uncertainty%20in,prone%20to%20over%2Dconfident%20predictions.)
+- Information Aware max-norm Dirichlet networks for predictive uncertainty estimation [[NeuralNetworks2021]](https://arxiv.org/abs/1910.04819#:~:text=Information%20Aware%20Max%2DNorm%20Dirichlet%20Networks%20for%20Predictive%20Uncertainty%20Estimation,-Theodoros%20Tsiligkaridis&text=Precise%20estimation%20of%20uncertainty%20in,prone%20to%20over%2Dconfident%20predictions)
 
 ## Deterministic-Uncertainty-Methods
 

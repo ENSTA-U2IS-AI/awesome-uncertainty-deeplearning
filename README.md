@@ -62,7 +62,8 @@ if you think we missed a paper, please send us an email at:
 - To Trust Or Not To Trust A Classifier [[NIPS2018]](https://arxiv.org/abs/1805.11783) 
 
 **Journal**
-- article
+- A General Framework for Uncertainty Estimation in Deep Learning [[RAL2020]](https://arxiv.org/abs/1907.06890)
+- Multivariate Uncertainty in Deep Learning [[TNNLS2021]](https://arxiv.org/abs/1910.14215)
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**

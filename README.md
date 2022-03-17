@@ -51,7 +51,7 @@ if you think we missed a paper, please send us an email at:
 **Arxiv**
 - Bayesian Model Selection, the Marginal Likelihood, and Generalization [[arxiv2022]](https://arxiv.org/abs/2202.11678)
 - Testing for Outliers with Conformal p-values  [[arxiv2021]](https://arxiv.org/abs/2104.08279) [[python]](https://github.com/msesia/conditional-conformal-pvalues)
-- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676#:~:text=Conditional%20Neural%20Processes%20(CNP%3B%20Garnelo,a%20simple%20maximum%20likelihood%20procedure)
+- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
 - DEUP: Direct Epistemic Uncertainty Prediction [[arxiv2020]](https://arxiv.org/abs/2102.08501)
 
 
@@ -281,7 +281,7 @@ if you think we missed a paper, please send us an email at:
 **Arxiv**
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed TomographarXiv [[arxiv2022]](https://arxiv.org/abs/2202.10847)
 - On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[arxiv2022]](https://arxiv.org/abs/2202.12369)
-- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676#:~:text=Conditional%20Neural%20Processes%20(CNP%3B%20Garnelo,a%20simple%20maximum%20likelihood%20procedure.)
+- Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 
 **Conference**

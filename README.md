@@ -257,7 +257,7 @@ if you think we missed a paper, please send us an email at:
 
 ### Classification and Semantic-Segmentation
 **Arxiv**
-- Deep Deterministic Uncertainty for Semantic Segmentation [[arxiv201]](https://arxiv.org/abs/2111.00079)
+- Deep Deterministic Uncertainty for Semantic Segmentation [[arxiv2021]](https://arxiv.org/abs/2111.00079)
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[arxiv2018]](https://arxiv.org/abs/1811.12709)
 
 

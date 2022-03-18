@@ -71,7 +71,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
-- Confident Neural Network Regression with Bootstrapped Deep Ensembles." [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
+- Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
 - Repulsive Deep Ensembles are Bayesian [[arxiv2021]](https://arxiv.org/abs/2106.11642)
 - Bayesian Neural Networks with Soft Evidence  [[arxiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) [[Pytorch]](https://github.com/edwardyu/soft-evidence-bnn)
 - On Batch Normalisation for Approximate Bayesian Inference [[arxiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
@@ -82,6 +82,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
+- Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) [[Pytorch]](https://github.com/VITA-Group/FreeTickets)
 - Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) [[Pytorch/Tensorflow]](https://github.com/nikitadurasov/masksembles)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)

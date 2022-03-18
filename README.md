@@ -24,7 +24,7 @@ if you think we missed a paper, please send us an email at:
   - [Applications](#Applications)
     - [Classification and Semantic-Segmentation](#Classification-and-Semantic-Segmentation)
     - [Regression](#Regression)
-    - [Annomaly-detection and out of Distribution Dectection](#Annomaly-detection-Out-of-Distribution-Dectection)
+    - [Annomaly-detection and out of Distribution Dectection](#Annomaly-detection-and-out-of-Distribution-Dectection)
 - [Datasets and Benchmarks](#Datasets-and-Benchmarks)
 - [Library](#Library)
 - [Lectures and Tutorials](#Lectures-and-tutorials)
@@ -36,7 +36,7 @@ if you think we missed a paper, please send us an email at:
 **Arxiv**
 - Ensemble deep learning: A review. [[arxiv2021]](https://arxiv.org/abs/2104.02395)
 - A survey of uncertainty in deep neural networks.[[arxiv2021]](https://arxiv.org/abs/2107.03342)
-- A comparison of uncertainty estimation approaches in deep learning components for autonomous vehicle applications [[arxiv2020]](https://arxiv.org/abs/2006.15172)
+- A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arxiv2021]](https://arxiv.org/abs/2110.03051)
 
 
 **Conference**
@@ -76,7 +76,7 @@ if you think we missed a paper, please send us an email at:
 - Bayesian Neural Networks with Soft Evidence  [[arxiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) [[Pytorch]](https://github.com/edwardyu/soft-evidence-bnn)
 - On Batch Normalisation for Approximate Bayesian Inference [[arxiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
 - Bayesian neural network via stochastic gradient descent [[arxiv2020]](https://arxiv.org/abs/2006.08453)
-- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arxiv2020]](https://arxiv.org/abs/2012.02818)
+- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arxiv2020]](https://arxiv.org/abs/2012.02818) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
 - Ensemble Distribution Distillation [[arxiv2018]](https://arxiv.org/abs/1905.00076)
 
@@ -192,6 +192,7 @@ if you think we missed a paper, please send us an email at:
 ## Prior-networks/Evidential-deep-learning
 **Arxiv**
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arxiv2022]](https://openreview.net/pdf?id=NrB52z3eOTY)
+- A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arxiv2021]](https://arxiv.org/abs/2110.03051)
 - Regression Prior Networks [[arxiv2020]](https://arxiv.org/abs/2006.11590)
 - Uncertainty estimation in deep learning with application to spoken language assessment[[phdthesis2019]](https://www.repository.cam.ac.uk/handle/1810/298857)
 - Inhibited softmax for uncertainty estimation in neural networks [[arxiv2018]](https://arxiv.org/abs/1810.01861).
@@ -203,10 +204,10 @@ if you think we missed a paper, please send us an email at:
 - Posterior Network: Uncertainty Estimation without OOD Samples via Density-Based Pseudo-Counts  [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0eac690d7059a8de4b48e90f14510391-Abstract.html) [[Pytorch]](https://github.com/sharpenb/Posterior-Network)
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[ICLR2020]](https://openreview.net/forum?id=BJlahxHYDS)
 - Noise Contrastive Priors for Functional Uncertainty [[UAI2020]](https://proceedings.mlr.press/v115/hafner20a.html)
-- Reverse KL-Divergence Training of Prior Networks: Improved Uncertainty and Adversarial Robustness [[NIPS2019]](https://proceedings.neurips.cc/paper/2019/hash/7dd2ae7db7d18ee7c9425e38df1af5e2-Abstract.html)
 - Deep Evidential Regression [[NIPS2020]](https://arxiv.org/abs/1910.02600) [[Tensorflow]](https://github.com/aamini/evidential-deep-learning)
+- Reverse KL-Divergence Training of Prior Networks: Improved Uncertainty and Adversarial Robustness [[NIPS2019]](https://proceedings.neurips.cc/paper/2019/hash/7dd2ae7db7d18ee7c9425e38df1af5e2-Abstract.html)
 - Evidential Deep Learning to Quantify Classification Uncertainty [[NIPS2018]](https://arxiv.org/abs/1806.01768) [[Pytorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
--Predictive uncertainty estimation via prior networks [[NIPS2018]](https://proceedings.neurips.cc/paper/2018/hash/3ea2db50e62ceefceaf70a9d9a56a6f4-Abstract.html)
+- Predictive uncertainty estimation via prior networks [[NIPS2018]](https://proceedings.neurips.cc/paper/2018/hash/3ea2db50e62ceefceaf70a9d9a56a6f4-Abstract.html)
 
 **Journal**
 - Information Aware max-norm Dirichlet networks for predictive uncertainty estimation [[NeuralNetworks2021]](https://arxiv.org/abs/1910.04819#:~:text=Information%20Aware%20Max%2DNorm%20Dirichlet%20Networks%20for%20Predictive%20Uncertainty%20Estimation,-Theodoros%20Tsiligkaridis&text=Precise%20estimation%20of%20uncertainty%20in,prone%20to%20over%2Dconfident%20predictions)
@@ -314,6 +315,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](https://arxiv.org/abs/2202.01197) [[Pytorch]](https://github.com/deeplearning-wisc/vos)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](https://arxiv.org/abs/2201.10703#:~:text=Anomaly%20Detection%20via%20Reverse%20Distillation%20from%20One%2DClass%20Embedding,-Hanqiu%20Deng%2C%20Xingyu&text=Knowledge%20distillation%20(KD)%20achieves%20promising,provides%20essential%20evidence%20for%20AD.)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](https://arxiv.org/abs/2110.02855) [[Pytorch]](https://github.com/marco-rudolph/cs-flow)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](https://arxiv.org/abs/2011.08785) [[Pytorch]](https://github.com/openvinotoolkit/anomalib)

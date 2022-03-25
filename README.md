@@ -56,6 +56,7 @@ if you think we missed a paper, please send us an email at:
 - Testing for Outliers with Conformal p-values  [[arxiv2021]](https://arxiv.org/abs/2104.08279) [[python]](https://github.com/msesia/conditional-conformal-pvalues)
 - Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
 - DEUP: Direct Epistemic Uncertainty Prediction [[arxiv2020]](https://arxiv.org/abs/2102.08501)
+- A higher-order swiss army infinitesimal jackknife [[arxiv2019]](https://arxiv.org/abs/1907.12116)
 
 
 **Conference**
@@ -66,6 +67,7 @@ if you think we missed a paper, please send us an email at:
 - Dangers of Bayesian Model Averaging under Covariate Shift [[NIPS2021]](https://arxiv.org/abs/2106.11905) [[Tensorflow]](https://github.com/izmailovpavel/bnn_covariate_shift)
 - A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR2021Workshop]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
 - Evidential Deep Learning to Quantify Classification Uncertainty [[NIPS2018]](https://arxiv.org/abs/1806.01768) [[Pytorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
+- On the accuracy of influence functions for measuring group effects [[NIPS2018]](https://proceedings.neurips.cc/paper/2019/hash/a78482ce76496fcf49085f2190e675b4-Abstract.html) 
 - To Trust Or Not To Trust A Classifier [[NIPS2018]](https://arxiv.org/abs/1805.11783) 
 
 **Journal**

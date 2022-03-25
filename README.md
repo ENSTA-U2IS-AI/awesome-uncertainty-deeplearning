@@ -57,6 +57,7 @@ if you think we missed a paper, please send us an email at:
 - Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
 - DEUP: Direct Epistemic Uncertainty Prediction [[arxiv2020]](https://arxiv.org/abs/2102.08501)
 - A higher-order swiss army infinitesimal jackknife [[arxiv2019]](https://arxiv.org/abs/1907.12116)
+- With malice towards none: Assessing uncertainty via equalized coverage [[arxiv2019]](https://arxiv.org/abs/1908.05428)
 
 
 **Conference**

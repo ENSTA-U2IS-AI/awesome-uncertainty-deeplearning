@@ -70,7 +70,7 @@ if you think we missed a paper, please send us an email at:
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) [[Pytorch]](https://github.com/yandex-research/GBDT-uncertainty)
 - Evidential Deep Learning to Quantify Classification Uncertainty [[NIPS2018]](https://arxiv.org/abs/1806.01768) [[Pytorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
 - On the accuracy of influence functions for measuring group effects [[NIPS2018]](https://proceedings.neurips.cc/paper/2019/hash/a78482ce76496fcf49085f2190e675b4-Abstract.html) 
-- To Trust Or Not To Trust A Classifier [[NIPS2018]](https://arxiv.org/abs/1805.11783) 
+- To Trust Or Not To Trust A Classifier [[NIPS2018]](https://arxiv.org/abs/1805.11783) [[python]](https://github.com/google/TrustScore)
 
 **Journal**
 - Multivariate Uncertainty in Deep Learning [[TNNLS2021]](https://arxiv.org/abs/1910.14215)

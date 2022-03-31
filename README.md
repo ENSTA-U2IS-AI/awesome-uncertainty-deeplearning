@@ -347,6 +347,8 @@ if you think we missed a paper, please send us an email at:
 
 # Library
 - Uncertainty Toolbox [[github]](https://github.com/uncertainty-toolbox)
+- Bayesian Torch [[github]](https://github.com/IntelLabs/bayesian-torch)
+- A Bayesian Neural Network library for PyTorch [[github]](https://github.com/piEsposito/blitz-bayesian-deep-learning)
 
 # Lectures-and-tutorials
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)

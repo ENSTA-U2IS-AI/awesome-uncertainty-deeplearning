@@ -349,6 +349,8 @@ if you think we missed a paper, please send us an email at:
 - Uncertainty Toolbox [[github]](https://github.com/uncertainty-toolbox)
 - Bayesian Torch [[github]](https://github.com/IntelLabs/bayesian-torch)
 - A Bayesian Neural Network library for PyTorch [[github]](https://github.com/piEsposito/blitz-bayesian-deep-learning)
+- Uncertainty Toolbox [[github]](https://uncertainty-toolbox.github.io/)
+- Mixture Density Networks (MDN) for distribution and uncertainty estimation [[github]](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation)
 
 # Lectures-and-tutorials
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)

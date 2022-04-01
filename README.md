@@ -79,6 +79,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
+- Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[arxiv2022]](https://arxiv.org/abs/2202.11782)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
 - Repulsive Deep Ensembles are Bayesian [[arxiv2021]](https://arxiv.org/abs/2106.11642)
 - Bayesian Neural Networks with Soft Evidence  [[arxiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) [[Pytorch]](https://github.com/edwardyu/soft-evidence-bnn)

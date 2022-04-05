@@ -87,6 +87,7 @@ if you think we missed a paper, please send us an email at:
 - Bayesian neural network via stochastic gradient descent [[arxiv2020]](https://arxiv.org/abs/2006.08453)
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arxiv2020]](https://arxiv.org/abs/2012.02818) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
+- Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[arxiv2019]](https://arxiv.org/abs/1903.11341)
 - Ensemble Distribution Distillation [[arxiv2018]](https://arxiv.org/abs/1905.00076)
 
 **Conference**
@@ -96,6 +97,7 @@ if you think we missed a paper, please send us an email at:
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
 - Real-time uncertainty estimation in computer vision via uncertainty-aware distribution distillation [[WACV2021]](https://arxiv.org/abs/2007.15857)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) [[Pytorch]](https://github.com/yandex-research/GBDT-uncertainty)
+- Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5849)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[Tensorflow]](https://github.com/google/edward2) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)

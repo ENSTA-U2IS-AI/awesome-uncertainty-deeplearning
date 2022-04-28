@@ -92,6 +92,7 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) [[Pytorch]](https://github.com/VITA-Group/FreeTickets)
+- Robustness via Cross-Domain Ensembles [[ICCV2021]](https://arxiv.org/abs/2103.10919) [[Pytorch]](https://github.com/EPFL-VILAB/XDEnsembles)
 - Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) [[Pytorch/Tensorflow]](https://github.com/nikitadurasov/masksembles)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
@@ -161,7 +162,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
-- Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968)
+- Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968) [[Pytorch]](https://github.com/giannifranchi/deeplabv3-superpixelmix)
 - MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks [[ICCV2021]](https://arxiv.org/abs/2103.06132) [[Pytorch]](https://github.com/alexrame/mixmo-pytorch)
 - Training independent subnetworks for robust prediction [[ICLR2021]](https://arxiv.org/abs/2010.06610)
 - Uncertainty-aware GAN with Adaptive Loss for Robust MRI Image Enhancement  [[ICCVWorkshop2021]](https://arxiv.org/pdf/2110.03343.pdf)
@@ -278,7 +279,8 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
-- Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968)
+- Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](https://openreview.net/forum?id=kNKFOXleuC) [[Pytorch]](https://github.com/liuzhuang13/anytime)
+- Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968) [[Pytorch]](https://github.com/giannifranchi/deeplabv3-superpixelmix)
 - Classification with Valid and Adaptive Coverage [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html)
 - DEAL: Difficulty-aware Active Learning for Semantic Segmentation [[ACCV2020]](https://openaccess.thecvf.com/content/ACCV2020/html/Xie_DEAL_Difficulty-aware_Active_Learning_for_Semantic_Segmentation_ACCV_2020_paper.html)
 - Human Uncertainty Makes Classification More Robust [[ICCV2019]](https://openaccess.thecvf.com/content_ICCV_2019/html/Peterson_Human_Uncertainty_Makes_Classification_More_Robust_ICCV_2019_paper.html)
@@ -302,8 +304,10 @@ if you think we missed a paper, please send us an email at:
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 
 **Conference**
+- Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](https://openreview.net/forum?id=kNKFOXleuC) [[Pytorch]](https://github.com/liuzhuang13/anytime)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
+- Robustness via Cross-Domain Ensembles [[ICCV2021]](https://arxiv.org/abs/2103.10919) [[Pytorch]](https://github.com/EPFL-VILAB/XDEnsembles)
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
 - Deep Evidential Regression [[NIPS2020]](https://arxiv.org/abs/1910.02600) [[Tensorflow]](https://github.com/aamini/evidential-deep-learning)
@@ -350,9 +354,14 @@ if you think we missed a paper, please send us an email at:
 
 # Datasets and Benchmarks
 - MUAD: Multiple Uncertainties for Autonomous Driving benchmark for multiple uncertainty types and tasks [[arxiv2022]](https://arxiv.org/abs/2203.01437)
+- ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[ICCV2021]](https://arxiv.org/abs/2104.13395)
 - The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection [[IJCV2021]](https://link.springer.com/content/pdf/10.1007/s11263-020-01400-4.pdf)
+- SegmentMeIfYouCan: A Benchmark for Anomaly Segmentation [[NIPS2021]](https://arxiv.org/abs/2104.14812)
 - Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning [[arxiv2021]](https://arxiv.org/abs/2106.04015)[[Tensorflow]](https://github.com/google/uncertainty-baselines)
-
+- Curriculum Model Adaptation with Synthetic and Real Data for Semantic Foggy Scene Understanding [[IJCV2020]](https://people.ee.ethz.ch/~csakarid/Model_adaptation_SFSU_dense/)
+- Fishyscapes: A Benchmark for Safe Semantic Segmentation in Autonomous Driving [[ICCVW2019]](https://openaccess.thecvf.com/content_ICCVW_2019/html/ADW/Blum_Fishyscapes_A_Benchmark_for_Safe_Semantic_Segmentation_in_Autonomous_Driving_ICCVW_2019_paper.html)
+- Semantic Foggy Scene Understanding with Synthetic Data [[IJCV2018]](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/)
+- Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles [[IROS2016]](https://arxiv.org/abs/1609.04653)
 # Library
 - Bayesian Torch [[github]](https://github.com/IntelLabs/bayesian-torch)
 - A Bayesian Neural Network library for PyTorch [[github]](https://github.com/piEsposito/blitz-bayesian-deep-learning)

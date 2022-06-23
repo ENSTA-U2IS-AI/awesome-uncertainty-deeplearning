@@ -52,6 +52,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Theory
 **Arxiv**
+- Ensembles for Uncertainty Estimation: Benefits of Prior Functions and Bootstrapping [[arxiv2022]](https://arxiv.org/pdf/2206.03633.pdf)
 - Bayesian Model Selection, the Marginal Likelihood, and Generalization [[arxiv2022]](https://arxiv.org/abs/2202.11678)
 - Testing for Outliers with Conformal p-values  [[arxiv2021]](https://arxiv.org/abs/2104.08279) [[python]](https://github.com/msesia/conditional-conformal-pvalues)
 - Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
@@ -79,7 +80,8 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
-- Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[arxiv2022]](https://arxiv.org/abs/2202.11782)
+- Sequential Bayesian Neural Subnetwork Ensembles [[arxiv2022]](https://arxiv.org/abs/2206.00794)
+- FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[arxiv]](https://arxiv.org/abs/2206.00050)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
 - Repulsive Deep Ensembles are Bayesian [[arxiv2021]](https://arxiv.org/abs/2106.11642)
 - Bayesian Neural Networks with Soft Evidence  [[arxiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) [[Pytorch]](https://github.com/edwardyu/soft-evidence-bnn)
@@ -91,6 +93,7 @@ if you think we missed a paper, please send us an email at:
 - Ensemble Distribution Distillation [[arxiv2018]](https://arxiv.org/abs/1905.00076)
 
 **Conference**
+- Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) [[Pytorch]](https://github.com/VITA-Group/FreeTickets)
 - Robustness via Cross-Domain Ensembles [[ICCV2021]](https://arxiv.org/abs/2103.10919) [[Pytorch]](https://github.com/EPFL-VILAB/XDEnsembles)
 - Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) [[Pytorch/Tensorflow]](https://github.com/nikitadurasov/masksembles)
@@ -162,6 +165,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
+- Towards efficient feature sharing in MIMO architectures [[CVPRW2022]](https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html)
 - Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968) [[Pytorch]](https://github.com/giannifranchi/deeplabv3-superpixelmix)
 - MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks [[ICCV2021]](https://arxiv.org/abs/2103.06132) [[Pytorch]](https://github.com/alexrame/mixmo-pytorch)
 - Training independent subnetworks for robust prediction [[ICLR2021]](https://arxiv.org/abs/2010.06610)
@@ -188,6 +192,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
+- Calibrating Deep Neural Networks by Pairwise Constraints [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Calibrating_Deep_Neural_Networks_by_Pairwise_Constraints_CVPR_2022_paper.html)
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](https://openreview.net/forum?id=WqoBaaPHS-)
 - From label smoothing to label relaxation [[AAAI2021]](https://www.aaai.org/AAAI21Papers/AAAI-2191.LienenJ.pdf)
 - Calibrating Deep Neural Networks using Focal Loss [[NIPS2020]](https://arxiv.org/abs/2002.09437) [[Pytorch]](https://github.com/torrvision/focal_calibration)
@@ -357,6 +362,7 @@ if you think we missed a paper, please send us an email at:
 
 
 # Datasets and Benchmarks
+- SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_SHIFT_A_Synthetic_Driving_Dataset_for_Continuous_Multi-Task_Domain_Adaptation_CVPR_2022_paper.html)
 - MUAD: Multiple Uncertainties for Autonomous Driving benchmark for multiple uncertainty types and tasks [[arxiv2022]](https://arxiv.org/abs/2203.01437)
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[ICCV2021]](https://arxiv.org/abs/2104.13395)
 - The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection [[IJCV2021]](https://link.springer.com/content/pdf/10.1007/s11263-020-01400-4.pdf)
@@ -373,6 +379,7 @@ if you think we missed a paper, please send us an email at:
 - Mixture Density Networks (MDN) for distribution and uncertainty estimation [[github]](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation)
 
 # Lectures-and-tutorials
+-  Uncertainty and Robustness in Deep Learning Workshop in ICML (2020, 2021) [[SlidesLive]](https://slideslive.com/icml-2020/icml-workshop-on-uncertainty-and-robustness-in-deep-learning-udl)
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
 - MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
 

@@ -34,6 +34,7 @@ if you think we missed a paper, please send us an email at:
 # Papers
 ## Survey
 **Arxiv**
+- A Survey on Uncertainty Reasoning and Quantification for Decision Making: Belief Theory Meets Deep Learning. [[arxiv2022]](https://arxiv.org/abs/2206.05675)
 - Ensemble deep learning: A review. [[arxiv2021]](https://arxiv.org/abs/2104.02395)
 - A survey of uncertainty in deep neural networks.[[arxiv2021]](https://arxiv.org/abs/2107.03342)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arxiv2021]](https://arxiv.org/abs/2110.03051)
@@ -80,6 +81,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
+- Deep Ensemble as a Gaussian Process Approximate Posterior [[arxiv2022]](https://arxiv.org/abs/2205.00163)
 - Sequential Bayesian Neural Subnetwork Ensembles [[arxiv2022]](https://arxiv.org/abs/2206.00794)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[arxiv]](https://arxiv.org/abs/2206.00050)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
@@ -90,7 +92,6 @@ if you think we missed a paper, please send us an email at:
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arxiv2020]](https://arxiv.org/abs/2012.02818) [[Pytorch]](https://github.com/giannifranchi/LP_BNN)
 - Deep Ensembles: A Loss Landscape Perspective [[arxiv2019]](https://arxiv.org/abs/1912.02757)
 - Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[arxiv2019]](https://arxiv.org/abs/1903.11341)
-- Ensemble Distribution Distillation [[arxiv2018]](https://arxiv.org/abs/1905.00076)
 
 **Conference**
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)
@@ -101,6 +102,7 @@ if you think we missed a paper, please send us an email at:
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
 - Real-time uncertainty estimation in computer vision via uncertainty-aware distribution distillation [[WACV2021]](https://arxiv.org/abs/2007.15857)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) [[Pytorch]](https://github.com/yandex-research/GBDT-uncertainty)
+- Ensemble Distribution Distillation [[ICLR2020]](https://arxiv.org/abs/1905.00076)
 - Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5849)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
@@ -121,8 +123,7 @@ if you think we missed a paper, please send us an email at:
 ## Sampling/Dropout-based-Methods
 **Arxiv**
 - SoftDropConnect (SDC) – Effective and Efficient Quantification of the Network Uncertainty in Deep MR Image Analysis [[arxiv2022]](https://arxiv.org/abs/2201.08418)
-
-
+- Wasserstein Dropout [[arxiv2021]](https://arxiv.org/abs/2012.12687) [[Pytorch]](https://github.com/fraunhofer-iais/second-moment-loss)
 
 **Conference**
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
@@ -211,9 +212,12 @@ if you think we missed a paper, please send us an email at:
 **Journal**
 - Calibrated Prediction Intervals for Neural Network Regressors [[IEEE Access 2018]](https://arxiv.org/abs/1803.09546)[[Python]](https://github.com/cruvadom/Prediction_Intervals)
 
+
 ## Prior-networks/Evidential-deep-learning
 **Arxiv**
+- The Unreasonable Effectiveness of Deep Evidential Regression [[arxiv2022]](https://arxiv.org/abs/2205.10060)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arxiv2022]](https://openreview.net/pdf?id=NrB52z3eOTY)
+- Multivariate Deep Evidential Regression [[arxiv2022]](https://arxiv.org/abs/2104.06135)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arxiv2021]](https://arxiv.org/abs/2110.03051)
 - Regression Prior Networks [[arxiv2020]](https://arxiv.org/abs/2006.11590)
 - Uncertainty estimation in deep learning with application to spoken language assessment[[phdthesis2019]](https://www.repository.cam.ac.uk/handle/1810/298857)
@@ -308,11 +312,12 @@ if you think we missed a paper, please send us an email at:
 ### Regression
 **Arxiv**
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed TomographarXiv [[arxiv2022]](https://arxiv.org/abs/2202.10847)
-- On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[arxiv2022]](https://arxiv.org/abs/2202.12369)
 - Efficient Gaussian Neural Processes for Regression [[arxiv2021]](https://arxiv.org/abs/2108.09676)
+- Wasserstein Dropout [[arxiv2021]](https://arxiv.org/abs/2012.12687) [[Pytorch]](https://github.com/fraunhofer-iais/second-moment-loss)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 
 **Conference**
+- On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[ICIP2022]](https://arxiv.org/abs/2202.12369)
 - Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](https://openreview.net/forum?id=kNKFOXleuC) [[Pytorch]](https://github.com/liuzhuang13/anytime)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)

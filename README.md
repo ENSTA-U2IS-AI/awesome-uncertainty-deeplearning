@@ -81,10 +81,12 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
+- On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection [[arxiv2022]](https://arxiv.org/abs/2207.07517)
 - Deep Ensemble as a Gaussian Process Approximate Posterior [[arxiv2022]](https://arxiv.org/abs/2205.00163)
 - Sequential Bayesian Neural Subnetwork Ensembles [[arxiv2022]](https://arxiv.org/abs/2206.00794)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[arxiv]](https://arxiv.org/abs/2206.00050)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arxiv2022]](https://arxiv.org/abs/2202.10903) [[Tensorflow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
+- Dense Uncertainty Estimation [[arxiv2021]](https://arxiv.org/abs/2110.06427) [[Pytorch]](https://github.com/JingZhang617/UncertaintyEstimation)
 - Repulsive Deep Ensembles are Bayesian [[arxiv2021]](https://arxiv.org/abs/2106.11642)
 - Bayesian Neural Networks with Soft Evidence  [[arxiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) [[Pytorch]](https://github.com/edwardyu/soft-evidence-bnn)
 - On Batch Normalisation for Approximate Bayesian Inference [[arxiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
@@ -136,6 +138,8 @@ if you think we missed a paper, please send us an email at:
 
 ## Learning-loss-distributions/Auxiliary-network-Methods
 **Arxiv**
+- Instance-Aware Observer Network for Out-of-Distribution Object Segmentation [[arxiv2022]](https://arxiv.org/abs/2207.08782)
+- Learning Uncertainty For Safety-Oriented Semantic Segmentation In Autonomous Driving [[arxiv2022]](https://arxiv.org/abs/2105.13688)
 - DEUP: Direct Epistemic Uncertainty Prediction [[arxiv2020]](https://arxiv.org/abs/2102.08501)
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks[[arxiv2018]](https://arxiv.org/abs/1802.04865)
 
@@ -215,6 +219,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Prior-networks/Evidential-deep-learning
 **Arxiv**
+- Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arxiv2022]](https://openreview.net/forum?id=NrB52z3eOTY)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[arxiv2022]](https://arxiv.org/abs/2205.10060)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arxiv2022]](https://openreview.net/pdf?id=NrB52z3eOTY)
 - Multivariate Deep Evidential Regression [[arxiv2022]](https://arxiv.org/abs/2104.06135)
@@ -225,6 +230,7 @@ if you think we missed a paper, please send us an email at:
 
 
 **Conference**
+- Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](https://arxiv.org/abs/2105.04471) [[Pytorch]](https://github.com/borchero/natural-posterior-network)
 - Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](https://arxiv.org/abs/2112.09368)
 - Misclassification Risk and Uncertainty Quantification in Deep Classifiers [[WACV2021]](https://openaccess.thecvf.com/content/WACV2021/html/Sensoy_Misclassification_Risk_and_Uncertainty_Quantification_in_Deep_Classifiers_WACV_2021_paper.html)
 - Evaluating robustness of predictive uncertainty estimation: Are Dirichlet-based models reliable? [[ICML2021]](http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf)
@@ -253,6 +259,7 @@ if you think we missed a paper, please send us an email at:
 - Distance-based Confidence Score for Neural Network Classifiers [[arxiv2017]](https://arxiv.org/abs/1709.09844)
 
 **Conference**
+- Latent Discriminant deterministic Uncertainty [[ECCV2022]](https://arxiv.org/abs/2207.10130) [[Pytorch]](https://github.com/ENSTA-U2IS/LDU)
 - Improving Deterministic Uncertainty Estimation in Deep Learning for Classification and Regression [[CoRR2021]](https://arxiv.org/abs/2102.11409)
 - Training normalizing flows with the information bottleneck for competitive generative classification [[NIPS2020]](https://arxiv.org/abs/2001.06448)
 - Simple and principled uncertainty estimation with deterministic deep learning via distance awareness [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/543e83748234f7cbab21aa0ade66565f-Abstract.html)
@@ -354,6 +361,7 @@ if you think we missed a paper, please send us an email at:
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](https://arxiv.org/abs/2202.01197) [[Pytorch]](https://github.com/deeplearning-wisc/vos)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](https://arxiv.org/abs/2201.10703#:~:text=Anomaly%20Detection%20via%20Reverse%20Distillation%20from%20One%2DClass%20Embedding,-Hanqiu%20Deng%2C%20Xingyu&text=Knowledge%20distillation%20(KD)%20achieves%20promising,provides%20essential%20evidence%20for%20AD.)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](https://arxiv.org/abs/2110.02855) [[Pytorch]](https://github.com/marco-rudolph/cs-flow)
+- Energy-based Out-of-distribution Detection [[NIPS2020]](https://arxiv.org/abs/2010.03759?context=cs)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](https://arxiv.org/abs/2011.08785) [[Pytorch]](https://github.com/openvinotoolkit/anomalib)
 - Detecting out-of-distribution image without learning from out-of-distribution data." [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html)
 - Learning Open Set Network with Discriminative Reciprocal Points [[ECCV2020]](https://arxiv.org/abs/2011.00178)

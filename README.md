@@ -15,7 +15,7 @@ if you think we missed a paper, please send us an email at:
   - [Theory](#theory)
   - [Ensemble/Bayesian-Methods](#ensemblebayesian-methods)
   - [Sampling/Dropout-based-Methods](#samplingdropout-based-Methods)
-  - [Learning-loss-distributions/Auxiliary-network-Methods](#learning-loss-distributionsauxiliary-network-methods)
+  - [Learning-loss-distributions/Auxiliary-Methods](#learning-loss-distributionsauxiliary-methods)
   - [Data-augmentation/Generation-based-Methods](#data-augmentationgeneration-based-methods)
   - [Calibration](#Calibration)
   - [Prior-networks/Evidential-deep-learning](#Prior-networksevidential-deep-learning)
@@ -136,7 +136,7 @@ if you think we missed a paper, please send us an email at:
 **Journal**
 - article
 
-## Learning-loss-distributions/Auxiliary-network-Methods
+## Learning-loss-distributions/Auxiliary-Methods
 **Arxiv**
 - Instance-Aware Observer Network for Out-of-Distribution Object Segmentation [[arxiv2022]](https://arxiv.org/abs/2207.08782)
 - Learning Uncertainty For Safety-Oriented Semantic Segmentation In Autonomous Driving [[arxiv2022]](https://arxiv.org/abs/2105.13688)
@@ -144,15 +144,18 @@ if you think we missed a paper, please send us an email at:
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks[[arxiv2018]](https://arxiv.org/abs/1802.04865)
 
 **Conference**
+- Gradient-based Uncertainty for Monocular Depth Estimation [[ECCV2022]](https://arxiv.org/abs/2208.02005) [[Pytorch]](https://github.com/jhornauer/GrUMoDepth)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) [[Pytorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate) 
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
 - A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR2021Workshop]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
+- Gradients as a Measure of Uncertainty in Neural Networks [[ICIP2020]](https://arxiv.org/abs/2008.08030)
 - Learning Loss for Test-Time Augmentation [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/2ba596643cbbbc20318224181fa46b28-Abstract.html)
 - On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) [[Pytorch]](https://github.com/mattpoggi/mono-uncertainty)
 - Addressing failure prediction by learning model confidence [[NeurIPS2019]](https://papers.nips.cc/paper/2019/file/757f843a169cc678064d9530d12a1881-Paper.pdf)[[Pytorch]](https://github.com/valeoai/ConfidNet)
 - Learning loss for active learning [[CVPR2019]](https://arxiv.org/abs/1905.03677) [[Pytorch]](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning) (unofficial codes)
 - Structured Uncertainty Prediction Networks [[CVPR2018]](https://arxiv.org/abs/1802.07079) [[Tensorflow]](https://github.com/Era-Dorta/tf_mvg)
+- Classification Uncertainty of Deep Neural Networks Based on Gradient Information [[ANNPR2018]](https://arxiv.org/abs/1805.08440)
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?[[NIPS2017]](https://arxiv.org/abs/1703.04977) 
 - Estimating the Mean and Variance of the Target Probability Distribution [[(ICNN94)]](https://ieeexplore.ieee.org/document/374138)
 
@@ -361,13 +364,15 @@ if you think we missed a paper, please send us an email at:
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](https://arxiv.org/abs/2202.01197) [[Pytorch]](https://github.com/deeplearning-wisc/vos)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](https://arxiv.org/abs/2201.10703#:~:text=Anomaly%20Detection%20via%20Reverse%20Distillation%20from%20One%2DClass%20Embedding,-Hanqiu%20Deng%2C%20Xingyu&text=Knowledge%20distillation%20(KD)%20achieves%20promising,provides%20essential%20evidence%20for%20AD.)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](https://arxiv.org/abs/2110.02855) [[Pytorch]](https://github.com/marco-rudolph/cs-flow)
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](https://arxiv.org/abs/2110.00218)
 - Energy-based Out-of-distribution Detection [[NIPS2020]](https://arxiv.org/abs/2010.03759?context=cs)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](https://arxiv.org/abs/2011.08785) [[Pytorch]](https://github.com/openvinotoolkit/anomalib)
-- Detecting out-of-distribution image without learning from out-of-distribution data." [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html)
+- Detecting out-of-distribution image without learning from out-of-distribution data. [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html)
 - Learning Open Set Network with Discriminative Reciprocal Points [[ECCV2020]](https://arxiv.org/abs/2011.00178)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440)[[Pytorch]](https://github.com/YingdaXia/SynthCP)
 - Memorizing Normality to Detect Anomaly: Memory-Augmented Deep Autoencoder for Unsupervised Anomaly Detection [[ICCV2019]](https://arxiv.org/abs/1904.02639) [[Pytorch]](https://github.com/donggong1/memae-anomaly-detection) 
 - Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595)[[Pytorch]](https://github.com/cvlab-epfl/detecting-the-unexpected) 
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks [[ICLR2018]](https://arxiv.org/abs/1706.02690)
 
 **Journal**
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)

@@ -82,6 +82,7 @@ if you think we missed a paper, please send us an email at:
 
 ## Ensemble/Bayesian-Methods
 **Arxiv**
+- Packed-Ensembles for Efficient Uncertainty Estimation [[arxiv2022]](https://arxiv.org/abs/2210.09184)
 - Deep Ensembles Work, But Are They Necessary? [[arxiv2022]](https://arxiv.org/abs/2202.06985)
 - On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection [[arxiv2022]](https://arxiv.org/abs/2207.07517)
 - Deep Ensemble as a Gaussian Process Approximate Posterior [[arxiv2022]](https://arxiv.org/abs/2205.00163)
@@ -99,6 +100,7 @@ if you think we missed a paper, please send us an email at:
 - Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[arxiv2019]](https://arxiv.org/abs/1903.11341)
 
 **Conference**
+- Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NIPS2022]](https://arxiv.org/abs/2210.02676)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) [[Pytorch]](https://github.com/VITA-Group/FreeTickets)
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
@@ -133,6 +135,7 @@ if you think we missed a paper, please send us an email at:
 - Wasserstein Dropout [[arxiv2021]](https://arxiv.org/abs/2012.12687) [[Pytorch]](https://github.com/fraunhofer-iais/second-moment-loss)
 
 **Conference**
+- Efficient Bayesian Uncertainty Estimation for nnU-Net [[MICCAI2022]](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_51)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](https://arxiv.org/abs/1710.06677)
 - Concrete Dropout [[NIPS2017]](https://arxiv.org/abs/1705.07832)
@@ -149,6 +152,7 @@ if you think we missed a paper, please send us an email at:
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks[[arxiv2018]](https://arxiv.org/abs/1802.04865)
 
 **Conference**
+- Improving the reliability for confidence estimation [[ECCV2022]](https://arxiv.org/abs/2210.06776)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](https://ojs.aaai.org/index.php/AAAI/article/view/20773)
 - Gradient-based Uncertainty for Monocular Depth Estimation [[ECCV2022]](https://arxiv.org/abs/2208.02005) [[Pytorch]](https://github.com/jhornauer/GrUMoDepth)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
@@ -242,9 +246,11 @@ if you think we missed a paper, please send us an email at:
 - Quantifying Intrinsic Uncertainty in Classification via Deep Dirichlet Mixture Networks [[arxiv2018]](https://arxiv.org/abs/1906.04450)
 
 **Conference**
+- An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](https://arxiv.org/abs/2208.00647)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](https://arxiv.org/abs/2105.04471) [[Pytorch]](https://github.com/borchero/natural-posterior-network)
 - TBraTS: Trusted Brain Tumor Segmentation [[MICCAI2022]](https://arxiv.org/abs/2206.09309)
 - Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](https://arxiv.org/abs/2112.09368)
+- Trustworthy multimodal regression with mixture of normal-inverse gamma distributions [[NIPS2021]](https://arxiv.org/abs/2111.08456)
 - Misclassification Risk and Uncertainty Quantification in Deep Classifiers [[WACV2021]](https://openaccess.thecvf.com/content/WACV2021/html/Sensoy_Misclassification_Risk_and_Uncertainty_Quantification_in_Deep_Classifiers_WACV_2021_paper.html)
 - Evaluating robustness of predictive uncertainty estimation: Are Dirichlet-based models reliable? [[ICML2021]](http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf)
 - Posterior Network: Uncertainty Estimation without OOD Samples via Density-Based Pseudo-Counts  [[NIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0eac690d7059a8de4b48e90f14510391-Abstract.html) [[Pytorch]](https://github.com/sharpenb/Posterior-Network)
@@ -345,6 +351,7 @@ if you think we missed a paper, please send us an email at:
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[arxiv2020]](https://arxiv.org/abs/1905.11659)
 
 **Conference**
+- Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression [[ECCV2022]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf)
 - On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[ICIP2022]](https://arxiv.org/abs/2202.12369)
 - Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](https://openreview.net/forum?id=kNKFOXleuC) [[Pytorch]](https://github.com/liuzhuang13/anytime)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
@@ -366,6 +373,7 @@ if you think we missed a paper, please send us an email at:
 
 **Journal**
 - Exploring uncertainty in regression neural networks for construction of prediction intervals [[Neurocomputing2022]](https://www.sciencedirect.com/science/article/abs/pii/S0925231222001102)
+- Deep Distribution Regression [[Computational Statistics & Data Analysis2021]](https://arxiv.org/abs/1903.06023)
 - Calibrated Prediction Intervals for Neural Network Regressors [[IEEE Access 2018]](https://arxiv.org/abs/1803.09546)[[Python]](https://github.com/cruvadom/Prediction_Intervals)
 - Learning a Confidence Measure for Optical Flow [[TPAMI2013]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6261321&casa_token=fYVGhK2pa40AAAAA:XWJdS8zJ4JRw1brCIGiYpzEqMidXTTYVkcKTYnnhSl4ys5pUoHzHO6xsVeGZII9Ir1LAI_3YyfI&tag=1)
 
@@ -404,7 +412,7 @@ if you think we missed a paper, please send us an email at:
 
 # Datasets and Benchmarks
 - SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_SHIFT_A_Synthetic_Driving_Dataset_for_Continuous_Multi-Task_Domain_Adaptation_CVPR_2022_paper.html)
-- MUAD: Multiple Uncertainties for Autonomous Driving benchmark for multiple uncertainty types and tasks [[arxiv2022]](https://arxiv.org/abs/2203.01437)
+- MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks [[BMVC2022]](https://arxiv.org/abs/2203.01437) [[Pytorch]](https://github.com/ENSTA-U2IS/MUAD-Dataset)
 - ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding [[ICCV2021]](https://arxiv.org/abs/2104.13395)
 - The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection [[IJCV2021]](https://link.springer.com/content/pdf/10.1007/s11263-020-01400-4.pdf)
 - SegmentMeIfYouCan: A Benchmark for Anomaly Segmentation [[NIPS2021]](https://arxiv.org/abs/2104.14812)

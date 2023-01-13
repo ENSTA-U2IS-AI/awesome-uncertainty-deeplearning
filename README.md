@@ -27,8 +27,9 @@ if you think we missed a paper, please send us an email at:
     - [Regression](#regression)
     - [Anomaly-detection and Out-of-Distribution-Dectection](#anomaly-detection-and-out-of-distribution-dectection)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
-- [Library](#library)
+- [Libraries](#libraries)
 - [Lectures-and-tutorials](#lectures-and-tutorials)
+- [Books](#books)
 - [Other-resources](#other-resources)
 
 
@@ -411,8 +412,6 @@ if you think we missed a paper, please send us an email at:
 **Journal**
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)
 
-
-
 # Datasets and Benchmarks
 - SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_SHIFT_A_Synthetic_Driving_Dataset_for_Continuous_Multi-Task_Domain_Adaptation_CVPR_2022_paper.html)
 - MUAD: Multiple Uncertainties for Autonomous Driving, a benchmark for multiple uncertainty types and tasks [[BMVC2022]](https://arxiv.org/abs/2203.01437) [[Pytorch]](https://github.com/ENSTA-U2IS/MUAD-Dataset)
@@ -424,7 +423,8 @@ if you think we missed a paper, please send us an email at:
 - Fishyscapes: A Benchmark for Safe Semantic Segmentation in Autonomous Driving [[ICCVW2019]](https://openaccess.thecvf.com/content_ICCVW_2019/html/ADW/Blum_Fishyscapes_A_Benchmark_for_Safe_Semantic_Segmentation_in_Autonomous_Driving_ICCVW_2019_paper.html)
 - Semantic Foggy Scene Understanding with Synthetic Data [[IJCV2018]](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/)
 - Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles [[IROS2016]](https://arxiv.org/abs/1609.04653)
-# Library
+
+# Libraries
 - Bayesian Torch [[github]](https://github.com/IntelLabs/bayesian-torch)
 - A Bayesian Neural Network library for PyTorch [[github]](https://github.com/piEsposito/blitz-bayesian-deep-learning)
 - Uncertainty Toolbox [[github]](https://uncertainty-toolbox.github.io/)
@@ -434,6 +434,9 @@ if you think we missed a paper, please send us an email at:
 -  Uncertainty and Robustness in Deep Learning Workshop in ICML (2020, 2021) [[SlidesLive]](https://slideslive.com/icml-2020/icml-workshop-on-uncertainty-and-robustness-in-deep-learning-udl)
 - Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/)
 - MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](https://www.youtube.com/watch?v=toTcf7tZK8c)
+
+# Books
+- The "Probabilistic Machine-Learning" book series by Kevin Murphy [[book]](https://probml.github.io/pml-book/)
 
 # Other-resources
 Awesome conformal prediction [[github]](https://github.com/valeman/awesome-conformal-prediction)

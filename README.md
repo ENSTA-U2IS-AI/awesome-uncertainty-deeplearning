@@ -25,7 +25,8 @@ if you think we missed a paper, please send us an email at:
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
-    - [Anomaly-detection and Out-of-Distribution-Dectection](#anomaly-detection-and-out-of-distribution-dectection)
+    - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
+    - [Object detection](#object-detection)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Libraries](#libraries)
 - [Lectures-and-tutorials](#lectures-and-tutorials)
@@ -382,7 +383,7 @@ if you think we missed a paper, please send us an email at:
 - Learning a Confidence Measure for Optical Flow [[TPAMI2013]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6261321&casa_token=fYVGhK2pa40AAAAA:XWJdS8zJ4JRw1brCIGiYpzEqMidXTTYVkcKTYnnhSl4ys5pUoHzHO6xsVeGZII9Ir1LAI_3YyfI&tag=1)
 
 
-### Anomaly-detection and Out-of-Distribution-Dectection
+### Anomaly-detection and Out-of-Distribution-Detection
 **Arxiv**
 - Generalized out-of-distribution detection: A survey [[arxiv2021]](https://arxiv.org/abs/2110.11334)
 - Towards Total Recall in Industrial Anomaly Detection [[arxiv2021]](https://arxiv.org/abs/2106.08265) [[Pytorch]](https://github.com/hcw-00/PatchCore_anomaly_detection)
@@ -411,6 +412,10 @@ if you think we missed a paper, please send us an email at:
 
 **Journal**
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)
+
+### Object detection
+**Conference**
+- Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving [[ICCV2019]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf)
 
 # Datasets and Benchmarks
 - SHIFT: A Synthetic Driving Dataset for Continuous Multi-Task Domain Adaptation [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Sun_SHIFT_A_Synthetic_Driving_Dataset_for_Continuous_Multi-Task_Domain_Adaptation_CVPR_2022_paper.html)

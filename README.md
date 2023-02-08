@@ -95,7 +95,7 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 
-- Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184)
+- Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184) - [[PyTorch]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](https://arxiv.org/abs/2206.00050)
 - Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](https://arxiv.org/abs/2210.02676)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)

@@ -113,6 +113,8 @@ if you think we missed a paper, please send us an email at:
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)
+- Being Bayesian about Categorical Probability [[ICML2020]](http://proceedings.mlr.press/v119/joo20a/joo20a.pdf)
+- Being Bayesian, Even Just a Bit, Fixes Overconfidence in ReLU Networks [[ICML2020]](http://proceedings.mlr.press/v119/kristiadi20a/kristiadi20a.pdf)
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[TensorFlow]](https://github.com/google/edward2) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
 - TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) [[PyTorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
@@ -487,6 +489,7 @@ Domain Adaptation [[ECCV2022]](https://arxiv.org/pdf/2208.07591.pdf)
 
 - Bayesian Torch [[GitHub]](https://github.com/IntelLabs/bayesian-torch)
 - A Bayesian Neural Network library for PyTorch [[GitHub]](https://github.com/piEsposito/blitz-bayesian-deep-learning)
+- TensorFlow Probability [[Website]](https://www.tensorflow.org/probability)
 - Uncertainty Toolbox [[GitHub]](https://uncertainty-toolbox.github.io/)
 - Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation)
 - OpenOOD: Benchmarking Generalized OOD Detection [[GitHub]](https://github.com/jingkang50/openood)
@@ -499,7 +502,7 @@ Domain Adaptation [[ECCV2022]](https://arxiv.org/pdf/2208.07591.pdf)
 
 # Books
 
-- The "Probabilistic Machine-Learning" book series by Kevin Murphy [[book]](https://probml.github.io/pml-book/)
+- The "Probabilistic Machine-Learning" book series by Kevin Murphy [[Book]](https://probml.github.io/pml-book/)
 
 # Other resources
 

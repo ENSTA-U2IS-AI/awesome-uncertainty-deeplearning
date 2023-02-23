@@ -118,6 +118,7 @@ if you think we missed a paper, please send us an email at:
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[TensorFlow]](https://github.com/google/edward2) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
 - TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) [[PyTorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
+- Accurate Uncertainty Estimation and Decomposition in Ensemble Learning [[NeurIPS2019]](https://papers.nips.cc/paper/2019/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html)
 - A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NeurIPS2019]](https://arxiv.org/abs/1902.02476) - [[PyTorch]](https://github.com/wjmaddox/swa_gaussian)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
 - A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](https://openreview.net/pdf?id=Skdvd2xAZ) - [[Theano]](https://github.com/BB-UCL/Lasagne)
@@ -487,6 +488,7 @@ Domain Adaptation [[ECCV2022]](https://arxiv.org/pdf/2208.07591.pdf)
 
 # Libraries
 
+- Fortuna [[GitHub - JAX]](https://github.com/awslabs/fortuna)
 - Bayesian Torch [[GitHub]](https://github.com/IntelLabs/bayesian-torch)
 - A Bayesian Neural Network library for PyTorch [[GitHub]](https://github.com/piEsposito/blitz-bayesian-deep-learning)
 - TensorFlow Probability [[Website]](https://www.tensorflow.org/probability)

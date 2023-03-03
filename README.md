@@ -22,7 +22,6 @@ if you think we missed a paper, please send us an email at:
   - [Deterministic-Uncertainty-Methods](#deterministic-uncertainty-methods)
   - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
   - [Calibration](#calibration)
-
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)

@@ -18,10 +18,11 @@ if you think we missed a paper, please send us an email at:
   - [Sampling/Dropout-based-Methods](#samplingdropout-based-methods)
   - [Learning-loss-distributions/Auxiliary-Methods](#learning-loss-distributionsauxiliary-methods)
   - [Data-augmentation/Generation-based-methods](#data-augmentationgeneration-based-methods)
-  - [Calibration](#calibration)
-  - [Prior-networks/Evidential-deep-learning](#prior-networksevidential-deep-learning)
+  - [Dirichlet-networks/Evidential-deep-learning](#dirichlet-networksevidential-deep-learning)
   - [Deterministic-Uncertainty-Methods](#deterministic-uncertainty-methods)
   - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
+  - [Calibration](#calibration)
+
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
@@ -37,6 +38,17 @@ if you think we missed a paper, please send us an email at:
 # Papers
 
 ## Surveys
+**Conference**
+
+- A Comparison of Uncertainty Estimation Approaches in Deep Learning Components for Autonomous Vehicle Applications[[AISafety Workshop2020]](https://arxiv.org/abs/2006.15172)
+
+**Journal**
+
+- Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods [[Machine Learning]](https://link.springer.com/article/10.1007/s10994-021-05946-3)
+- Predictive inference with the jackknife+ [[The Annals of Statistic(2021)]](https://arxiv.org/abs/1905.02928)
+- A review of uncertainty quantification in deep learning: Techniques, applications and challenges [[Information Fusion 2021]](https://www.sciencedirect.com/science/article/pii/S1566253521001081)
+- A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective [[ACM2021]](https://dl.acm.org/doi/pdf/10.1145/3477140?casa_token=6fozCYTovlIAAAAA:t5vcjuXCMem1b8iFwaMG4o_YJHTe0wArLtoy9KCbL8Cow0aGEoxSiJans2Kzpm2FSKOg-4ZCDkBa)
+- Uncertainty in big data analytics: survey, opportunities, and challenges [[Journal of Big Data2019]](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0206-3?cv=1)
 
 **Arxiv**
 
@@ -45,16 +57,6 @@ if you think we missed a paper, please send us an email at:
 - A survey of uncertainty in deep neural networks [[arXiv2021]](https://arxiv.org/abs/2107.03342) - [[GitHub]](https://github.com/JakobCode/UncertaintyInNeuralNetworks_Resources)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](https://arxiv.org/abs/2110.03051)
 
-**Conference**
-
-- A Comparison of Uncertainty Estimation Approaches in Deep Learning Components for Autonomous Vehicle Applications[[AISafety2020 Workshop]](https://arxiv.org/abs/2006.15172)
-
-**Journal**
-
-- Predictive inference with the jackknife+ [[The Annals of Statistic(2021)]](https://arxiv.org/abs/1905.02928)
-- A review of uncertainty quantification in deep learning: Techniques, applications and challenges [[Information Fusion 2021]](https://www.sciencedirect.com/science/article/pii/S1566253521001081)
-- A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective [[ACM2021]](https://dl.acm.org/doi/pdf/10.1145/3477140?casa_token=6fozCYTovlIAAAAA:t5vcjuXCMem1b8iFwaMG4o_YJHTe0wArLtoy9KCbL8Cow0aGEoxSiJans2Kzpm2FSKOg-4ZCDkBa)
-- Uncertainty in big data analytics: survey, opportunities, and challenges [[Journal of Big Data2019]](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0206-3?cv=1)
 
 ## Theory
 
@@ -66,9 +68,9 @@ if you think we missed a paper, please send us an email at:
 - Bayesian Optimization with High-Dimensional Outputs [[NeurIPS2021]](https://arxiv.org/abs/2106.12997)
 - Residual Pathway Priors for Soft Equivariance Constraints [[NeurIPS2021]](https://arxiv.org/abs/2112.01388)
 - Dangers of Bayesian Model Averaging under Covariate Shift [[NeurIPS2021]](https://arxiv.org/abs/2106.11905) - [[TensorFlow]](https://github.com/izmailovpavel/bnn_covariate_shift)
-- A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR2021Workshop]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
+- A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR Workshop2021]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) - [[PyTorch]](https://github.com/yandex-research/GBDT-uncertainty)
-- Evidential Deep Learning to Quantify Classification Uncertainty [[NeurIPS2018]](https://arxiv.org/abs/1806.01768) - [[PyTorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
+- Deep Convolutional Networks as shallow Gaussian Processes [[ICLR2019]](https://arxiv.org/abs/1808.05587)
 - On the accuracy of influence functions for measuring group effects [[NeurIPS2018]](https://proceedings.neurips.cc/paper/2019/hash/a78482ce76496fcf49085f2190e675b4-Abstract.html)
 - To Trust Or Not To Trust A Classifier [[NeurIPS2018]](https://arxiv.org/abs/1805.11783) - [[Python]](https://github.com/google/TrustScore)
 
@@ -93,6 +95,7 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 
+- Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](https://arxiv.org/abs/2302.01312)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184) - [[PyTorch]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](https://arxiv.org/abs/2206.00050)
 - Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](https://arxiv.org/abs/2210.02676)
@@ -100,7 +103,7 @@ if you think we missed a paper, please send us an email at:
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) - [[PyTorch]](https://github.com/VITA-Group/FreeTickets)
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
 - Robustness via Cross-Domain Ensembles [[ICCV2021]](https://arxiv.org/abs/2103.10919) - [[PyTorch]](https://github.com/EPFL-VILAB/XDEnsembles)
-- Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) - [[Pytorch/Tensorflow]](https://github.com/nikitadurasov/masksembles)
+- Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) - [[PyTorch/TensorFlow]](https://github.com/nikitadurasov/masksembles)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
 - Uncertainty Quantification and Deep Ensembles [[NeurIPS2021]](https://openreview.net/forum?id=wg_kD_nyAF)
@@ -109,6 +112,7 @@ if you think we missed a paper, please send us an email at:
 - Ensemble Distribution Distillation [[ICLR2020]](https://arxiv.org/abs/1905.00076)
 - Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5849)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
+- Bayesian Deep Ensembles via the Neural Tangent Kernel [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0b1ec366924b26fc98fa7b71a9c249cf-Abstract.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)
 - Being Bayesian about Categorical Probability [[ICML2020]](http://proceedings.mlr.press/v119/joo20a/joo20a.pdf)
@@ -116,6 +120,7 @@ if you think we missed a paper, please send us an email at:
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) [[TensorFlow]](https://github.com/google/edward2) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
 - A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
 - TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) [[PyTorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
+- Uncertainty in Neural Networks: Approximately Bayesian Ensembling [[AISTATS 2020]](https://arxiv.org/abs/1810.05546)
 - Accurate Uncertainty Estimation and Decomposition in Ensemble Learning [[NeurIPS2019]](https://papers.nips.cc/paper/2019/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html)
 - A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NeurIPS2019]](https://arxiv.org/abs/1902.02476) - [[PyTorch]](https://github.com/wjmaddox/swa_gaussian)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
@@ -167,14 +172,17 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 
+- Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](https://arxiv.org/abs/2212.07359)
 - Improving the reliability for confidence estimation [[ECCV2022]](https://arxiv.org/abs/2210.06776)
 - Gradient-based Uncertainty for Monocular Depth Estimation [[ECCV2022]](https://arxiv.org/abs/2208.02005) - [[PyTorch]](https://github.com/jhornauer/GrUMoDepth)
+- BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks [[ECCV2022]](https://arxiv.org/abs/2207.06873) - [[PyTorch]](https://github.com/ExplainableML/BayesCap)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](https://ojs.aaai.org/index.php/AAAI/article/view/20773)
 - Pitfalls of Epistemic Uncertainty Quantification through Loss Minimisation [[NeurIPS2022]](https://openreview.net/pdf?id=epjxT_ARZW5)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](https://arxiv.org/abs/2203.15485)
 - SLURP: Side Learning Uncertainty for Regression Problems [[BMVC2021]](https://arxiv.org/abs/2104.02395) - [[PyTorch]](https://github.com/xuanlongORZ/SLURP_uncertainty_estimate)
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
-- A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR2021Workshop]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
+- Triggering Failures: Out-Of-Distribution detection by learning from local adversarial attacks in Semantic Segmentation [[ICCV2021]](https://arxiv.org/abs/2108.01634) - [[PyTorch]](https://github.com/valeoai/obsnet)
+- A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR Workshop2021]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
 - Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[ICLR202]](https://arxiv.org/abs/2002.06470) - [[PyTorch]](https://github.com/SamsungLabs/pytorch-ensembles)
 - Quantifying Point-Prediction Uncertainty in Neural Networks via Residual Estimation with an I/O Kernel [[ICLR2020]](https://arxiv.org/abs/1906.00588) [[TensorFlow]](https://github.com/cognizant-ai-labs/rio-paper)
 - Gradients as a Measure of Uncertainty in Neural Networks [[ICIP2020]](https://arxiv.org/abs/2008.08030)
@@ -204,11 +212,11 @@ if you think we missed a paper, please send us an email at:
 
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](https://arxiv.org/abs/2112.02646)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](https://arxiv.org/abs/2112.05135)
-- Towards efficient feature sharing in MIMO architectures [[CVPRW2022]](https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html)
+- Towards efficient feature sharing in MIMO architectures [[CVPR Workshop2022]](https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html)
 - Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](https://arxiv.org/abs/2108.00968) - [[PyTorch]](https://github.com/giannifranchi/deeplabv3-superpixelmix)
 - MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks [[ICCV2021]](https://arxiv.org/abs/2103.06132) - [[PyTorch]](https://github.com/alexrame/mixmo-pytorch)
 - Training independent subnetworks for robust prediction [[ICLR2021]](https://arxiv.org/abs/2010.06610)
-- Uncertainty-aware GAN with Adaptive Loss for Robust MRI Image Enhancement  [[ICCVWorkshop2021]](https://arxiv.org/pdf/2110.03343.pdf)
+- Uncertainty-aware GAN with Adaptive Loss for Robust MRI Image Enhancement  [[ICCV Workshop2021]](https://arxiv.org/pdf/2110.03343.pdf)
 - Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf)
 - Uncertainty-Aware Deep Classifiers using Generative Models [[AAAI2020]](https://arxiv.org/abs/2006.04183)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440) - [[PyTorch]](https://github.com/YingdaXia/SynthCP)
@@ -235,11 +243,11 @@ if you think we missed a paper, please send us an email at:
 - Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf)
 - Regularization via structural label smoothing [[ICML2020]](https://proceedings.mlr.press/v108/li20e.html)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) - [[PyTorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)
-- Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPRW2020]](https://arxiv.org/abs/1906.01620) - [[PyTorch]](https://github.com/fregu856/evaluating_bdl)
+- Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPR Workshop2020]](https://arxiv.org/abs/1906.01620) - [[PyTorch]](https://github.com/fregu856/evaluating_bdl)
 - When does label smoothing help? [[NeurIPS2019]](https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html)
 - Verified Uncertainty Calibration [[NeurIPS2019]](https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html)
 - Generalized zero-shot learning with deep calibration network [[NeurIPS2018]](https://proceedings.neurips.cc/paper/2018/hash/1587965fb4d4b5afe8428a4a024feb0d-Abstract.html)
-- Measuring Calibration in Deep Learning [[CVPRW2019]](https://arxiv.org/abs/1904.01685)
+- Measuring Calibration in Deep Learning [[CVPR Workshop2019]](https://arxiv.org/abs/1904.01685)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
 - On calibration of modern neural networks [[ICML2017]](https://arxiv.org/abs/1706.04599)
 - On Fairness and Calibration[[NeurIPS2017]](https://arxiv.org/abs/1709.02012)
@@ -254,7 +262,7 @@ if you think we missed a paper, please send us an email at:
 - Towards Understanding Label Smoothing [[arXiv2020]](https://arxiv.org/abs/2006.11653)
 - An Investigation of how Label Smoothing Affects Generalization[[arXiv2020]](https://arxiv.org/abs/2010.12648)
 
-## Prior-networks/Evidential-deep-learning
+## Dirichlet-networks/Evidential-deep-learning
 
 **Conference**
 
@@ -269,6 +277,8 @@ if you think we missed a paper, please send us an email at:
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[ICLR2020]](https://openreview.net/forum?id=BJlahxHYDS)
 - Noise Contrastive Priors for Functional Uncertainty [[UAI2020]](https://proceedings.mlr.press/v115/hafner20a.html)
 - Deep Evidential Regression [[NeurIPS2020]](https://arxiv.org/abs/1910.02600) [[TensorFlow]](https://github.com/aamini/evidential-deep-learning)
+- Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples [[NeurIPS Workshop2020]](https://arxiv.org/abs/2010.10474)
+- Uncertainty on Asynchronous Time Event Prediction [[NeurIPS2019]](https://arxiv.org/abs/1911.05503) - [[TensorFlow]](https://github.com/sharpenb/Uncertainty-Event-Prediction)
 - Reverse KL-Divergence Training of Prior Networks: Improved Uncertainty and Adversarial Robustness [[NeurIPS2019]](https://proceedings.neurips.cc/paper/2019/hash/7dd2ae7db7d18ee7c9425e38df1af5e2-Abstract.html)
 - Quantifying Classification Uncertainty using Regularized Evidential Neural Networks [[AAAI FSS2019]](https://arxiv.org/abs/1910.06864)
 - Evidential Deep Learning to Quantify Classification Uncertainty [[NeurIPS2018]](https://arxiv.org/abs/1806.01768) - [[PyTorch]](https://github.com/dougbrion/pytorch-classification-uncertainty)
@@ -379,6 +389,7 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 
+- Variational Depth Networks: Uncertainty-Aware Monocular Self-supervised Depth Estimation [[ECCV Workshop2022]](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_3)
 - Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression [[ECCV2022]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf)
 - On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[ICIP2022]](https://arxiv.org/abs/2202.12369)
 - Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](https://openreview.net/forum?id=kNKFOXleuC) - [[PyTorch]](https://github.com/liuzhuang13/anytime)
@@ -393,7 +404,7 @@ if you think we missed a paper, please send us an email at:
 - On the uncertainty of self-supervised monocular depth estimation [[CVPR2020]](https://arxiv.org/abs/2005.06209) - [[PyTorch]](https://github.com/mattpoggi/mono-uncertainty)
 - Fast Uncertainty Estimation for Deep Learning Based Optical Flow [[IROS2020]](https://authors.library.caltech.edu/104758/)
 - Inferring Distributions Over Depth from a Single Image [[IROS2019]](https://arxiv.org/abs/1912.06268) - [[TensorFlow]](https://github.com/gengshan-y/monodepth-uncertainty)
-- Multi-Task Learning based on Separable Formulation of Depth Estimation and its Uncertainty [[CVPRW]](https://openaccess.thecvf.com/content_CVPRW_2019/html/Uncertainty_and_Robustness_in_Deep_Visual_Learning/Asai_Multi-Task_Learning_based_on_Separable_Formulation_of_Depth_Estimation_and_CVPRW_2019_paper.html)
+- Multi-Task Learning based on Separable Formulation of Depth Estimation and its Uncertainty [[CVPR Workshop2019]](https://openaccess.thecvf.com/content_CVPRW_2019/html/Uncertainty_and_Robustness_in_Deep_Visual_Learning/Asai_Multi-Task_Learning_based_on_Separable_Formulation_of_Depth_Estimation_and_CVPRW_2019_paper.html)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://arxiv.org/abs/1805.11327) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
 - Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) - [[TensorFlow]](https://github.com/lmb-freiburg/netdef_models)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
@@ -409,6 +420,7 @@ if you think we missed a paper, please send us an email at:
 
 **Arxiv**
 
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arXiv2023]](https://arxiv.org/abs/2302.03679) - [[PyTorch]](https://github.com/fregu856/regression_uncertainty)
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomographaphy [[arXiv2022]](https://arxiv.org/abs/2202.10847)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](https://arxiv.org/abs/2108.09676)
 - Wasserstein Dropout [[arXiv2021]](https://arxiv.org/abs/2012.12687) - [[PyTorch]](https://github.com/fraunhofer-iais/second-moment-loss)
@@ -429,7 +441,7 @@ if you think we missed a paper, please send us an email at:
 - Detecting out-of-distribution image without learning from out-of-distribution data. [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html)
 - Learning Open Set Network with Discriminative Reciprocal Points [[ECCV2020]](https://arxiv.org/abs/2011.00178)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](https://arxiv.org/abs/2003.08440) - [[PyTorch]](https://github.com/YingdaXia/SynthCP)
-- Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples [[NeurIPS workshop2020]](https://arxiv.org/abs/2010.10474)
+- Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples [[NeurIPS Workshop2020]](https://arxiv.org/abs/2010.10474)
 - Memorizing Normality to Detect Anomaly: Memory-Augmented Deep Autoencoder for Unsupervised Anomaly Detection [[ICCV2019]](https://arxiv.org/abs/1904.02639) - [[PyTorch]](https://github.com/donggong1/memae-anomaly-detection)
 - Detecting the Unexpected via Image Resynthesis [[ICCV2019]](https://arxiv.org/abs/1904.07595) - [[PyTorch]](https://github.com/cvlab-epfl/detecting-the-unexpected)
 - Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks [[ICLR2018]](https://arxiv.org/abs/1706.02690)
@@ -450,6 +462,7 @@ if you think we missed a paper, please send us an email at:
 
 **Conference**
 
+- Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors [[ICLR2021]](https://openreview.net/forum?id=YLewtnvKgR7)
 - Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving [[ICCV2019]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf) - [[CUDA]](https://github.com/jwchoi384/Gaussian_YOLOv3) - [[PyTorch]](https://github.com/motokimura/PyTorch_Gaussian_YOLOv3) - [[Keras]](https://github.com/xuannianz/keras-GaussianYOLOv3)
 
 ### Domain adaptation
@@ -468,7 +481,9 @@ Domain Adaptation [[ECCV2022]](https://arxiv.org/pdf/2208.07591.pdf)
 - SegmentMeIfYouCan: A Benchmark for Anomaly Segmentation [[NeurIPS2021]](https://arxiv.org/abs/2104.14812)
 - Uncertainty Baselines: Benchmarks for Uncertainty & Robustness in Deep Learning [[arXiv2021]](https://arxiv.org/abs/2106.04015) - [[TensorFlow]](https://github.com/google/uncertainty-baselines)
 - Curriculum Model Adaptation with Synthetic and Real Data for Semantic Foggy Scene Understanding [[IJCV2020]](https://people.ee.ethz.ch/~csakarid/Model_adaptation_SFSU_dense/)
-- Fishyscapes: A Benchmark for Safe Semantic Segmentation in Autonomous Driving [[ICCVW2019]](https://openaccess.thecvf.com/content_ICCVW_2019/html/ADW/Blum_Fishyscapes_A_Benchmark_for_Safe_Semantic_Segmentation_in_Autonomous_Driving_ICCVW_2019_paper.html)
+- Benchmarking the Robustness of Semantic Segmentation Models [[CVPR2020]](https://arxiv.org/abs/1908.05005)
+- Fishyscapes: A Benchmark for Safe Semantic Segmentation in Autonomous Driving [[ICCV Workshop2019]](https://openaccess.thecvf.com/content_ICCVW_2019/html/ADW/Blum_Fishyscapes_A_Benchmark_for_Safe_Semantic_Segmentation_in_Autonomous_Driving_ICCVW_2019_paper.html)
+- Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming [[NeurIPS Workshop2019]](https://arxiv.org/abs/1907.07484) - [[Git]](https://github.com/bethgelab/robust-detection-benchmark)
 - Semantic Foggy Scene Understanding with Synthetic Data [[IJCV2018]](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/)
 - Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles [[IROS2016]](https://arxiv.org/abs/1609.04653)
 

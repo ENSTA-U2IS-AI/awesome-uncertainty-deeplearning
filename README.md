@@ -263,7 +263,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 **Arxiv**
 
-
+- Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[arXiv2023]](https://arxiv.org/abs/2303.02045)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[arXiv2022]](https://arxiv.org/abs/2205.10060)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arXiv2022]](https://openreview.net/pdf?id=NrB52z3eOTY)
 - Multivariate Deep Evidential Regression [[arXiv2022]](https://arxiv.org/abs/2104.06135)
@@ -434,6 +434,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 **Conference**
 
+- Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](https://ojs.aaai.org/index.php/AAAI/article/view/20773)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](https://arxiv.org/abs/2202.01197) - [[PyTorch]](https://github.com/deeplearning-wisc/vos)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](https://arxiv.org/abs/2201.10703#:~:text=Anomaly%20Detection%20via%20Reverse%20Distillation%20from%20One%2DClass%20Embedding,-Hanqiu%20Deng%2C%20Xingyu&text=Knowledge%20distillation%20(KD)%20achieves%20promising,provides%20essential%20evidence%20for%20AD.)

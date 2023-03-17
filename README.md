@@ -91,6 +91,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[arXiv2020]](https://arxiv.org/abs/2012.09816)
 - A higher-order swiss army infinitesimal jackknife [[arXiv2019]](https://arxiv.org/abs/1907.12116)
 - With malice towards none: Assessing uncertainty via equalized coverage [[arXiv2019]](https://arxiv.org/abs/1908.05428)
+- Understanding Measures of Uncertainty for Adversarial Example Detection [[arXiv2018]](https://arxiv.org/abs/1803.08533)
 
 ## Ensemble/Bayesian-Methods
 
@@ -159,6 +160,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Efficient Bayesian Uncertainty Estimation for nnU-Net [[MICCAI2022]](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_51)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](https://arxiv.org/abs/1910.04858v3)
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](https://arxiv.org/abs/1710.06677)
+- Test-time data augmentation for estimation of heteroscedastic aleatoric uncertainty in deep neural networks [[MIDL2018]](https://openreview.net/forum?id=rJZz-knjz)
 - Concrete Dropout [[NeurIPS2017]](https://arxiv.org/abs/1705.07832)
 - Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](https://arxiv.org/abs/1506.02142)
 
@@ -275,9 +277,9 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 ## Deterministic-Uncertainty-Methods
 
-
 **Conference**
 
+- Training, Architecture, and Prior for Deterministic Uncertainty Methods [[ICLR Workshop2023]](https://arxiv.org/abs/2303.05796) - [[PyTorch]](https://github.com/orientino/dum-components)
 - Latent Discriminant deterministic Uncertainty [[ECCV2022]](https://arxiv.org/abs/2207.10130) - [[PyTorch]](https://github.com/ENSTA-U2IS/LDU)
 - Improving Deterministic Uncertainty Estimation in Deep Learning for Classification and Regression [[CoRR2021]](https://arxiv.org/abs/2102.11409)
 - Training normalizing flows with the information bottleneck for competitive generative classification [[NeurIPS2020]](https://arxiv.org/abs/2001.06448)

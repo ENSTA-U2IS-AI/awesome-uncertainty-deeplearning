@@ -74,6 +74,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Deep Convolutional Networks as shallow Gaussian Processes [[ICLR2019]](https://arxiv.org/abs/1808.05587)
 - On the accuracy of influence functions for measuring group effects [[NeurIPS2018]](https://proceedings.neurips.cc/paper/2019/hash/a78482ce76496fcf49085f2190e675b4-Abstract.html)
 - To Trust Or Not To Trust A Classifier [[NeurIPS2018]](https://arxiv.org/abs/1805.11783) - [[Python]](https://github.com/google/TrustScore)
+- Understanding Measures of Uncertainty for Adversarial Example Detection [[UAI2018]](https://arxiv.org/abs/1803.08533)
 
 **Journal**
 
@@ -91,7 +92,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[arXiv2020]](https://arxiv.org/abs/2012.09816)
 - A higher-order swiss army infinitesimal jackknife [[arXiv2019]](https://arxiv.org/abs/1907.12116)
 - With malice towards none: Assessing uncertainty via equalized coverage [[arXiv2019]](https://arxiv.org/abs/1908.05428)
-- Understanding Measures of Uncertainty for Adversarial Example Detection [[arXiv2018]](https://arxiv.org/abs/1803.08533)
+
 
 ## Ensemble/Bayesian-Methods
 
@@ -229,6 +230,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 **Arxiv**
 
+- ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[arXiv2022]](https://arxiv.org/abs/2211.11435)
 - Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness [[arXiv2021]](https://arxiv.org/abs/2110.12381)
 - Quantifying uncertainty with GAN-based priors [[arXiv2019]](https://openreview.net/forum?id=HyeAPeBFwS)
 
@@ -444,6 +446,8 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](https://arxiv.org/abs/2110.02855) - [[PyTorch]](https://github.com/marco-rudolph/cs-flow)
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](https://arxiv.org/abs/2110.00218)
 - Exploring the Limits of Out-of-Distribution Detection [[NeurIPS2021]](https://arxiv.org/abs/2106.03004)
+- NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization [[ICCV2021]](https://arxiv.org/abs/2109.02038)
+- NADS: Neural Architecture Distribution Search for Uncertainty Awareness [[ICML2020]](https://arxiv.org/abs/2006.06646)
 - Energy-based Out-of-distribution Detection [[NeurIPS2020]](https://arxiv.org/abs/2010.03759?context=cs)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](https://arxiv.org/abs/2011.08785) - [[PyTorch]](https://github.com/openvinotoolkit/anomalib)
 - Detecting out-of-distribution image without learning from out-of-distribution data. [[CVPR2020]](https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html)

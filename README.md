@@ -17,7 +17,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
   - [Surveys](#surveys)
   - [Theory](#theory)
   - [Bayesian-Methods](#bayesian-methods)
-  - [Ensemble](#ensemble)
+  - [Ensemble-Methods](#ensemble-methods)
   - [Sampling/Dropout-based-Methods](#samplingdropout-based-methods)
   - [Auxiliary-Methods/Learning-loss-distributions](#auxiliary-methodslearning-loss-distributions)
   - [Data-augmentation/Generation-based-methods](#data-augmentationgeneration-based-methods)
@@ -124,7 +124,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Bayesian neural network via stochastic gradient descent [[arXiv2020]](https://arxiv.org/abs/2006.08453)
 
 
-## Ensemble
+## Ensemble-Methods
 
 **Conference**
 
@@ -138,7 +138,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Uncertainty Quantification and Deep Ensembles [[NeurIPS2021]](https://openreview.net/forum?id=wg_kD_nyAF)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) - [[PyTorch]](https://github.com/yandex-research/GBDT-uncertainty)
 - Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[ICLR2020]](https://arxiv.org/abs/2002.06470) - [[PyTorch]](https://github.com/SamsungLabs/pytorch-ensembles)
-- Ensemble Distribution Distillation [[ICLR2020]](https://arxiv.org/abs/1905.00076)
 - Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5849)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
 - Bayesian Deep Ensembles via the Neural Tangent Kernel [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0b1ec366924b26fc98fa7b71a9c249cf-Abstract.html)
@@ -259,6 +258,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Evaluating robustness of predictive uncertainty estimation: Are Dirichlet-based models reliable? [[ICML2021]](http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf)
 - Posterior Network: Uncertainty Estimation without OOD Samples via Density-Based Pseudo-Counts  [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0eac690d7059a8de4b48e90f14510391-Abstract.html) - [[PyTorch]](https://github.com/sharpenb/Posterior-Network)
 - Being Bayesian about Categorical Probability [[ICML2020]](http://proceedings.mlr.press/v119/joo20a/joo20a.pdf)
+- Ensemble Distribution Distillation [[ICLR2020]](https://arxiv.org/abs/1905.00076)
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[ICLR2020]](https://openreview.net/forum?id=BJlahxHYDS)
 - Noise Contrastive Priors for Functional Uncertainty [[UAI2020]](https://proceedings.mlr.press/v115/hafner20a.html)
 - Deep Evidential Regression [[NeurIPS2020]](https://arxiv.org/abs/1910.02600) - [[TensorFlow]](https://github.com/aamini/evidential-deep-learning)
@@ -347,6 +347,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[CVPR2022]](https://arxiv.org/abs/2111.15430) - [[PyTorch]](https://github.com/by-liu/mbls)
 - Calibrating Deep Neural Networks by Pairwise Constraints [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Calibrating_Deep_Neural_Networks_by_Pairwise_Constraints_CVPR_2022_paper.html)
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](https://openreview.net/forum?id=WqoBaaPHS-)
+- Meta-Calibration: Learning of Model Calibration Using Differentiable Expected Calibration Error [[ICML Workshop2021]](https://arxiv.org/abs/2106.09613) - [[PyTorch]](https://github.com/ondrejbohdal/meta-calibration)
 - Beyond Pinball Loss: Quantile Methods for Calibrated Uncertainty Quantification [[NeurIPS2021]](https://arxiv.org/abs/2011.09588)
 - From label smoothing to label relaxation [[AAAI2021]](https://www.aaai.org/AAAI21Papers/AAAI-2191.LienenJ.pdf)
 - Calibrating Deep Neural Networks using Focal Loss [[NeurIPS2020]](https://arxiv.org/abs/2002.09437) - [[PyTorch]](https://github.com/torrvision/focal_calibration)
@@ -361,7 +362,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Measuring Calibration in Deep Learning [[CVPR Workshop2019]](https://arxiv.org/abs/1904.01685)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](https://arxiv.org/abs/1807.00263)
 - On calibration of modern neural networks [[ICML2017]](https://arxiv.org/abs/1706.04599)
-- On Fairness and Calibration[[NeurIPS2017]](https://arxiv.org/abs/1709.02012)
+- On Fairness and Calibration [[NeurIPS2017]](https://arxiv.org/abs/1709.02012)
 
 **Journal**
 

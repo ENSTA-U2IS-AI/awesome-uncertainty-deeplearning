@@ -16,7 +16,8 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - [Papers](#papers)
   - [Surveys](#surveys)
   - [Theory](#theory)
-  - [Ensemble/Bayesian-Methods](#ensemblebayesian-methods)
+  - [Bayesian-Methods](#bayesian-methods)
+  - [Ensemble](#ensemble)
   - [Sampling/Dropout-based-Methods](#samplingdropout-based-methods)
   - [Auxiliary-Methods/Learning-loss-distributions](#auxiliary-methodslearning-loss-distributions)
   - [Data-augmentation/Generation-based-methods](#data-augmentationgeneration-based-methods)
@@ -88,55 +89,68 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Bayesian Model Selection, the Marginal Likelihood, and Generalization [[arXiv2022]](https://arxiv.org/abs/2202.11678)
 - Testing for Outliers with Conformal p-values  [[arXiv2021]](https://arxiv.org/abs/2104.08279) - [[Python]](https://github.com/msesia/conditional-conformal-pvalues)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](https://arxiv.org/abs/2108.09676)
-- DEUP: Direct Epistemic Uncertainty Prediction [[arXiv2020]](https://arxiv.org/abs/2102.08501)
+- Dense Uncertainty Estimation [[arXiv2021]](https://arxiv.org/abs/2110.06427) - [[PyTorch]](https://github.com/JingZhang617/UncertaintyEstimation)
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[arXiv2020]](https://arxiv.org/abs/2012.09816)
 - A higher-order swiss army infinitesimal jackknife [[arXiv2019]](https://arxiv.org/abs/1907.12116)
 - With malice towards none: Assessing uncertainty via equalized coverage [[arXiv2019]](https://arxiv.org/abs/1908.05428)
 
 
-## Ensemble/Bayesian-Methods
+## Bayesian-Methods
+
+**Conference**
+
+- Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](https://arxiv.org/abs/2210.02676)
+- Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
+- On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
+- Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
+- Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
+- Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)
+- Being Bayesian, Even Just a Bit, Fixes Overconfidence in ReLU Networks [[ICML2020]](http://proceedings.mlr.press/v119/kristiadi20a/kristiadi20a.pdf)
+- TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) - [[PyTorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
+- A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NeurIPS2019]](https://arxiv.org/abs/1902.02476) - [[PyTorch]](https://github.com/wjmaddox/swa_gaussian)
+- Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
+- A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](https://openreview.net/pdf?id=Skdvd2xAZ) - [[Theano]](https://github.com/BB-UCL/Lasagne)
+- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
+
+**Journal**
+
+- Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](https://link.springer.com/article/10.1007%2FBF00126502)
+
+**Arxiv**
+
+- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](https://arxiv.org/abs/2012.02818) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
+- Bayesian Neural Networks with Soft Evidence  [[arXiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) - [[PyTorch]](https://github.com/edwardyu/soft-evidence-bnn)
+- On Batch Normalisation for Approximate Bayesian Inference [[arXiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
+- Bayesian neural network via stochastic gradient descent [[arXiv2020]](https://arxiv.org/abs/2006.08453)
+
+
+## Ensemble
 
 **Conference**
 
 - Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](https://arxiv.org/abs/2302.01312)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184) - [[PyTorch]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](https://arxiv.org/abs/2206.00050)
-- Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](https://arxiv.org/abs/2210.02676)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) - [[PyTorch]](https://github.com/VITA-Group/FreeTickets)
-- Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
 - Robustness via Cross-Domain Ensembles [[ICCV2021]](https://arxiv.org/abs/2103.10919) - [[PyTorch]](https://github.com/EPFL-VILAB/XDEnsembles)
 - Masksembles for Uncertainty Estimation [[CVPR2021]](https://nikitadurasov.github.io/projects/masksembles/) - [[PyTorch/TensorFlow]](https://github.com/nikitadurasov/masksembles)
-- On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
-- Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
 - Uncertainty Quantification and Deep Ensembles [[NeurIPS2021]](https://openreview.net/forum?id=wg_kD_nyAF)
-- Real-time uncertainty estimation in computer vision via uncertainty-aware distribution distillation [[WACV2021]](https://arxiv.org/abs/2007.15857)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](https://arxiv.org/abs/2006.10562) - [[PyTorch]](https://github.com/yandex-research/GBDT-uncertainty)
+- Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[ICLR2020]](https://arxiv.org/abs/2002.06470) - [[PyTorch]](https://github.com/SamsungLabs/pytorch-ensembles)
 - Ensemble Distribution Distillation [[ICLR2020]](https://arxiv.org/abs/1905.00076)
 - Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](https://ojs.aaai.org/index.php/AAAI/article/view/5849)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html)
 - Bayesian Deep Ensembles via the Neural Tangent Kernel [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0b1ec366924b26fc98fa7b71a9c249cf-Abstract.html)
-- Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
-- Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)
-- Being Bayesian about Categorical Probability [[ICML2020]](http://proceedings.mlr.press/v119/joo20a/joo20a.pdf)
-- Being Bayesian, Even Just a Bit, Fixes Overconfidence in ReLU Networks [[ICML2020]](http://proceedings.mlr.press/v119/kristiadi20a/kristiadi20a.pdf)
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](https://arxiv.org/abs/2002.06715) - [[TensorFlow]](https://github.com/google/edward2) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
-- A General Framework for Uncertainty Estimation in Deep Learning [[ICRA2020]](https://arxiv.org/pdf/1907.06890.pdf)
-- TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](https://arxiv.org/abs/1912.11316) - [[PyTorch]](https://github.com/giannifranchi/TRADI_Tracking_DNN_weights)
 - Uncertainty in Neural Networks: Approximately Bayesian Ensembling [[AISTATS 2020]](https://arxiv.org/abs/1810.05546)
 - Accurate Uncertainty Estimation and Decomposition in Ensemble Learning [[NeurIPS2019]](https://papers.nips.cc/paper/2019/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html)
-- A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NeurIPS2019]](https://arxiv.org/abs/1902.02476) - [[PyTorch]](https://github.com/wjmaddox/swa_gaussian)
-- Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
-- A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](https://openreview.net/pdf?id=Skdvd2xAZ) - [[Theano]](https://github.com/BB-UCL/Lasagne)
-- Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
 - High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](https://arxiv.org/abs/1802.07167) - [[TensorFlow]](https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals)
-- Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) - [[TensorFlow]](https://github.com/lmb-freiburg/netdef_models)
 - Simple and scalable predictive uncertainty estimation using deep ensembles [[NeurIPS2017]](https://arxiv.org/abs/1612.01474)
 
 **Journal**
 
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](https://arxiv.org/abs/2006.00954)
-- Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](https://link.springer.com/article/10.1007%2FBF00126502)
 
 **Arxiv**
 
@@ -145,12 +159,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Deep Ensemble as a Gaussian Process Approximate Posterior [[arXiv2022]](https://arxiv.org/abs/2205.00163)
 - Sequential Bayesian Neural Subnetwork Ensembles [[arXiv2022]](https://arxiv.org/abs/2206.00794)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arXiv2022]](https://arxiv.org/abs/2202.10903) - [[TensorFlow]](https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles)
-- Dense Uncertainty Estimation [[arXiv2021]](https://arxiv.org/abs/2110.06427) - [[PyTorch]](https://github.com/JingZhang617/UncertaintyEstimation)
 - Dense Uncertainty Estimation via an Ensemble-based Conditional Latent Variable Model [[arXiv2021]](https://arxiv.org/abs/2111.11055)
-- Bayesian Neural Networks with Soft Evidence  [[arXiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) - [[PyTorch]](https://github.com/edwardyu/soft-evidence-bnn)
-- On Batch Normalisation for Approximate Bayesian Inference [[arXiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
-- Bayesian neural network via stochastic gradient descent [[arXiv2020]](https://arxiv.org/abs/2006.08453)
-- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](https://arxiv.org/abs/2012.02818) - [[PyTorch]](https://github.com/giannifranchi/LP_BNN)
 - Deep Ensembles: A Loss Landscape Perspective [[arXiv2019]](https://arxiv.org/abs/1912.02757)
 - Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[arXiv2019]](https://arxiv.org/abs/1903.11341)
 
@@ -166,6 +175,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](https://arxiv.org/abs/1506.02142)
 
 **Journal**
+- A General Framework for Uncertainty Estimation in Deep Learning [[Robotics and Automation Letters2020]](https://arxiv.org/pdf/1907.06890.pdf)
 
 **Arxiv**
 
@@ -187,7 +197,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Learning to Predict Error for MRI Reconstruction [[MICCAI2021]](https://arxiv.org/abs/2002.05582)
 - Triggering Failures: Out-Of-Distribution detection by learning from local adversarial attacks in Semantic Segmentation [[ICCV2021]](https://arxiv.org/abs/2108.01634) - [[PyTorch]](https://github.com/valeoai/obsnet)
 - A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR Workshop2021]](https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html)
-- Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[ICLR202]](https://arxiv.org/abs/2002.06470) - [[PyTorch]](https://github.com/SamsungLabs/pytorch-ensembles)
+- Real-time uncertainty estimation in computer vision via uncertainty-aware distribution distillation [[WACV2021]](https://arxiv.org/abs/2007.15857)
 - Quantifying Point-Prediction Uncertainty in Neural Networks via Residual Estimation with an I/O Kernel [[ICLR2020]](https://arxiv.org/abs/1906.00588) - [[TensorFlow]](https://github.com/cognizant-ai-labs/rio-paper)
 - Gradients as a Measure of Uncertainty in Neural Networks [[ICIP2020]](https://arxiv.org/abs/2008.08030)
 - Learning Loss for Test-Time Augmentation [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/2ba596643cbbbc20318224181fa46b28-Abstract.html)
@@ -195,6 +205,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Addressing failure prediction by learning model confidence [[NeurIPS2019]](https://papers.NeurIPS.cc/paper/2019/file/757f843a169cc678064d9530d12a1881-Paper.pdf) - [[PyTorch]](https://github.com/valeoai/ConfidNet)
 - Learning loss for active learning [[CVPR2019]](https://arxiv.org/abs/1905.03677) - [[PyTorch]](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning) (unofficial codes)
 - Structured Uncertainty Prediction Networks [[CVPR2018]](https://arxiv.org/abs/1802.07079) - [[TensorFlow]](https://github.com/Era-Dorta/tf_mvg)
+- Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](https://arxiv.org/abs/1802.07095) - [[TensorFlow]](https://github.com/lmb-freiburg/netdef_models)
 - Classification uncertainty of deep neural networks based on gradient information [[IAPR Workshop2018]](https://arxiv.org/abs/1805.08440)
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[NeurIPS2017]](https://arxiv.org/abs/1703.04977)
 - Estimating the Mean and Variance of the Target Probability Distribution [[(ICNN94)]](https://ieeexplore.ieee.org/document/374138)
@@ -247,6 +258,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Misclassification Risk and Uncertainty Quantification in Deep Classifiers [[WACV2021]](https://openaccess.thecvf.com/content/WACV2021/html/Sensoy_Misclassification_Risk_and_Uncertainty_Quantification_in_Deep_Classifiers_WACV_2021_paper.html)
 - Evaluating robustness of predictive uncertainty estimation: Are Dirichlet-based models reliable? [[ICML2021]](http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf)
 - Posterior Network: Uncertainty Estimation without OOD Samples via Density-Based Pseudo-Counts  [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/0eac690d7059a8de4b48e90f14510391-Abstract.html) - [[PyTorch]](https://github.com/sharpenb/Posterior-Network)
+- Being Bayesian about Categorical Probability [[ICML2020]](http://proceedings.mlr.press/v119/joo20a/joo20a.pdf)
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[ICLR2020]](https://openreview.net/forum?id=BJlahxHYDS)
 - Noise Contrastive Priors for Functional Uncertainty [[UAI2020]](https://proceedings.mlr.press/v115/hafner20a.html)
 - Deep Evidential Regression [[NeurIPS2020]](https://arxiv.org/abs/1910.02600) - [[TensorFlow]](https://github.com/aamini/evidential-deep-learning)

@@ -103,6 +103,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
+- Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[NeurIPS2021]](https://proceedings.neurips.cc/paper/2020/file/322f62469c5e3c7dc3e58f5a4d1ea399-Paper.pdf)
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[ICML2020]](http://proceedings.mlr.press/v119/wenzel20a.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)

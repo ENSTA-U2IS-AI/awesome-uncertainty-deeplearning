@@ -10,9 +10,10 @@ if you think we missed a paper, or if you have any ideas for improvements, pleas
 You may also an email at:
 gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell us where it was published and where, and send us a GitHub link and arxiv link if they are available).
 
-# Contents
+## Table of Contents
 
-- [Contents](#contents)
+- [awesome-uncertainty-deeplearning](#awesome-uncertainty-deeplearning)
+  - [Table of Contents](#table-of-contents)
 - [Papers](#papers)
   - [Surveys](#surveys)
   - [Theory](#theory)
@@ -40,6 +41,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 # Papers
 
 ## Surveys
+
 **Conference**
 
 - A Comparison of Uncertainty Estimation Approaches in Deep Learning Components for Autonomous Vehicle Applications[[AISafety Workshop2020]](https://arxiv.org/abs/2006.15172)
@@ -103,7 +105,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](https://proceedings.mlr.press/v161/kristiadi21a.html)
-- Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[NeurIPS2021]](https://proceedings.neurips.cc/paper/2020/file/322f62469c5e3c7dc3e58f5a4d1ea399-Paper.pdf)
+- Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/file/322f62469c5e3c7dc3e58f5a4d1ea399-Paper.pdf)
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[ICML2020]](http://proceedings.mlr.press/v119/wenzel20a.html)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](http://proceedings.mlr.press/v80/teye18a.html)
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf) - [[TensorFlow]](https://github.com/google/edward2)
@@ -113,6 +115,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](https://github.com/ezjong/lightprobnets) - [[PyTorch]](https://github.com/ezjong/lightprobnets)
 - A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](https://openreview.net/pdf?id=Skdvd2xAZ) - [[Theano]](https://github.com/BB-UCL/Lasagne)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](http://proceedings.mlr.press/v80/depeweg18a.html)
+- Weight Uncertainty in Neural Network [[ICML2015]](https://proceedings.mlr.press/v37/blundell15.html)
 
 **Journal**
 

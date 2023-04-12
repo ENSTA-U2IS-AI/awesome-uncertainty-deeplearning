@@ -349,6 +349,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 **Conference**
 
+- Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30) - [[PyTorch]](https://github.com/Impression2805/FMFP)
 - The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[CVPR2022]](https://arxiv.org/abs/2111.15430) - [[PyTorch]](https://github.com/by-liu/mbls)
 - Calibrating Deep Neural Networks by Pairwise Constraints [[CVPR2022]](https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Calibrating_Deep_Neural_Networks_by_Pairwise_Constraints_CVPR_2022_paper.html)
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](https://openreview.net/forum?id=WqoBaaPHS-)
@@ -357,6 +358,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - From label smoothing to label relaxation [[AAAI2021]](https://www.aaai.org/AAAI21Papers/AAAI-2191.LienenJ.pdf)
 - Calibrating Deep Neural Networks using Focal Loss [[NeurIPS2020]](https://arxiv.org/abs/2002.09437) - [[PyTorch]](https://github.com/torrvision/focal_calibration)
 - Stationary activations for uncertainty calibration in deep learning [[NeurIPS2020]](https://proceedings.neurips.cc/paper/2020/hash/18a411989b47ed75a60ac69d9da05aa5-Abstract.html)
+- Confidence-Aware Learning for Deep Neural Networks [[ICML2020]](https://arxiv.org/abs/2007.01458) - [[PyTorch]](https://github.com/daintlab/confidence-aware-learning)
 - Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf)
 - Regularization via structural label smoothing [[ICML2020]](https://proceedings.mlr.press/v108/li20e.html)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](http://proceedings.mlr.press/v121/laves20a.html) - [[PyTorch]](https://github.com/mlaves/well-calibrated-regression-uncertainty)

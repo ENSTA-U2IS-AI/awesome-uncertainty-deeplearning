@@ -1,19 +1,24 @@
-# awesome-uncertainty-deeplearning
+# Awesome Uncertainty in Deep learning
+
+<div align="center">
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo is a collection of AWESOME papers/codes/blogs about Uncertainty and Deep learning, including papers, code, etc. Feel free to star and fork.
+</div>
 
-if you think we missed a paper, or if you have any ideas for improvements, please send a message on the corresponding [GitHub discussion](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions). 
+This repo is a collection of AWESOME papers, codes, books, and blogs about Uncertainty and Deep learning. Feel free to star and fork.
 
-You may also an email at:
-gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell us where it was published and where, and send us a GitHub link and arxiv link if they are available).
+If you think that we miss a paper, or if you have any ideas for improvements, please send a message on the corresponding [GitHub discussions](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions).
 
-## Table of Contents
+You may also send an email at:
+`gianni dot franchi at ensta-paris dot fr` with "[Awesome Uncertainty]" as subject. Tell us where the paper was published and where, and send us GitHub and ArXiv links if they are available.
 
-- [awesome-uncertainty-deeplearning](#awesome-uncertainty-deeplearning)
-  - [Table of Contents](#table-of-contents)
+<h2>
+Table of Contents
+</h2>
+
+- [Awesome Uncertainty in Deep learning](#awesome-uncertainty-in-deep-learning)
 - [Papers](#papers)
   - [Surveys](#surveys)
   - [Theory](#theory)
@@ -49,7 +54,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 **Journal**
 
 - Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods [[Machine Learning]](https://link.springer.com/article/10.1007/s10994-021-05946-3)
-- Predictive inference with the jackknife+ [[The Annals of Statistic(2021)]](https://arxiv.org/abs/1905.02928)
+- Predictive inference with the jackknife+ [[The Annals of Statistics (2021)]](https://arxiv.org/abs/1905.02928)
 - A review of uncertainty quantification in deep learning: Techniques, applications and challenges [[Information Fusion 2021]](https://www.sciencedirect.com/science/article/pii/S1566253521001081)
 - A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective [[ACM2021]](https://dl.acm.org/doi/pdf/10.1145/3477140?casa_token=6fozCYTovlIAAAAA:t5vcjuXCMem1b8iFwaMG4o_YJHTe0wArLtoy9KCbL8Cow0aGEoxSiJans2Kzpm2FSKOg-4ZCDkBa)
 - Uncertainty in big data analytics: survey, opportunities, and challenges [[Journal of Big Data2019]](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0206-3?cv=1)
@@ -60,7 +65,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Ensemble deep learning: A review [[arXiv2021]](https://arxiv.org/abs/2104.02395)
 - A survey of uncertainty in deep neural networks [[arXiv2021]](https://arxiv.org/abs/2107.03342) - [[GitHub]](https://github.com/JakobCode/UncertaintyInNeuralNetworks_Resources)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](https://arxiv.org/abs/2110.03051)
-
 
 ## Theory
 
@@ -96,7 +100,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - A higher-order swiss army infinitesimal jackknife [[arXiv2019]](https://arxiv.org/abs/1907.12116)
 - With malice towards none: Assessing uncertainty via equalized coverage [[arXiv2019]](https://arxiv.org/abs/1908.05428)
 
-
 ## Bayesian-Methods
 
 **Conference**
@@ -127,7 +130,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Bayesian Neural Networks with Soft Evidence  [[arXiv2020]](https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not.) - [[PyTorch]](https://github.com/edwardyu/soft-evidence-bnn)
 - On Batch Normalisation for Approximate Bayesian Inference [[arXiv2020]](https://openreview.net/pdf?id=SH2tfpm_0LE)
 - Bayesian neural network via stochastic gradient descent [[arXiv2020]](https://arxiv.org/abs/2006.08453)
-
 
 ## Ensemble-Methods
 
@@ -179,6 +181,7 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](https://arxiv.org/abs/1506.02142)
 
 **Journal**
+
 - A General Framework for Uncertainty Estimation in Deep Learning [[Robotics and Automation Letters2020]](https://arxiv.org/pdf/1907.06890.pdf)
 
 **Arxiv**
@@ -248,7 +251,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[arXiv2022]](https://arxiv.org/abs/2211.11435)
 - Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness [[arXiv2021]](https://arxiv.org/abs/2110.12381)
 - Quantifying uncertainty with GAN-based priors [[arXiv2019]](https://openreview.net/forum?id=HyeAPeBFwS)
-
 
 ## Dirichlet-networks/Evidential-deep-learning
 
@@ -343,8 +345,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 - Interval Neural Networks: Uncertainty Scores [[arXiv2020]](https://arxiv.org/abs/2003.11566)
 - Tight Prediction Intervals Using Expanded Interval Minimization [[arXiv2018]](https://arxiv.org/abs/1806.11222)
 
-
-
 ## Calibration
 
 **Conference**
@@ -381,7 +381,6 @@ gianni.franchi at ensta-paris.fr with "[Awesome Uncertainty]" as subject (tell u
 
 - Towards Understanding Label Smoothing [[arXiv2020]](https://arxiv.org/abs/2006.11653)
 - An Investigation of how Label Smoothing Affects Generalization [[arXiv2020]](https://arxiv.org/abs/2010.12648)
-
 
 ## Applications
 

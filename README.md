@@ -544,3 +544,5 @@ Domain Adaptation [[ECCV2022]](https://arxiv.org/pdf/2208.07591.pdf)
 Awesome conformal prediction [[GitHub]](https://github.com/valeman/awesome-conformal-prediction)
 
 Uncertainty Quantification in Deep Learning [[GitHub]](https://github.com/ahmedmalaa/deep-learning-uncertainty)
+
+Awesome LLM Uncertainty Reliability Robustness [[GitHub]](https://github.com/jxzhangjhu/Awesome-LLM-Uncertainty-Reliability-Robustness)

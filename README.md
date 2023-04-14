@@ -494,6 +494,7 @@ Table of Contents
 
 **Conference**
 
+- Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection [[CVPR2023]](https://arxiv.org/pdf/2303.14404.pdf)
 - Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors [[ICLR2021]](https://openreview.net/forum?id=YLewtnvKgR7)
 - Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving [[ICCV2019]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf) - [[CUDA]](https://github.com/jwchoi384/Gaussian_YOLOv3) - [[PyTorch]](https://github.com/motokimura/PyTorch_Gaussian_YOLOv3) - [[Keras]](https://github.com/xuannianz/keras-GaussianYOLOv3)
 

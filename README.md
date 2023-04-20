@@ -136,6 +136,7 @@ Table of Contents
 **Conference**
 
 - Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](https://arxiv.org/abs/2302.01312)
+- Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](https://arxiv.org/pdf/2202.04414.pdf) - [[PyTorch]](https://github.com/mpagli/Agree-to-Disagree)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184) - [[PyTorch]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](https://arxiv.org/abs/2206.00050)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)

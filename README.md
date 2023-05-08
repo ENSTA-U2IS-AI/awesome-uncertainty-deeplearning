@@ -70,6 +70,8 @@ Table of Contents
 
 **Conference**
 
+- Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[ICLR2023]](https://arxiv.org/pdf/2012.09816.pdf)
+- Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[ICLR2023]](https://arxiv.org/pdf/2210.03044.pdf)
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](https://openreview.net/forum?id=WqoBaaPHS-)
 - Neural Variational Gradient Descent [[AABI2022]](https://openreview.net/forum?id=oG0vTBw58ic)
 - Repulsive Deep Ensembles are Bayesian [[NeurIPS2021]](https://arxiv.org/abs/2106.11642) - [[PyTorch]](https://github.com/ratschlab/repulsive_ensembles)
@@ -104,6 +106,7 @@ Table of Contents
 
 **Conference**
 
+- Robustness to corruption in pre-trained Bayesian neural networks [[ICLR2023]](https://arxiv.org/pdf/2206.12361.pdf)
 - Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](https://arxiv.org/abs/2210.02676)
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](https://openreview.net/forum?id=UvBPbpvHRj-)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](https://arxiv.org/abs/2102.11062)
@@ -135,9 +138,10 @@ Table of Contents
 
 **Conference**
 
-- Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](https://arxiv.org/abs/2302.01312)
+- Weighted Ensemble Self-Supervised Learning [[ICLR2023]](https://arxiv.org/pdf/2211.09981.pdf)
 - Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](https://arxiv.org/pdf/2202.04414.pdf) - [[PyTorch]](https://github.com/mpagli/Agree-to-Disagree)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](https://arxiv.org/abs/2210.09184) - [[PyTorch]](https://github.com/ENSTA-U2IS/torch-uncertainty)
+- Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](https://arxiv.org/abs/2302.01312)
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](https://arxiv.org/abs/2206.00050)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](https://arxiv.org/abs/2202.11782)
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](https://arxiv.org/abs/2106.14568) - [[PyTorch]](https://github.com/VITA-Group/FreeTickets)
@@ -459,6 +463,9 @@ Table of Contents
 
 **Conference**
 
+- Can CNNs Be More Robust Than Transformers? [[ICLR2023]](https://arxiv.org/pdf/2206.03452.pdf)
+- Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](https://arxiv.org/pdf/2206.07837.pdf)
+- A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](https://arxiv.org/pdf/2302.11893.pdf)
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](https://ojs.aaai.org/index.php/AAAI/article/view/20773)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](https://arxiv.org/abs/2202.01197) - [[PyTorch]](https://github.com/deeplearning-wisc/vos)

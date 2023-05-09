@@ -463,6 +463,7 @@ Table of Contents
 
 **Conference**
 
+- How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](https://arxiv.org/pdf/2203.04450.pdf)
 - Can CNNs Be More Robust Than Transformers? [[ICLR2023]](https://arxiv.org/pdf/2206.03452.pdf)
 - Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](https://arxiv.org/pdf/2206.07837.pdf)
 - A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](https://arxiv.org/pdf/2302.11893.pdf)

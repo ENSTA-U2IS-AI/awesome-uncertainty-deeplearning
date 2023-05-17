@@ -130,7 +130,7 @@ Table of Contents
 **Arxiv**
 
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
-- Bayesian Neural Networks with Soft Evidence [[arXiv2020]](<https://arxiv.org/abs/2010.09570#:~:text=Bayes's%20rule%20deals%20with%20hard,has%20actually%20occurred%20or%20not>.) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
+- Bayesian Neural Networks with Soft Evidence [[arXiv2020]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
 - Bayesian neural network via stochastic gradient descent [[arXiv2020]](<https://arxiv.org/abs/2006.08453>)
 
 ## Ensemble-Methods
@@ -197,7 +197,7 @@ Table of Contents
 
 **Conference**
 
-- Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](<https://arxiv.org/abs/2212.07359>)
+- Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](<https://arxiv.org/abs/2212.07359>) - [[PyTorch]](<https://github.com/maohaos2/PosthocUQ>)
 - Improving the reliability for confidence estimation [[ECCV2022]](<https://arxiv.org/abs/2210.06776>)
 - Gradient-based Uncertainty for Monocular Depth Estimation [[ECCV2022]](<https://arxiv.org/abs/2208.02005>) - [[PyTorch]](<https://github.com/jhornauer/GrUMoDepth>)
 - BayesCap: Bayesian Identity Cap for Calibrated Uncertainty in Frozen Neural Networks [[ECCV2022]](<https://arxiv.org/abs/2207.06873>) - [[PyTorch]](<https://github.com/ExplainableML/BayesCap>)
@@ -467,7 +467,7 @@ Table of Contents
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
-- Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703#:~:text=Anomaly%20Detection%20via%20Reverse%20Distillation%20from%20One%2DClass%20Embedding,-Hanqiu%20Deng%2C%20Xingyu&text=Knowledge%20distillation%20(KD)%20achieves%20promising,provides%20essential%20evidence%20for%20AD>.)
+- Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Towards Total Recall in Industrial Anomaly Detection [[CVPR22]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](<https://arxiv.org/abs/2110.02855>) - [[PyTorch]](<https://github.com/marco-rudolph/cs-flow>)
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](<https://arxiv.org/abs/2110.00218>)
@@ -491,6 +491,7 @@ Table of Contents
 
 **Arxiv**
 
+- A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
 - Generalized out-of-distribution detection: A survey [[arXiv2021]](<https://arxiv.org/abs/2110.11334>)
 - Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
 - DATE: Detecting Anomalies in Text via Self-Supervision of Transformers [[arXiv2021]](<https://arxiv.org/abs/2104.05591>)

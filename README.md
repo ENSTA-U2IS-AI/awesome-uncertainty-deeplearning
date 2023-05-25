@@ -366,6 +366,7 @@ Table of Contents
 - Regularization via structural label smoothing [[ICML2020]](<https://proceedings.mlr.press/v108/li20e.html>)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](<http://proceedings.mlr.press/v121/laves20a.html>) - [[PyTorch]](<https://github.com/mlaves/well-calibrated-regression-uncertainty>)
 - Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPR Workshop2020]](<https://arxiv.org/abs/1906.01620>) - [[PyTorch]](<https://github.com/fregu856/evaluating_bdl>)
+- Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[NeurIPS2029]](<https://arxiv.org/pdf/1910.12656.pdf>) - [[GitHub]](<https://github.com/dirichletcal>)
 - When does label smoothing help? [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html>)
 - Verified Uncertainty Calibration [[NeurIPS2019]](<https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html>)
 - Generalized zero-shot learning with deep calibration network [[NeurIPS2018]](<https://proceedings.neurips.cc/paper/2018/hash/1587965fb4d4b5afe8428a4a024feb0d-Abstract.html>)

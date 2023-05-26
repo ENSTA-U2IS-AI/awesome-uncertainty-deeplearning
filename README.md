@@ -304,6 +304,7 @@ Table of Contents
 
 **Conference**
 
+- Deep Deterministic Uncertainty: A Simple Baseline [[CVPR2023]](<https://arxiv.org/abs/2102.11582>) - [[PyTorch]](<https://github.com/omegafragger/DDU>)
 - Training, Architecture, and Prior for Deterministic Uncertainty Methods [[ICLR Workshop2023]](<https://arxiv.org/abs/2303.05796>) - [[PyTorch]](<https://github.com/orientino/dum-components>)
 - Latent Discriminant deterministic Uncertainty [[ECCV2022]](<https://arxiv.org/abs/2207.10130>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/LDU>)
 - Improving Deterministic Uncertainty Estimation in Deep Learning for Classification and Regression [[CoRR2021]](<https://arxiv.org/abs/2102.11409>)
@@ -319,7 +320,6 @@ Table of Contents
 
 **Arxiv**
 
-- Deep Deterministic Uncertainty: A Simple Baseline [[arXiv2021]](<https://arxiv.org/abs/2102.11582>) - [[PyTorch]](<https://github.com/omegafragger/DDU>)
 - On the Practicality of Deterministic Epistemic Uncertainty [[arXiv2021]](<https://arxiv.org/abs/2107.00649>)
 - The Hidden Uncertainty in a Neural Network’s Activations [[arXiv2020]](<https://arxiv.org/abs/2012.03082>)
 - A simple framework for uncertainty in contrastive learning [[arXiv2020]](<https://arxiv.org/abs/2010.02038>)
@@ -366,7 +366,7 @@ Table of Contents
 - Regularization via structural label smoothing [[ICML2020]](<https://proceedings.mlr.press/v108/li20e.html>)
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](<http://proceedings.mlr.press/v121/laves20a.html>) - [[PyTorch]](<https://github.com/mlaves/well-calibrated-regression-uncertainty>)
 - Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPR Workshop2020]](<https://arxiv.org/abs/1906.01620>) - [[PyTorch]](<https://github.com/fregu856/evaluating_bdl>)
-- Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[NeurIPS2029]](<https://arxiv.org/pdf/1910.12656.pdf>) - [[GitHub]](<https://github.com/dirichletcal>)
+- Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[NeurIPS2019]](<https://arxiv.org/pdf/1910.12656.pdf>) - [[GitHub]](<https://github.com/dirichletcal>)
 - When does label smoothing help? [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html>)
 - Verified Uncertainty Calibration [[NeurIPS2019]](<https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html>)
 - Generalized zero-shot learning with deep calibration network [[NeurIPS2018]](<https://proceedings.neurips.cc/paper/2018/hash/1587965fb4d4b5afe8428a4a024feb0d-Abstract.html>)
@@ -461,7 +461,8 @@ Table of Contents
 
 **Conference**
 
-- How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](https://github.com/deeplearning-wisc/cider)
+- SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)
+- How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](<https://github.com/deeplearning-wisc/cider>)
 - Can CNNs Be More Robust Than Transformers? [[ICLR2023]](<https://arxiv.org/pdf/2206.03452.pdf>)
 - Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](<https://arxiv.org/pdf/2206.07837.pdf>)
 - A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](<https://arxiv.org/pdf/2302.11893.pdf>)
@@ -469,8 +470,9 @@ Table of Contents
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
-- Towards Total Recall in Industrial Anomaly Detection [[CVPR22]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
+- Towards Total Recall in Industrial Anomaly Detection [[CVPR2022]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](<https://arxiv.org/abs/2110.02855>) - [[PyTorch]](<https://github.com/marco-rudolph/cs-flow>)
+- Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces [[CVPR2021]](<https://openaccess.thecvf.com/content/CVPR2021/html/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.html>) - [[PyTorch]](<https://github.com/zaeemzadeh/OOD>)
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](<https://arxiv.org/abs/2110.00218>)
 - Exploring the Limits of Out-of-Distribution Detection [[NeurIPS2021]](<https://arxiv.org/abs/2106.03004>)
 - NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization [[ICCV2021]](<https://arxiv.org/abs/2109.02038>)

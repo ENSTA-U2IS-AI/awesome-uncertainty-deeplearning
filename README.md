@@ -375,6 +375,7 @@ Table of Contents
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](<https://arxiv.org/abs/1807.00263>)
 - On calibration of modern neural networks [[ICML2017]](<https://arxiv.org/abs/1706.04599>)
 - On Fairness and Calibration [[NeurIPS2017]](<https://arxiv.org/abs/1709.02012>)
+- Obtaining Well Calibrated Probabilities Using Bayesian Binning [[AAAI2015]](<https://ojs.aaai.org/index.php/AAAI/article/view/9602/9461>)
 
 **Journal**
 
@@ -514,7 +515,7 @@ Table of Contents
 **Conference**
 
 - Uncertainty-guided Source-free
-Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>)
+Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
 
 # Datasets and Benchmarks
 

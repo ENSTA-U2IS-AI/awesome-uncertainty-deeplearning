@@ -358,6 +358,7 @@ Table of Contents
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](<https://openreview.net/forum?id=WqoBaaPHS->)
 - Meta-Calibration: Learning of Model Calibration Using Differentiable Expected Calibration Error [[ICML Workshop2021]](<https://arxiv.org/abs/2106.09613>) - [[PyTorch]](<https://github.com/ondrejbohdal/meta-calibration>)
 - Beyond Pinball Loss: Quantile Methods for Calibrated Uncertainty Quantification [[NeurIPS2021]](<https://arxiv.org/abs/2011.09588>)
+- Diagnostic Uncertainty Calibration: Towards Reliable Machine Predictions in Medical Domain [[AIStats2021]](https://arxiv.org/pdf/2007.01659)
 - From label smoothing to label relaxation [[AAAI2021]](<https://www.aaai.org/AAAI21Papers/AAAI-2191.LienenJ.pdf>)
 - Calibrating Deep Neural Networks using Focal Loss [[NeurIPS2020]](<https://arxiv.org/abs/2002.09437>) - [[PyTorch]](<https://github.com/torrvision/focal_calibration>)
 - Stationary activations for uncertainty calibration in deep learning [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/18a411989b47ed75a60ac69d9da05aa5-Abstract.html>)

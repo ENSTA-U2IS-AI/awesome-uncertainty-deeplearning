@@ -12,7 +12,7 @@ This repo is a collection of AWESOME papers, codes, books, and blogs about Uncer
 If you think that we miss a paper, or if you have any ideas for improvements, please send a message on the corresponding [GitHub discussions](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions).
 
 You may also send an email at:
-`gianni dot franchi at ensta-paris dot fr` with "[Awesome Uncertainty]" as subject. Tell us where the paper was published and where, and send us GitHub and ArXiv links if they are available.
+`gianni dot franchi at ensta-paris dot fr` with "[Awesome Uncertainty]" as subject. Tell us where the paper was published and when, and send us GitHub and ArXiv links if they are available.
 
 <h2>
 Table of Contents

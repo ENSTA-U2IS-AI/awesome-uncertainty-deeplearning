@@ -260,9 +260,9 @@ Table of Contents
 
 **Conference**
 
+- Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](<https://arxiv.org/abs/2105.04471>) - [[PyTorch]](<https://github.com/borchero/natural-posterior-network>)
-- TBraTS: Trusted Brain Tumor Segmentation [[MICCAI2022]](<https://arxiv.org/abs/2206.09309>)
 - Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](<https://arxiv.org/abs/2112.09368>)
 - Trustworthy multimodal regression with mixture of normal-inverse gamma distributions [[NeurIPS2021]](<https://arxiv.org/abs/2111.08456>)
 - Misclassification Risk and Uncertainty Quantification in Deep Classifiers [[WACV2021]](<https://openaccess.thecvf.com/content/WACV2021/html/Sensoy_Misclassification_Risk_and_Uncertainty_Quantification_in_Deep_Classifiers_WACV_2021_paper.html>)
@@ -296,6 +296,7 @@ Table of Contents
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](<https://arxiv.org/abs/2110.03051>)
 - Regression Prior Networks [[arXiv2020]](<https://arxiv.org/abs/2006.11590>)
+- A Variational Dirichlet Framework for Out-of-Distribution Detection [[arXiv2019]](<https://arxiv.org/abs/1811.07308>)
 - Uncertainty estimation in deep learning with application to spoken language assessment[[PhDThesis2019]](<https://www.repository.cam.ac.uk/handle/1810/298857>)
 - Inhibited softmax for uncertainty estimation in neural networks [[arXiv2018]](<https://arxiv.org/abs/1810.01861>).
 - Quantifying Intrinsic Uncertainty in Classification via Deep Dirichlet Mixture Networks [[arXiv2018]](<https://arxiv.org/abs/1906.04450>)

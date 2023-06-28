@@ -105,6 +105,7 @@ Table of Contents
 
 **Conference**
 
+- Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning [[CVPR2023]](<https://arxiv.org/abs/2304.04824>)
 - Robustness to corruption in pre-trained Bayesian neural networks [[ICLR2023]](<https://arxiv.org/pdf/2206.12361.pdf>)
 - Uncertainty Estimation for Multi-view Data: The Power of Seeing the Whole Picture [[NeurIPS2022]](<https://arxiv.org/abs/2210.02676>)
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](<https://openreview.net/forum?id=UvBPbpvHRj->)
@@ -129,6 +130,7 @@ Table of Contents
 
 **Arxiv**
 
+- Density Uncertainty Layers for Reliable Uncertainty Estimation [[arXiv2023]](<https://arxiv.org/abs/2306.12497>)
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
 - Bayesian Neural Networks with Soft Evidence [[arXiv2020]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
 - Bayesian neural network via stochastic gradient descent [[arXiv2020]](<https://arxiv.org/abs/2006.08453>)
@@ -236,6 +238,7 @@ Table of Contents
 
 **Conference**
 
+- On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](<https://arxiv.org/abs/2112.05135>)
 - Towards efficient feature sharing in MIMO architectures [[CVPR Workshop2022]](<https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html>)
@@ -260,6 +263,7 @@ Table of Contents
 
 **Conference**
 
+- Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](<https://arxiv.org/abs/2105.04471>) - [[PyTorch]](<https://github.com/borchero/natural-posterior-network>)
@@ -424,6 +428,7 @@ Table of Contents
 
 **Conference**
 
+- Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation [[CVPR2023]](<https://arxiv.org/abs/2304.00152>) - [[PyTorch]](<https://github.com/lly00412/sednet>)
 - Variational Depth Networks: Uncertainty-Aware Monocular Self-supervised Depth Estimation [[ECCV Workshop2022]](<https://link.springer.com/chapter/10.1007/978-3-031-25085-9_3>)
 - Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression [[ECCV2022]](<https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf>)
 - On Monocular Depth Estimation and Uncertainty Quantification using Classification Approaches for Regression [[ICIP2022]](<https://arxiv.org/abs/2202.12369>)
@@ -464,6 +469,8 @@ Table of Contents
 
 **Conference**
 
+- - Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
+- Modeling the Distributional Uncertainty for Salient Object Detection Models [[CVPR2023]](https://npucvr.github.io/Distributional_uncer/) - [[PyTorch]](https://github.com/txynwpu/Distributional_uncertainty_SOD)
 - SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)
 - How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](<https://github.com/deeplearning-wisc/cider>)
 - Can CNNs Be More Robust Than Transformers? [[ICLR2023]](<https://arxiv.org/pdf/2206.03452.pdf>)
@@ -497,6 +504,7 @@ Table of Contents
 
 **Arxiv**
 
+- Neuron Activation Coverage: Rethinking Out-of-distribution Detection and Generalization [[arXiv2023]](<https://arxiv.org/abs/2306.02879>) - [[PyTorch]](<https://github.com/bierone/ood_coverage>)
 - A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
 - Generalized out-of-distribution detection: A survey [[arXiv2021]](<https://arxiv.org/abs/2110.11334>)
 - Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
@@ -515,6 +523,7 @@ Table of Contents
 
 **Conference**
 
+- Guiding Pseudo-labels with Uncertainty Estimation for Source-free Unsupervised Domain Adaptation [[CVPR2023]](<https://arxiv.org/abs/2303.03770>) - [[PyTorch]](https://github.com/mattialitrico/guiding-pseudo-labels-with-uncertainty-estimation-for-source-free-unsupervised-domain-adaptation)
 - Uncertainty-guided Source-free
 Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
 

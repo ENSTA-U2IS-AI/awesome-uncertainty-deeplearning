@@ -37,6 +37,7 @@ Table of Contents
     - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
     - [Object detection](#object-detection)
     - [Domain adaptation](#domain-adaptation)
+    - [Natural Language Processing](#natural-language-processing)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Libraries](#libraries)
 - [Lectures and tutorials](#lectures-and-tutorials)
@@ -70,6 +71,8 @@ Table of Contents
 
 **Conference**
 
+- Probabilistic Contrastive Learning Recovers the Correct Aleatoric Uncertainty of Ambiguous Inputs [[ICML2023]](https://arxiv.org/pdf/2302.02865.pdf) - [[PyTorch]](https://github.com/mkirchhof/Probabilistic_Contrastive_Learning)
+- On Second-Order Scoring Rules for Epistemic Uncertainty Quantification [[ICML2023]](https://arxiv.org/pdf/2301.12736.pdf)
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[ICLR2023]](<https://arxiv.org/pdf/2012.09816.pdf>)
 - Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[ICLR2023]](<https://arxiv.org/pdf/2210.03044.pdf>)
 - Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](<https://openreview.net/forum?id=WqoBaaPHS->)
@@ -263,6 +266,7 @@ Table of Contents
 
 **Conference**
 
+- Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
@@ -526,6 +530,9 @@ Table of Contents
 - Guiding Pseudo-labels with Uncertainty Estimation for Source-free Unsupervised Domain Adaptation [[CVPR2023]](<https://arxiv.org/abs/2303.03770>) - [[PyTorch]](https://github.com/mattialitrico/guiding-pseudo-labels-with-uncertainty-estimation-for-source-free-unsupervised-domain-adaptation)
 - Uncertainty-guided Source-free
 Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
+
+### Natural Language Processing
+- R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents [[ICML2023]](https://arxiv.org/pdf/2303.00732.pdf) - [[GitHub]](https://github.com/google-research/r_u_sure)
 
 # Datasets and Benchmarks
 

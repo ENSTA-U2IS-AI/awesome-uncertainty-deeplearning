@@ -122,7 +122,7 @@ Table of Contents
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](<https://github.com/ezjong/lightprobnets>) - [[PyTorch]](<https://github.com/ezjong/lightprobnets>)
 - A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](<https://openreview.net/pdf?id=Skdvd2xAZ>) - [[Theano]](<https://github.com/BB-UCL/Lasagne>)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](<http://proceedings.mlr.press/v80/depeweg18a.html>)
-- Weight Uncertainty in Neural Network [[ICML2015]](<https://proceedings.mlr.press/v37/blundell15.html>)
+- Weight Uncertainty in Neural Networks [[ICML2015]](<https://proceedings.mlr.press/v37/blundell15.html>)
 
 **Journal**
 
@@ -469,7 +469,7 @@ Table of Contents
 
 **Conference**
 
-- - Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
+- Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
 - Modeling the Distributional Uncertainty for Salient Object Detection Models [[CVPR2023]](https://npucvr.github.io/Distributional_uncer/) - [[PyTorch]](https://github.com/txynwpu/Distributional_uncertainty_SOD)
 - SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)
 - How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](<https://github.com/deeplearning-wisc/cider>)

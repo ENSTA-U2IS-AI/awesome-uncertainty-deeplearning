@@ -562,8 +562,9 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 # Lectures and tutorials
 
 - Uncertainty and Robustness in Deep Learning Workshop in ICML (2020, 2021) [[SlidesLive]](<https://slideslive.com/icml-2020/icml-workshop-on-uncertainty-and-robustness-in-deep-learning-udl>)
-- Yarin Gal: BAYESIAN DEEP LEARNING 101 [[website]](<http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/>)
+- Yarin Gal: Bayesian Deep Learning 101 [[Website]](<http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/>)
 - MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](<https://www.youtube.com/watch?v=toTcf7tZK8c>)
+- Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users [[IEEE Computational Intelligence Magazine]](https://arxiv.org/pdf/2007.06823.pdf)
 
 # Books
 

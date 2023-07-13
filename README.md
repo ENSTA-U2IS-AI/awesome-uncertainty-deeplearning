@@ -31,6 +31,7 @@ Table of Contents
   - [Deterministic-Uncertainty-Methods](#deterministic-uncertainty-methods)
   - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
   - [Calibration](#calibration)
+  - [Conformal Predictions](#conformal-predictions)
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
@@ -40,6 +41,10 @@ Table of Contents
     - [Natural Language Processing](#natural-language-processing)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Libraries](#libraries)
+  - [Python](#python)
+  - [PyTorch](#pytorch)
+  - [JAX](#jax)
+  - [TensorFlow](#tensorflow)
 - [Lectures and tutorials](#lectures-and-tutorials)
 - [Books](#books)
 - [Other resources](#other-resources)
@@ -92,7 +97,6 @@ Table of Contents
 
 **Journal**
 
-- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
 - Multivariate Uncertainty in Deep Learning [[TNNLS2021]](<https://arxiv.org/abs/1910.14215>)
 - A General Framework for Uncertainty Estimation in Deep Learning [[RAL2020]](<https://arxiv.org/abs/1907.06890>)
 - Adaptive nonparametric confidence sets [[Ann. Statist. 2006]](<https://arxiv.org/abs/math/0605473>)
@@ -341,8 +345,6 @@ Table of Contents
 - Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in Imaging [[ICML2022]](<https://arxiv.org/abs/2202.05265>) - [[PyTorch]](<https://github.com/aangelopoulos/im2im-uq>)
 - Prediction Intervals: Split Normal Mixture from Quality-Driven Deep Ensembles [[UAI2020]](<http://proceedings.mlr.press/v124/saleh-salem20a.html>) - [[PyTorch]](<https://github.com/tarik/pi-snm-qde>)
 - Classification with Valid and Adaptive Coverage [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html>)
-- Conformal Prediction Under Covariate Shift [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html>)
-- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>)
 - Single-Model Uncertainties for Deep Learning [[NeurIPS2019]](<https://arxiv.org/abs/1811.00908>) - [[PyTorch]](<https://github.com/facebookresearch/SingleModelUncertainty/>)
 - High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](<https://arxiv.org/abs/1802.07167>) - [[TensorFlow]](<https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals>)
 
@@ -396,6 +398,13 @@ Table of Contents
 - Towards Understanding Label Smoothing [[arXiv2020]](<https://arxiv.org/abs/2006.11653>)
 - An Investigation of how Label Smoothing Affects Generalization [[arXiv2020]](<https://arxiv.org/abs/2010.12648>)
 
+## Conformal Predictions
+
+- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
+- Uncertainty sets for image classifiers using conformal prediction [[ICLR2021]](https://arxiv.org/pdf/2009.14193.pdf) [[GitHub]](https://github.com/aangelopoulos/conformal_classification)
+- Conformal Prediction Under Covariate Shift [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html>)
+- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>)
+  
 ## Applications
 
 ### Classification and Semantic-Segmentation
@@ -532,6 +541,7 @@ Table of Contents
 Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
 
 ### Natural Language Processing
+
 - R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents [[ICML2023]](https://arxiv.org/pdf/2303.00732.pdf) - [[GitHub]](https://github.com/google-research/r_u_sure)
 
 # Datasets and Benchmarks
@@ -551,13 +561,25 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 # Libraries
 
-- Fortuna [[GitHub - JAX]](<https://github.com/awslabs/fortuna>)
-- Bayesian Torch [[GitHub]](<https://github.com/IntelLabs/bayesian-torch>)
-- A Bayesian Neural Network library for PyTorch [[GitHub]](<https://github.com/piEsposito/blitz-bayesian-deep-learning>)
-- TensorFlow Probability [[Website]](<https://www.tensorflow.org/probability>)
+## Python
+
+- MAPIE: Model Agnostic Prediction Interval Estimator¶ [[Sklearn]](https://github.com/scikit-learn-contrib/MAPIE)
 - Uncertainty Toolbox [[GitHub]](<https://uncertainty-toolbox.github.io/>)
-- Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](<https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>)
 - OpenOOD: Benchmarking Generalized OOD Detection [[GitHub]](<https://github.com/jingkang50/openood>)
+- Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](<https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>)
+
+## PyTorch
+
+- Bayesian Torch [[GitHub]](<https://github.com/IntelLabs/bayesian-torch>)
+- Blitz: A Bayesian Neural Network library for PyTorch [[GitHub]](<https://github.com/piEsposito/blitz-bayesian-deep-learning>)
+
+## JAX
+
+- Fortuna [[GitHub - JAX]](<https://github.com/awslabs/fortuna>)
+
+## TensorFlow
+
+- TensorFlow Probability [[Website]](<https://www.tensorflow.org/probability>)
 
 # Lectures and tutorials
 

@@ -543,8 +543,6 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 ### Semi-supervised
 
-**Conference**
-
 - Confidence Estimation Using Unlabeled Data [[ICLR2023]](<https://openreview.net/pdf?id=sOXU-PEJSgQ>) - [[PyTorch]](<https://github.com/TopoXLab/consistency-ranking-loss>)
 
 ### Natural Language Processing

@@ -38,6 +38,7 @@ Table of Contents
     - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
     - [Object detection](#object-detection)
     - [Domain adaptation](#domain-adaptation)
+    - [Semi-supervised](#semi-supervised)
     - [Natural Language Processing](#natural-language-processing)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Libraries](#libraries)
@@ -539,6 +540,12 @@ Table of Contents
 - Guiding Pseudo-labels with Uncertainty Estimation for Source-free Unsupervised Domain Adaptation [[CVPR2023]](<https://arxiv.org/abs/2303.03770>) - [[PyTorch]](https://github.com/mattialitrico/guiding-pseudo-labels-with-uncertainty-estimation-for-source-free-unsupervised-domain-adaptation)
 - Uncertainty-guided Source-free
 Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
+
+### Semi-supervised
+
+**Conference**
+
+- Confidence Estimation Using Unlabeled Data [[ICLR2023]](<https://openreview.net/pdf?id=sOXU-PEJSgQ>) - [[PyTorch]](<https://github.com/TopoXLab/consistency-ranking-loss>)
 
 ### Natural Language Processing
 

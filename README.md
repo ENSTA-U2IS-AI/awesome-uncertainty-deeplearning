@@ -362,7 +362,7 @@ Table of Contents
 
 **Conference**
 
-- Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>)
+- Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>) - [[Python]](<https://github.com/aperezlebel/beyond_calibration>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[CVPR2022]](<https://arxiv.org/abs/2111.15430>) - [[PyTorch]](<https://github.com/by-liu/mbls>)
 - Calibrating Deep Neural Networks by Pairwise Constraints [[CVPR2022]](<https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Calibrating_Deep_Neural_Networks_by_Pairwise_Constraints_CVPR_2022_paper.html>)

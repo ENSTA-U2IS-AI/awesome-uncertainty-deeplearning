@@ -380,7 +380,7 @@ Table of Contents
 - Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPR Workshop2020]](<https://arxiv.org/abs/1906.01620>) - [[PyTorch]](<https://github.com/fregu856/evaluating_bdl>)
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[NeurIPS2019]](<https://arxiv.org/pdf/1910.12656.pdf>) - [[GitHub]](<https://github.com/dirichletcal>)
 - When does label smoothing help? [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html>)
-- Verified Uncertainty Calibration [[NeurIPS2019]](<https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html>)
+- Verified Uncertainty Calibration [[NeurIPS2019]](<https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html>) - [[GitHub]](<https://github.com/p-lambda/verified_calibration>)
 - Generalized zero-shot learning with deep calibration network [[NeurIPS2018]](<https://proceedings.neurips.cc/paper/2018/hash/1587965fb4d4b5afe8428a4a024feb0d-Abstract.html>)
 - Measuring Calibration in Deep Learning [[CVPR Workshop2019]](<https://arxiv.org/abs/1904.01685>)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](<https://arxiv.org/abs/1807.00263>)
@@ -567,6 +567,7 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 ## Python
 
+- Uncertainty Calibration Library [[GitHub]](<https://github.com/p-lambda/verified_calibration>)
 - MAPIE: Model Agnostic Prediction Interval Estimator¶ [[Sklearn]](https://github.com/scikit-learn-contrib/MAPIE)
 - Uncertainty Toolbox [[GitHub]](<https://uncertainty-toolbox.github.io/>)
 - OpenOOD: Benchmarking Generalized OOD Detection [[GitHub]](<https://github.com/jingkang50/openood>)
@@ -574,6 +575,7 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 ## PyTorch
 
+- TorchUncertainty [[GitHub]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
 - Bayesian Torch [[GitHub]](<https://github.com/IntelLabs/bayesian-torch>)
 - Blitz: A Bayesian Neural Network library for PyTorch [[GitHub]](<https://github.com/piEsposito/blitz-bayesian-deep-learning>)
 

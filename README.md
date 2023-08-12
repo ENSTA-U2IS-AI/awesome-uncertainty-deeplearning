@@ -233,6 +233,7 @@ Table of Contents
 
 **Journal**
 
+- Towards More Reliable Confidence Estimation [[TPAMI2023]](<https://ieeexplore.ieee.org/abstract/document/10172026/>)
 - Confidence Estimation via Auxiliary Models [[TPAMI2021]](<https://arxiv.org/abs/2012.06508>)
 
 **Arxiv**
@@ -262,6 +263,7 @@ Table of Contents
 
 **Arxiv**
 
+- Learning to Generate Training Datasets for Robust Semantic Segmentation [[arXiv2023]](<https://arxiv.org/abs/2308.02535>)
 - ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[arXiv2022]](<https://arxiv.org/abs/2211.11435>)
 - Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness [[arXiv2021]](<https://arxiv.org/abs/2110.12381>)
 - Quantifying uncertainty with GAN-based priors [[arXiv2019]](<https://openreview.net/forum?id=HyeAPeBFwS>)
@@ -270,7 +272,7 @@ Table of Contents
 
 **Conference**
 
-- Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf)
+- Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
@@ -302,7 +304,6 @@ Table of Contents
 
 **Arxiv**
 
-- Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[arXiv2023]](<https://arxiv.org/abs/2303.02045>)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2205.10060>)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arXiv2022]](<https://openreview.net/pdf?id=NrB52z3eOTY>)
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)
@@ -362,6 +363,7 @@ Table of Contents
 
 **Conference**
 
+- Calibrating Transformers via Sparse Gaussian Processes [[ICLR2023]](<https://arxiv.org/abs/2303.02444>) - [[PyTorch]](<https://github.com/chenw20/sgpa>)
 - Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>) - [[Python]](<https://github.com/aperezlebel/beyond_calibration>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[CVPR2022]](<https://arxiv.org/abs/2111.15430>) - [[PyTorch]](<https://github.com/by-liu/mbls>)
@@ -411,6 +413,7 @@ Table of Contents
 
 **Conference**
 
+- Modeling Multimodal Aleatoric Uncertainty in Segmentation with Mixture of Stochastic Experts [[ICLR2023]](<https://arxiv.org/abs/2212.07328>) - [[PyTorch]](<https://github.com/gaozhitong/mose-auseg>)
 - CRISP - Reliable Uncertainty Estimation for Medical Image Segmentation [[MICCAI2022]](<https://arxiv.org/abs/2206.07664>)
 - TBraTS: Trusted Brain Tumor Segmentation [[MICCAI2022]](<https://arxiv.org/abs/2206.09309>) - [[PyTorch]](<https://github.com/cocofeat/tbrats>)
 - Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](<https://openreview.net/forum?id=kNKFOXleuC>) - [[PyTorch]](<https://github.com/liuzhuang13/anytime>)
@@ -474,6 +477,8 @@ Table of Contents
 
 **Arxiv**
 
+- Measuring and Modeling Uncertainty Degree for Monocular Depth Estimation
+Preprint [[arXiv2023]](<https://arxiv.org/abs/2307.09929>)
 - How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arXiv2023]](<https://arxiv.org/abs/2302.03679>) - [[PyTorch]](<https://github.com/fregu856/regression_uncertainty>)
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomographaphy [[arXiv2022]](<https://arxiv.org/abs/2202.10847>)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](<https://arxiv.org/abs/2108.09676>)
@@ -529,7 +534,9 @@ Table of Contents
 **Conference**
 
 - Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection [[CVPR2023]](<https://arxiv.org/pdf/2303.14404.pdf>)
+- Parametric and Multivariate Uncertainty Calibration for Regression and Object Detection [[ECCV Workshop2022]](<https://arxiv.org/abs/2207.01242>) - [[PyTorch]](<https://github.com/EFS-OpenSource/calibration-framework>)
 - Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors [[ICLR2021]](<https://openreview.net/forum?id=YLewtnvKgR7>)
+- Multivariate Confidence Calibration for Object Detection [[CVPR Workshop2020]](<https://arxiv.org/abs/2004.13546>) - [[PyTorch]](<https://github.com/EFS-OpenSource/calibration-framework>)
 - Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving [[ICCV2019]](<https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf>) - [[CUDA]](<https://github.com/jwchoi384/Gaussian_YOLOv3>) - [[PyTorch]](<https://github.com/motokimura/PyTorch_Gaussian_YOLOv3>) - [[Keras]](<https://github.com/xuannianz/keras-GaussianYOLOv3>)
 
 ### Domain adaptation

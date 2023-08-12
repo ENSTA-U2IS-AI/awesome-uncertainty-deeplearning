@@ -612,3 +612,7 @@ Awesome conformal prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 Uncertainty Quantification in Deep Learning [[GitHub]](<https://github.com/ahmedmalaa/deep-learning-uncertainty>)
 
 Awesome LLM Uncertainty Reliability Robustness [[GitHub]](<https://github.com/jxzhangjhu/Awesome-LLM-Uncertainty-Reliability-Robustness>)
+
+ProbAI summer school [[Website]](<https://probabilistic.ai/>)
+
+Gaussian process summer school [[Website]](<https://gpss.cc/>)

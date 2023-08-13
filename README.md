@@ -154,6 +154,7 @@ Table of Contents
 - FiLM-Ensemble: Probabilistic Deep Learning via Feature-wise Linear Modulation [[NeurIPS2022]](<https://arxiv.org/abs/2206.00050>)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](<https://arxiv.org/abs/2202.11782>)
 - Deep Ensembling with No Overhead for either Training or Testing: The All-Round Blessings of Dynamic Sparsity [[ICLR2022]](<https://arxiv.org/abs/2106.14568>) - [[PyTorch]](<https://github.com/VITA-Group/FreeTickets>)
+- On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection [[ECCVW2022]](<https://arxiv.org/abs/2207.07517>)
 - Robustness via Cross-Domain Ensembles [[ICCV2021]](<https://arxiv.org/abs/2103.10919>) - [[PyTorch]](<https://github.com/EPFL-VILAB/XDEnsembles>)
 - Masksembles for Uncertainty Estimation [[CVPR2021]](<https://nikitadurasov.github.io/projects/masksembles/>) - [[PyTorch/TensorFlow]](<https://github.com/nikitadurasov/masksembles>)
 - Uncertainty Quantification and Deep Ensembles [[NeurIPS2021]](<https://openreview.net/forum?id=wg_kD_nyAF>)
@@ -175,7 +176,6 @@ Table of Contents
 
 **Arxiv**
 
-- On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection [[arXiv2022]](<https://arxiv.org/abs/2207.07517>)
 - Deep Ensemble as a Gaussian Process Approximate Posterior [[arXiv2022]](<https://arxiv.org/abs/2205.00163>)
 - Sequential Bayesian Neural Subnetwork Ensembles [[arXiv2022]](<https://arxiv.org/abs/2206.00794>)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arXiv2022]](<https://arxiv.org/abs/2202.10903>) - [[TensorFlow]](<https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles>)
@@ -200,7 +200,6 @@ Table of Contents
 **Arxiv**
 
 - SoftDropConnect (SDC) – Effective and Efficient Quantification of the Network Uncertainty in Deep MR Image Analysis [[arXiv2022]](<https://arxiv.org/abs/2201.08418>)
-- Wasserstein Dropout [[arXiv2021]](<https://arxiv.org/abs/2012.12687>) - [[PyTorch]](<https://github.com/fraunhofer-iais/second-moment-loss>)
 
 ## Auxiliary-Methods/Learning-loss-distributions
 
@@ -274,6 +273,7 @@ Table of Contents
 
 - Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
+- The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI]](<https://arxiv.org/abs/2205.10060>)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](<https://arxiv.org/abs/2105.04471>) - [[PyTorch]](<https://github.com/borchero/natural-posterior-network>)
@@ -304,7 +304,6 @@ Table of Contents
 
 **Arxiv**
 
-- The Unreasonable Effectiveness of Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2205.10060>)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arXiv2022]](<https://openreview.net/pdf?id=NrB52z3eOTY>)
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](<https://arxiv.org/abs/2110.03051>)
@@ -418,6 +417,7 @@ Table of Contents
 - TBraTS: Trusted Brain Tumor Segmentation [[MICCAI2022]](<https://arxiv.org/abs/2206.09309>) - [[PyTorch]](<https://github.com/cocofeat/tbrats>)
 - Anytime Dense Prediction with Confidence Adaptivity [[ICLR2022]](<https://openreview.net/forum?id=kNKFOXleuC>) - [[PyTorch]](<https://github.com/liuzhuang13/anytime>)
 - Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](<https://arxiv.org/abs/2108.00968>) - [[PyTorch]](<https://github.com/giannifranchi/deeplabv3-superpixelmix>)
+- Deep Deterministic Uncertainty for Semantic Segmentation [[ICMLW2021]](<https://arxiv.org/abs/2111.00079>)
 - Classification with Valid and Adaptive Coverage [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html>)
 - DEAL: Difficulty-aware Active Learning for Semantic Segmentation [[ACCV2020]](<https://openaccess.thecvf.com/content/ACCV2020/html/Xie_DEAL_Difficulty-aware_Active_Learning_for_Semantic_Segmentation_ACCV_2020_paper.html>)
 - Human Uncertainty Makes Classification More Robust [[ICCV2019]](<https://openaccess.thecvf.com/content_ICCV_2019/html/Peterson_Human_Uncertainty_Makes_Classification_More_Robust_ICCV_2019_paper.html>)
@@ -437,7 +437,6 @@ Table of Contents
 
 **Arxiv**
 
-- Deep Deterministic Uncertainty for Semantic Segmentation [[arXiv2021]](<https://arxiv.org/abs/2111.00079>)
 - Evaluating Bayesian Deep Learning Methods for Semantic Segmentation [[arXiv2018]](<https://arxiv.org/abs/1811.12709>)
 
 ### Regression
@@ -477,8 +476,7 @@ Table of Contents
 
 **Arxiv**
 
-- Measuring and Modeling Uncertainty Degree for Monocular Depth Estimation
-Preprint [[arXiv2023]](<https://arxiv.org/abs/2307.09929>)
+- Measuring and Modeling Uncertainty Degree for Monocular Depth Estimation [[arXiv2023]](<https://arxiv.org/abs/2307.09929>)
 - How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arXiv2023]](<https://arxiv.org/abs/2302.03679>) - [[PyTorch]](<https://github.com/fregu856/regression_uncertainty>)
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomographaphy [[arXiv2022]](<https://arxiv.org/abs/2202.10847>)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](<https://arxiv.org/abs/2108.09676>)

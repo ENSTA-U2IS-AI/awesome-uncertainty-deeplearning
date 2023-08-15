@@ -47,7 +47,7 @@ Table of Contents
   - [TensorFlow](#tensorflow)
 - [Lectures and tutorials](#lectures-and-tutorials)
 - [Books](#books)
-- [Other resources](#other-resources)
+- [Other Resources](#other-resources)
 
 # Papers
 
@@ -603,13 +603,15 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 - The "Probabilistic Machine-Learning" book series by Kevin Murphy [[Book]](<https://probml.github.io/pml-book/>)
 
-# Other resources
-
-Awesome conformal prediction [[GitHub]](<https://github.com/valeman/awesome-conformal-prediction>)
+# Other Resources
 
 Uncertainty Quantification in Deep Learning [[GitHub]](<https://github.com/ahmedmalaa/deep-learning-uncertainty>)
 
-Awesome LLM Uncertainty Reliability Robustness [[GitHub]](<https://github.com/jxzhangjhu/Awesome-LLM-Uncertainty-Reliability-Robustness>)
+Awesome Out-of-distribution Detection [[GitHub]](<https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection>)
+
+Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conformal-prediction>)
+
+Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.com/jxzhangjhu/Awesome-LLM-Uncertainty-Reliability-Robustness>)
 
 ProbAI summer school [[Website]](<https://probabilistic.ai/>)
 

@@ -140,7 +140,6 @@ Table of Contents
 - Density Uncertainty Layers for Reliable Uncertainty Estimation [[arXiv2023]](<https://arxiv.org/abs/2306.12497>)
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
 - Bayesian Neural Networks with Soft Evidence [[arXiv2020]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
-- Bayesian neural network via stochastic gradient descent [[arXiv2020]](<https://arxiv.org/abs/2006.08453>)
 
 ## Ensemble-Methods
 
@@ -205,6 +204,7 @@ Table of Contents
 
 **Conference**
 
+- Out-of-Distribution Detection for Monocular Depth Estimation [[ICCV2023]](<https://arxiv.org/abs/2308.06072>)
 - Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](<https://arxiv.org/abs/2212.07359>) - [[PyTorch]](<https://github.com/maohaos2/PosthocUQ>)
 - Improving the reliability for confidence estimation [[ECCV2022]](<https://arxiv.org/abs/2210.06776>)
 - Gradient-based Uncertainty for Monocular Depth Estimation [[ECCV2022]](<https://arxiv.org/abs/2208.02005>) - [[PyTorch]](<https://github.com/jhornauer/GrUMoDepth>)
@@ -273,7 +273,7 @@ Table of Contents
 
 - Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
-- The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI]](<https://arxiv.org/abs/2205.10060>)
+- The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](<https://arxiv.org/abs/2105.04471>) - [[PyTorch]](<https://github.com/borchero/natural-posterior-network>)
@@ -320,6 +320,7 @@ Table of Contents
 - Deep Deterministic Uncertainty: A Simple Baseline [[CVPR2023]](<https://arxiv.org/abs/2102.11582>) - [[PyTorch]](<https://github.com/omegafragger/DDU>)
 - Training, Architecture, and Prior for Deterministic Uncertainty Methods [[ICLR Workshop2023]](<https://arxiv.org/abs/2303.05796>) - [[PyTorch]](<https://github.com/orientino/dum-components>)
 - Latent Discriminant deterministic Uncertainty [[ECCV2022]](<https://arxiv.org/abs/2207.10130>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/LDU>)
+- On the Practicality of Deterministic Epistemic Uncertainty [[ICML2022]](<https://arxiv.org/abs/2107.00649>)
 - Improving Deterministic Uncertainty Estimation in Deep Learning for Classification and Regression [[CoRR2021]](<https://arxiv.org/abs/2102.11409>)
 - Training normalizing flows with the information bottleneck for competitive generative classification [[NeurIPS2020]](<https://arxiv.org/abs/2001.06448>)
 - Simple and principled uncertainty estimation with deterministic deep learning via distance awareness [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/543e83748234f7cbab21aa0ade66565f-Abstract.html>)
@@ -333,7 +334,6 @@ Table of Contents
 
 **Arxiv**
 
-- On the Practicality of Deterministic Epistemic Uncertainty [[arXiv2021]](<https://arxiv.org/abs/2107.00649>)
 - The Hidden Uncertainty in a Neural Network’s Activations [[arXiv2020]](<https://arxiv.org/abs/2012.03082>)
 - A simple framework for uncertainty in contrastive learning [[arXiv2020]](<https://arxiv.org/abs/2010.02038>)
 - Distance-based Confidence Score for Neural Network Classifiers [[arXiv2017]](<https://arxiv.org/abs/1709.09844>)
@@ -502,6 +502,7 @@ Table of Contents
 - On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](<https://arxiv.org/abs/2110.00218>)
 - Exploring the Limits of Out-of-Distribution Detection [[NeurIPS2021]](<https://arxiv.org/abs/2106.03004>)
 - NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization [[ICCV2021]](<https://arxiv.org/abs/2109.02038>)
+- DATE: Detecting Anomalies in Text via Self-Supervision of Transformers [[NAACL2021]](<https://arxiv.org/abs/2104.05591>)
 - NADS: Neural Architecture Distribution Search for Uncertainty Awareness [[ICML2020]](<https://arxiv.org/abs/2006.06646>)
 - Energy-based Out-of-distribution Detection [[NeurIPS2020]](<https://arxiv.org/abs/2010.03759?context=cs>)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](<https://arxiv.org/abs/2011.08785>) - [[PyTorch]](<https://github.com/openvinotoolkit/anomalib>)
@@ -524,7 +525,6 @@ Table of Contents
 - A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
 - Generalized out-of-distribution detection: A survey [[arXiv2021]](<https://arxiv.org/abs/2110.11334>)
 - Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
-- DATE: Detecting Anomalies in Text via Self-Supervision of Transformers [[arXiv2021]](<https://arxiv.org/abs/2104.05591>)
 - Frequentist uncertainty estimates for deep learning [[arXiv2018]](<http://bayesiandeeplearning.org/2018/papers/31.pdf>)
 
 ### Object detection
@@ -573,7 +573,7 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 ## Python
 
 - Uncertainty Calibration Library [[GitHub]](<https://github.com/p-lambda/verified_calibration>)
-- MAPIE: Model Agnostic Prediction Interval Estimator¶ [[Sklearn]](https://github.com/scikit-learn-contrib/MAPIE)
+- MAPIE: Model Agnostic Prediction Interval Estimator [[Sklearn]](https://github.com/scikit-learn-contrib/MAPIE)
 - Uncertainty Toolbox [[GitHub]](<https://uncertainty-toolbox.github.io/>)
 - OpenOOD: Benchmarking Generalized OOD Detection [[GitHub]](<https://github.com/jingkang50/openood>)
 - Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](<https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>)

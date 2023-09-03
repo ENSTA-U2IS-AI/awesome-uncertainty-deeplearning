@@ -228,7 +228,7 @@ Table of Contents
 - Uncertainty estimates and multi-hypotheses networks for optical flow [[ECCV2018]](<https://arxiv.org/abs/1802.07095>) - [[TensorFlow]](<https://github.com/lmb-freiburg/netdef_models>)
 - Classification uncertainty of deep neural networks based on gradient information [[IAPR Workshop2018]](<https://arxiv.org/abs/1805.08440>)
 - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? [[NeurIPS2017]](<https://arxiv.org/abs/1703.04977>)
-- Estimating the Mean and Variance of the Target Probability Distribution [[(ICNN94)]](<https://ieeexplore.ieee.org/document/374138>)
+- Estimating the Mean and Variance of the Target Probability Distribution [[(ICNN1994)]](<https://ieeexplore.ieee.org/document/374138>)
 
 **Journal**
 
@@ -296,6 +296,7 @@ Table of Contents
 
 **Journal**
 
+- Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation [[TMLR2023]](<https://arxiv.org/abs/2110.03051>)
 - Region-Based Evidential Deep Learning to Quantify Uncertainty and Improve Robustness of Brain Tumor Segmentation [[NCA2022]](<http://arxiv.org/abs/2208.06038>)
 - An evidential classifier based on Dempster-Shafer theory and deep learning [[Neurocomputing2021]](<https://www.sciencedirect.com/science/article/pii/S0925231221004525>) - [[TensorFlow]](<https://github.com/tongzheng1992/E-CNN-classifier>)
 - Evidential fully convolutional network for semantic segmentation [[AppliedIntelligence2021]](<https://link.springer.com/article/10.1007/s10489-021-02327-0>) - [[TensorFlow]](<https://github.com/tongzheng1992/E-FCN>)
@@ -304,9 +305,9 @@ Table of Contents
 
 **Arxiv**
 
+- Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[arXiv2023]](<https://arxiv.org/abs/2308.09065>)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arXiv2022]](<https://openreview.net/pdf?id=NrB52z3eOTY>)
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)
-- A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](<https://arxiv.org/abs/2110.03051>)
 - Regression Prior Networks [[arXiv2020]](<https://arxiv.org/abs/2006.11590>)
 - A Variational Dirichlet Framework for Out-of-Distribution Detection [[arXiv2019]](<https://arxiv.org/abs/1811.07308>)
 - Uncertainty estimation in deep learning with application to spoken language assessment[[PhDThesis2019]](<https://www.repository.cam.ac.uk/handle/1810/298857>)
@@ -443,6 +444,7 @@ Table of Contents
 
 **Conference**
 
+- Probabilistic MIMO U-Net: Efficient and Accurate Uncertainty Estimation for Pixel-wise Regression [[ICCV Workshop2023]](<https://arxiv.org/abs/2308.07477>) - [[PyTorch]](<https://github.com/antonbaumann/mimo-unet>)
 - Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation [[CVPR2023]](<https://arxiv.org/abs/2304.00152>) - [[PyTorch]](<https://github.com/lly00412/sednet>)
 - Variational Depth Networks: Uncertainty-Aware Monocular Self-supervised Depth Estimation [[ECCV Workshop2022]](<https://link.springer.com/chapter/10.1007/978-3-031-25085-9_3>)
 - Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression [[ECCV2022]](<https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf>)
@@ -485,6 +487,9 @@ Table of Contents
 
 **Conference**
 
+- Far Away in the Deep Space: Nearest-Neighbor-Based Dense Out-of-Distribution Detection [[ICCV Workshop2023]](<https://arxiv.org/abs/2211.06660>)
+- Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://arxiv.org/abs/2305.13849>)
+- Calibrated Out-of-Distribution Detection with a Generic Representation [[ICCV Workshop2023]](<https://arxiv.org/abs/2303.13148>) - [[PyTorch]](<https://github.com/vojirt/grood>)
 - Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
 - Modeling the Distributional Uncertainty for Salient Object Detection Models [[CVPR2023]](https://npucvr.github.io/Distributional_uncer/) - [[PyTorch]](https://github.com/txynwpu/Distributional_uncertainty_SOD)
 - SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)

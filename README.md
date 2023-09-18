@@ -68,6 +68,7 @@ Table of Contents
 
 **Arxiv**
 
+- A System-Level View on Out-of-Distribution Data in Robotics [[arXiv2022]](<https://arxiv.org/abs/2212.14020>)
 - A Survey on Uncertainty Reasoning and Quantification for Decision Making: Belief Theory Meets Deep Learning [[arXiv2022]](<https://arxiv.org/abs/2206.05675>)
 - A survey of uncertainty in deep neural networks [[arXiv2021]](<https://arxiv.org/abs/2107.03342>) - [[GitHub]](<https://github.com/JakobCode/UncertaintyInNeuralNetworks_Resources>)
 - A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](<https://arxiv.org/abs/2110.03051>)

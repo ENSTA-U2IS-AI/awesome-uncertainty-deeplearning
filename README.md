@@ -146,6 +146,7 @@ Table of Contents
 
 **Conference**
 
+- Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](https://arxiv.org/abs/2303.08010) - [[PyTorch]](https://github.com/guoxoug/window-early-exit)
 - Weighted Ensemble Self-Supervised Learning [[ICLR2023]](<https://arxiv.org/pdf/2211.09981.pdf>)
 - Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](<https://arxiv.org/pdf/2202.04414.pdf>) - [[PyTorch]](<https://github.com/mpagli/Agree-to-Disagree>)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](<https://arxiv.org/abs/2210.09184>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
@@ -205,6 +206,7 @@ Table of Contents
 
 **Conference**
 
+- ProbVLM: Probabilistic Adapter for Frozen Vision-Language Models [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/html/Upadhyay_ProbVLM_Probabilistic_Adapter_for_Frozen_Vison-Language_Models_ICCV_2023_paper.html)
 - Out-of-Distribution Detection for Monocular Depth Estimation [[ICCV2023]](<https://arxiv.org/abs/2308.06072>)
 - Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](<https://arxiv.org/abs/2212.07359>) - [[PyTorch]](<https://github.com/maohaos2/PosthocUQ>)
 - Improving the reliability for confidence estimation [[ECCV2022]](<https://arxiv.org/abs/2210.06776>)
@@ -272,6 +274,7 @@ Table of Contents
 
 **Conference**
 
+- Plausible Uncertainties for Human Pose Regression [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Bramlage_Plausible_Uncertainties_for_Human_Pose_Regression_ICCV_2023_paper.pdf)
 - Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>)
@@ -488,6 +491,10 @@ Table of Contents
 
 **Conference**
 
+- Normalizing Flows for Human Pose Anomaly Detection [[ICCV2023]](https://orhir.github.io/STG_NF/) - [[PyTorch]](https://github.com/orhir/stg-nf)
+- RbA: Segmenting Unknown Regions Rejected by All [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nayal_RbA_Segmenting_Unknown_Regions_Rejected_by_All_ICCV_2023_paper.pdf) - [[PyTorch]](https://github.com/NazirNayal8/RbA)
+- The Robust Semantic Segmentation UNCV2023 Challenge Results [[ICCV Workshop2023]](https://arxiv.org/abs/2309.15478)
+- Continual Evidential Deep Learning for Out-of-Distribution Detection [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/VCL/html/Aguilar_Continual_Evidential_Deep_Learning_for_Out-of-Distribution_Detection_ICCVW_2023_paper.html)
 - Far Away in the Deep Space: Nearest-Neighbor-Based Dense Out-of-Distribution Detection [[ICCV Workshop2023]](<https://arxiv.org/abs/2211.06660>)
 - Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://arxiv.org/abs/2305.13849>)
 - Calibrated Out-of-Distribution Detection with a Generic Representation [[ICCV Workshop2023]](<https://arxiv.org/abs/2303.13148>) - [[PyTorch]](<https://github.com/vojirt/grood>)

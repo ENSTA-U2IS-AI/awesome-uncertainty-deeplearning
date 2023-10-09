@@ -147,6 +147,7 @@ Table of Contents
 **Conference**
 
 - Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](https://arxiv.org/abs/2303.08010) - [[PyTorch]](https://github.com/guoxoug/window-early-exit)
+- Sub-Ensembles for Fast Uncertainty Estimation in Neural Networks [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/LXCV/papers/Valdenegro-Toro_Sub-Ensembles_for_Fast_Uncertainty_Estimation_in_Neural_Networks_ICCVW_2023_paper.pdf)
 - Weighted Ensemble Self-Supervised Learning [[ICLR2023]](<https://arxiv.org/pdf/2211.09981.pdf>)
 - Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](<https://arxiv.org/pdf/2202.04414.pdf>) - [[PyTorch]](<https://github.com/mpagli/Agree-to-Disagree>)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](<https://arxiv.org/abs/2210.09184>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
@@ -322,6 +323,7 @@ Table of Contents
 
 **Conference**
 
+- A Simple and Explainable Method for Uncertainty Estimation using Attribute Prototype Networks [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/UnCV/papers/Zelenka_A_Simple_and_Explainable_Method_for_Uncertainty_Estimation_Using_Attribute_ICCVW_2023_paper.pdf)
 - Deep Deterministic Uncertainty: A Simple Baseline [[CVPR2023]](<https://arxiv.org/abs/2102.11582>) - [[PyTorch]](<https://github.com/omegafragger/DDU>)
 - Training, Architecture, and Prior for Deterministic Uncertainty Methods [[ICLR Workshop2023]](<https://arxiv.org/abs/2303.05796>) - [[PyTorch]](<https://github.com/orientino/dum-components>)
 - Latent Discriminant deterministic Uncertainty [[ECCV2022]](<https://arxiv.org/abs/2207.10130>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/LDU>)
@@ -560,11 +562,21 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 ### Semi-supervised
 
+**Conference**
+
 - Confidence Estimation Using Unlabeled Data [[ICLR2023]](<https://openreview.net/pdf?id=sOXU-PEJSgQ>) - [[PyTorch]](<https://github.com/TopoXLab/consistency-ranking-loss>)
 
 ### Natural Language Processing
 
+**Conference**
+
+- Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement [[TrustNLP2023]](https://aclanthology.org/2023.trustnlp-1.28/) - [[GitHub]](https://github.com/JHU-CLSP/Confidence-Estimation-TrustNLP2023)
 - R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents [[ICML2023]](https://arxiv.org/pdf/2303.00732.pdf) - [[GitHub]](https://github.com/google-research/r_u_sure)
+- Calibrating Structured Output Predictors for Natural Language Processing [[ACL2020]](https://aclanthology.org/2020.acl-main.188/)
+- Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data [[EMNLP2020]](https://aclanthology.org/2020.emnlp-main.102/) - [[PyTorch]](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)
+
+**Journal**
+- How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering [[TACL2021]](https://arxiv.org/abs/2012.00955) - [[PyTorch]](https://github.com/jzbjyb/lm-calibration)
 
 # Datasets and Benchmarks
 

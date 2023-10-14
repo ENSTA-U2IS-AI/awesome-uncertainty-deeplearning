@@ -507,6 +507,7 @@ Table of Contents
 - Can CNNs Be More Robust Than Transformers? [[ICLR2023]](<https://arxiv.org/pdf/2206.03452.pdf>)
 - Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](<https://arxiv.org/pdf/2206.07837.pdf>)
 - A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](<https://arxiv.org/pdf/2302.11893.pdf>)
+- Extremely Simple Activation Shaping for Out-of-Distribution Detection [[ICLR2023]](<https://arxiv.org/abs/2209.09858>) - [[PyTorch]](<https://github.com/andrijazz/ash>)
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)

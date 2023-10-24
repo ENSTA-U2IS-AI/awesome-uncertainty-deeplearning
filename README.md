@@ -251,12 +251,14 @@ Table of Contents
 
 - On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
+- RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy & Out-of-Distribution Robustness [[NeurIPS2022]](https://arxiv.org/abs/2206.14502) - [[PyTorch]](https://github.com/francescopinto/regmixup)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](<https://arxiv.org/abs/2112.05135>)
 - Towards efficient feature sharing in MIMO architectures [[CVPR Workshop2022]](<https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html>)
 - Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](<https://arxiv.org/abs/2108.00968>) - [[PyTorch]](<https://github.com/giannifranchi/deeplabv3-superpixelmix>)
 - MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks [[ICCV2021]](<https://arxiv.org/abs/2103.06132>) - [[PyTorch]](<https://github.com/alexrame/mixmo-pytorch>)
 - Training independent subnetworks for robust prediction [[ICLR2021]](<https://arxiv.org/abs/2010.06610>)
 - Uncertainty-aware GAN with Adaptive Loss for Robust MRI Image Enhancement  [[ICCV Workshop2021]](<https://arxiv.org/pdf/2110.03343.pdf>)
+- Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness [[IJCAI2021]](<https://arxiv.org/abs/2110.12381>) - [[PyTorch]](https://github.com/smilesdzgk/du-vae)
 - Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](<http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf>)
 - Uncertainty-Aware Deep Classifiers using Generative Models [[AAAI2020]](<https://arxiv.org/abs/2006.04183>)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](<https://arxiv.org/abs/2003.08440>) - [[PyTorch]](<https://github.com/YingdaXia/SynthCP>)
@@ -268,26 +270,25 @@ Table of Contents
 
 - Learning to Generate Training Datasets for Robust Semantic Segmentation [[arXiv2023]](<https://arxiv.org/abs/2308.02535>)
 - ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[arXiv2022]](<https://arxiv.org/abs/2211.11435>)
-- Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness [[arXiv2021]](<https://arxiv.org/abs/2110.12381>)
-- Quantifying uncertainty with GAN-based priors [[arXiv2019]](<https://openreview.net/forum?id=HyeAPeBFwS>)
+- Quantifying uncertainty with GAN-based priors [[arXiv2019]](<https://openreview.net/forum?id=HyeAPeBFwS>) - [[TensorFlow]](https://github.com/dhruvpatel108/GANPriors)
 
 ## Dirichlet-networks/Evidential-deep-learning
 
 **Conference**
 
-- Plausible Uncertainties for Human Pose Regression [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Bramlage_Plausible_Uncertainties_for_Human_Pose_Regression_ICCV_2023_paper.pdf)
+- Plausible Uncertainties for Human Pose Regression [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Bramlage_Plausible_Uncertainties_for_Human_Pose_Regression_ICCV_2023_paper.pdf) - [[PyTorch]](<https://github.com/biggzlar/plausible-uncertainties>)
 - Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>)
 - Fast Predictive Uncertainty for Classification with Bayesian Deep Networks [[UAI2022]](<https://arxiv.org/abs/2003.01227>) - [[PyTorch]](<https://github.com/mariushobbhahn/LB_for_BNNs_official>)
 - An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers [[BELIEF2022]](<https://arxiv.org/abs/2208.00647>)
 - Natural Posterior Network: Deep Bayesian Uncertainty for Exponential Family Distributions [[ICLR2022]](<https://arxiv.org/abs/2105.04471>) - [[PyTorch]](<https://github.com/borchero/natural-posterior-network>)
-- Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](<https://arxiv.org/abs/2112.09368>)
+- Improving Evidential Deep Learning via Multi-task Learning [[AAAI2022]](<https://arxiv.org/abs/2112.09368>) - [[PyTorch]](https://github.com/deargen/MT-ENet)
 - Trustworthy multimodal regression with mixture of normal-inverse gamma distributions [[NeurIPS2021]](<https://arxiv.org/abs/2111.08456>)
 - Misclassification Risk and Uncertainty Quantification in Deep Classifiers [[WACV2021]](<https://openaccess.thecvf.com/content/WACV2021/html/Sensoy_Misclassification_Risk_and_Uncertainty_Quantification_in_Deep_Classifiers_WACV_2021_paper.html>)
 - Evaluating robustness of predictive uncertainty estimation: Are Dirichlet-based models reliable? [[ICML2021]](<http://proceedings.mlr.press/v139/kopetzki21a/kopetzki21a.pdf>)
 - Posterior Network: Uncertainty Estimation without OOD Samples via Density-Based Pseudo-Counts  [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/0eac690d7059a8de4b48e90f14510391-Abstract.html>) - [[PyTorch]](<https://github.com/sharpenb/Posterior-Network>)
-- Being Bayesian about Categorical Probability [[ICML2020]](<http://proceedings.mlr.press/v119/joo20a/joo20a.pdf>)
+- Being Bayesian about Categorical Probability [[ICML2020]](<https://arxiv.org/abs/2002.07965>) - [[PyTorch]](<https://github.com/tjoo512/belief-matching-framework>)
 - Ensemble Distribution Distillation [[ICLR2020]](<https://arxiv.org/abs/1905.00076>)
 - Conservative Uncertainty Estimation By Fitting Prior Networks [[ICLR2020]](<https://openreview.net/forum?id=BJlahxHYDS>)
 - Noise Contrastive Priors for Functional Uncertainty [[UAI2020]](<https://proceedings.mlr.press/v115/hafner20a.html>)

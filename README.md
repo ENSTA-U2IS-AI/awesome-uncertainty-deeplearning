@@ -248,7 +248,7 @@ Table of Contents
 ## Data-augmentation/Generation-based-methods
 
 **Conference**
-
+- OpenMix: Exploring Outlier Samples for Misclassification Detection [[CVPR2023]](https://arxiv.org/abs/2303.17093) - [[PyTorch]](https://github.com/Impression2805/OpenMix)
 - On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
 - RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy & Out-of-Distribution Robustness [[NeurIPS2022]](https://arxiv.org/abs/2206.14502) - [[PyTorch]](https://github.com/francescopinto/regmixup)
@@ -373,6 +373,7 @@ Table of Contents
 
 - Calibrating Transformers via Sparse Gaussian Processes [[ICLR2023]](<https://arxiv.org/abs/2303.02444>) - [[PyTorch]](<https://github.com/chenw20/sgpa>)
 - Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>) - [[Python]](<https://github.com/aperezlebel/beyond_calibration>)
+- What Are Effective Labels for Augmented Data? Improving Calibration and Robustness with AutoLabel [[SaTML2023]](https://arxiv.org/abs/2302.11188)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - The Devil is in the Margin: Margin-based Label Smoothing for Network Calibration [[CVPR2022]](<https://arxiv.org/abs/2111.15430>) - [[PyTorch]](<https://github.com/by-liu/mbls>)
 - Calibrating Deep Neural Networks by Pairwise Constraints [[CVPR2022]](<https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Calibrating_Deep_Neural_Networks_by_Pairwise_Constraints_CVPR_2022_paper.html>)
@@ -573,8 +574,9 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 
 **Conference**
 
-- Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement [[TrustNLP2023]](https://aclanthology.org/2023.trustnlp-1.28/) - [[GitHub]](https://github.com/JHU-CLSP/Confidence-Estimation-TrustNLP2023)
 - R-U-SURE? Uncertainty-Aware Code Suggestions By Maximizing Utility Across Random User Intents [[ICML2023]](https://arxiv.org/pdf/2303.00732.pdf) - [[GitHub]](https://github.com/google-research/r_u_sure)
+- Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement [[TrustNLP2023]](https://aclanthology.org/2023.trustnlp-1.28/) - [[GitHub]](https://github.com/JHU-CLSP/Confidence-Estimation-TrustNLP2023)
+- Investigating Ensemble Methods for Model Robustness Improvement of Text Classifiers [[EMNLP2022 Findings]](https://arxiv.org/abs/2210.16298)
 - Calibrating Structured Output Predictors for Natural Language Processing [[ACL2020]](https://aclanthology.org/2020.acl-main.188/)
 - Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data [[EMNLP2020]](https://aclanthology.org/2020.emnlp-main.102/) - [[PyTorch]](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)
 

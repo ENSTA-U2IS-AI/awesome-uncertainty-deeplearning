@@ -29,8 +29,8 @@ Table of Contents
   - [Output-Space-Modeling/Evidential-deep-learning](#output-space-modelingevidential-deep-learning)
   - [Deterministic-Uncertainty-Methods](#deterministic-uncertainty-methods)
   - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
-  - [Calibration](#calibration)
   - [Conformal Predictions](#conformal-predictions)
+  - [Calibration/Evaluation-Metrics](#calibrationevaluation-metrics)
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
@@ -120,6 +120,7 @@ Table of Contents
 - Activation-level uncertainty in deep neural networks [[ICLR2021]](<https://openreview.net/forum?id=UvBPbpvHRj->)
 - On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks [[UAI2021]](<https://arxiv.org/abs/2102.11062>)
 - Learnable uncertainty under Laplace approximations [[UAI2021]](<https://proceedings.mlr.press/v161/kristiadi21a.html>)
+- Bayesian Neural Networks with Soft Evidence [[ICML Workshop2021]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
 - TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](<https://arxiv.org/abs/1912.11316>) - [[PyTorch]](<https://github.com/giannifranchi/TRADI_Tracking_DNN_weights>)
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[ICML2020]](<http://proceedings.mlr.press/v119/wenzel20a.html>)
 - Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](<http://proceedings.mlr.press/v80/teye18a.html>)
@@ -134,13 +135,12 @@ Table of Contents
 
 **Journal**
 
+- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[TPAMI2023]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
 - Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](<https://link.springer.com/article/10.1007%2FBF00126502>)
 
 **Arxiv**
 
 - Density Uncertainty Layers for Reliable Uncertainty Estimation [[arXiv2023]](<https://arxiv.org/abs/2306.12497>)
-- Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[arXiv2020]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
-- Bayesian Neural Networks with Soft Evidence [[arXiv2020]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
 
 ## Ensemble-Methods
 
@@ -370,7 +370,16 @@ Table of Contents
 - Interval Neural Networks: Uncertainty Scores [[arXiv2020]](<https://arxiv.org/abs/2003.11566>)
 - Tight Prediction Intervals Using Expanded Interval Minimization [[arXiv2018]](<https://arxiv.org/abs/1806.11222>)
 
-## Calibration
+## Conformal Predictions
+
+**Conference**
+
+- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
+- Uncertainty sets for image classifiers using conformal prediction [[ICLR2021]](https://arxiv.org/pdf/2009.14193.pdf) [[GitHub]](https://github.com/aangelopoulos/conformal_classification)
+- Conformal Prediction Under Covariate Shift [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html>)
+- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>)
+
+## Calibration/Evaluation-Metrics
 
 **Conference**
 
@@ -391,7 +400,9 @@ Table of Contents
 - Well-Calibrated Regression Uncertainty in Medical Imaging with Deep Learning [[MIDL2020]](<http://proceedings.mlr.press/v121/laves20a.html>) - [[PyTorch]](<https://github.com/mlaves/well-calibrated-regression-uncertainty>)
 - Calibrating Deep Neural Networks using Focal Loss [[NeurIPS2020]](<https://arxiv.org/abs/2002.09437>) - [[PyTorch]](<https://github.com/torrvision/focal_calibration>)
 - Stationary activations for uncertainty calibration in deep learning [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/18a411989b47ed75a60ac69d9da05aa5-Abstract.html>)
+- Revisiting the evaluation of uncertainty estimation and its application to explore model complexity-uncertainty trade-off [[CVPR Workshop2020]](<https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Ding_Revisiting_the_Evaluation_of_Uncertainty_Estimation_and_Its_Application_to_CVPRW_2020_paper.html>)
 - Evaluating Scalable Bayesian Deep Learning Methods for Robust Computer Vision [[CVPR Workshop2020]](<https://arxiv.org/abs/1906.01620>) - [[PyTorch]](<https://github.com/fregu856/evaluating_bdl>)
+- Bias-Reduced Uncertainty Estimation for Deep Neural Classifiers [[ICLR2019]](<https://arxiv.org/abs/1805.08206>)
 - Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration [[NeurIPS2019]](<https://arxiv.org/pdf/1910.12656.pdf>) - [[GitHub]](<https://github.com/dirichletcal>)
 - When does label smoothing help? [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/f1748d6b0fd9d439f71450117eba2725-Abstract.html>)
 - Verified Uncertainty Calibration [[NeurIPS2019]](<https://papers.NeurIPS.cc/paper/2019/hash/f8c0c968632845cd133308b1a494967f-Abstract.html>) - [[GitHub]](<https://github.com/p-lambda/verified_calibration>)
@@ -411,13 +422,6 @@ Table of Contents
 
 - Towards Understanding Label Smoothing [[arXiv2020]](<https://arxiv.org/abs/2006.11653>)
 - An Investigation of how Label Smoothing Affects Generalization [[arXiv2020]](<https://arxiv.org/abs/2010.12648>)
-
-## Conformal Predictions
-
-- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
-- Uncertainty sets for image classifiers using conformal prediction [[ICLR2021]](https://arxiv.org/pdf/2009.14193.pdf) [[GitHub]](https://github.com/aangelopoulos/conformal_classification)
-- Conformal Prediction Under Covariate Shift [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html>)
-- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>)
   
 ## Applications
 

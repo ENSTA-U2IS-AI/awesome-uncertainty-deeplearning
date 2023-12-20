@@ -60,7 +60,9 @@ Table of Contents
 
 **Journal**
 
-- A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective [[ACM 2021]](<https://dl.acm.org/doi/pdf/10.1145/3477140?casa_token=6fozCYTovlIAAAAA:t5vcjuXCMem1b8iFwaMG4o_YJHTe0wArLtoy9KCbL8Cow0aGEoxSiJans2Kzpm2FSKOg-4ZCDkBa>)
+- A survey of uncertainty in deep neural networks [[Artificial Intelligence Review 2023]](<https://arxiv.org/abs/2107.03342>) - [[GitHub]](<https://github.com/JakobCode/UncertaintyInNeuralNetworks_Resources>) 
+- Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation [[TMLR2023]](<https://arxiv.org/abs/2110.03051>)
+- A Survey on Uncertainty Estimation in Deep Learning Classification Systems from a Bayesian Perspective [[ACM2021]](<https://dl.acm.org/doi/pdf/10.1145/3477140?casa_token=6fozCYTovlIAAAAA:t5vcjuXCMem1b8iFwaMG4o_YJHTe0wArLtoy9KCbL8Cow0aGEoxSiJans2Kzpm2FSKOg-4ZCDkBa>)
 - Ensemble deep learning: A review [[Engineering Applications of AI 2021]](<https://arxiv.org/abs/2104.02395>)
 - A review of uncertainty quantification in deep learning: Techniques, applications and challenges [[Information Fusion 2021]](<https://www.sciencedirect.com/science/article/pii/S1566253521001081>)
 - Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods [[Machine Learning 2021]](<https://link.springer.com/article/10.1007/s10994-021-05946-3>)
@@ -71,8 +73,6 @@ Table of Contents
 
 - A System-Level View on Out-of-Distribution Data in Robotics [[arXiv2022]](<https://arxiv.org/abs/2212.14020>)
 - A Survey on Uncertainty Reasoning and Quantification for Decision Making: Belief Theory Meets Deep Learning [[arXiv2022]](<https://arxiv.org/abs/2206.05675>)
-- A survey of uncertainty in deep neural networks [[arXiv2021]](<https://arxiv.org/abs/2107.03342>) - [[GitHub]](<https://github.com/JakobCode/UncertaintyInNeuralNetworks_Resources>)
-- A Survey on Evidential Deep Learning For Single-Pass Uncertainty Estimation [[arXiv2021]](<https://arxiv.org/abs/2110.03051>)
 
 ## Theory
 
@@ -181,6 +181,7 @@ Table of Contents
 
 **Arxiv**
 
+- Split-Ensemble: Efficient OOD-aware Ensemble via Task and Model Splitting [[arXiv2023]](<https://arxiv.org/abs/2312.09148>)
 - Deep Ensemble as a Gaussian Process Approximate Posterior [[arXiv2022]](<https://arxiv.org/abs/2205.00163>)
 - Sequential Bayesian Neural Subnetwork Ensembles [[arXiv2022]](<https://arxiv.org/abs/2206.00794>)
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arXiv2022]](<https://arxiv.org/abs/2202.10903>) - [[TensorFlow]](<https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles>)
@@ -270,6 +271,7 @@ Table of Contents
 
 **Arxiv**
 
+- Reliability in Semantic Segmentation: Can We Use Synthetic Data? [[arXiv2023]](<https://arxiv.org/pdf/2312.09231.pdf>)
 - ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[arXiv2022]](<https://arxiv.org/abs/2211.11435>)
 - Quantifying uncertainty with GAN-based priors [[arXiv2019]](<https://openreview.net/forum?id=HyeAPeBFwS>) - [[TensorFlow]](https://github.com/dhruvpatel108/GANPriors)
 
@@ -323,8 +325,8 @@ Table of Contents
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)
 - Regression Prior Networks [[arXiv2020]](<https://arxiv.org/abs/2006.11590>)
 - A Variational Dirichlet Framework for Out-of-Distribution Detection [[arXiv2019]](<https://arxiv.org/abs/1811.07308>)
-- Uncertainty estimation in deep learning with application to spoken language assessment[[PhDThesis2019]](<https://www.repository.cam.ac.uk/handle/1810/298857>)
-- Inhibited softmax for uncertainty estimation in neural networks [[arXiv2018]](<https://arxiv.org/abs/1810.01861>).
+- Uncertainty estimation in deep learning with application to spoken language assessment [[PhDThesis2019]](<https://www.repository.cam.ac.uk/handle/1810/298857>)
+- Inhibited softmax for uncertainty estimation in neural networks [[arXiv2018]](<https://arxiv.org/abs/1810.01861>)
 - Quantifying Intrinsic Uncertainty in Classification via Deep Dirichlet Mixture Networks [[arXiv2018]](<https://arxiv.org/abs/1906.04450>)
 
 ## Deterministic-Uncertainty-Methods
@@ -377,12 +379,14 @@ Table of Contents
 
 ## Conformal Predictions
 
-**Conference**
+Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conformal-prediction>)
 
-- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
-- Uncertainty sets for image classifiers using conformal prediction [[ICLR2021]](https://arxiv.org/pdf/2009.14193.pdf) [[GitHub]](https://github.com/aangelopoulos/conformal_classification)
+<!-- **Conference**
+
+- Testing for Outliers with Conformal p-values  [[Ann. Statist. 2023]](<https://arxiv.org/abs/2104.08279>) - [[Python]](<https://github.com/msesia/conditional-conformal-pvalues>)
+- Uncertainty sets for image classifiers using conformal prediction [[ICLR2021]](https://arxiv.org/pdf/2009.14193.pdf) - [[GitHub]](https://github.com/aangelopoulos/conformal_classification)
 - Conformal Prediction Under Covariate Shift [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html>)
-- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>)
+- Conformalized Quantile Regression [[NeurIPS2019]](<https://proceedings.neurips.cc/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html>) -->
 
 ## Calibration/Evaluation-Metrics
 
@@ -465,8 +469,8 @@ Table of Contents
 
 **Conference**
 
-- Probabilistic MIMO U-Net: Efficient and Accurate Uncertainty Estimation for Pixel-wise Regression [[ICCV Workshop2023]](<https://arxiv.org/abs/2308.07477>) - [[PyTorch]](<https://github.com/antonbaumann/mimo-unet>)
 - Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation [[CVPR2023]](<https://arxiv.org/abs/2304.00152>) - [[PyTorch]](<https://github.com/lly00412/sednet>)
+- Probabilistic MIMO U-Net: Efficient and Accurate Uncertainty Estimation for Pixel-wise Regression [[ICCV Workshop2023]](<https://arxiv.org/abs/2308.07477>) - [[PyTorch]](<https://github.com/antonbaumann/mimo-unet>)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](<https://arxiv.org/abs/1910.04858v3>)
 - Learning Structured Gaussians to Approximate Deep Ensembles [[CVPR2022]](<https://arxiv.org/abs/2203.15485>)
 - Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression [[ECCV2022]](<https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf>)
@@ -490,6 +494,7 @@ Table of Contents
 
 **Journal**
 
+- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[TMLR2023]](<https://arxiv.org/abs/2302.03679>) - [[PyTorch]](<https://github.com/fregu856/regression_uncertainty>)
 - Evaluating and Calibrating Uncertainty Prediction in Regression Tasks [[Sensors2022]](<https://arxiv.org/abs/1905.11659>)
 - Exploring uncertainty in regression neural networks for construction of prediction intervals [[Neurocomputing2022]](<https://www.sciencedirect.com/science/article/abs/pii/S0925231222001102>)
 - Wasserstein Dropout [[Machine Learning 2022]](<https://arxiv.org/abs/2012.12687>) - [[PyTorch]](<https://github.com/fraunhofer-iais/second-moment-loss>)
@@ -500,7 +505,6 @@ Table of Contents
 **Arxiv**
 
 - Measuring and Modeling Uncertainty Degree for Monocular Depth Estimation [[arXiv2023]](<https://arxiv.org/abs/2307.09929>)
-- How Reliable is Your Regression Model's Uncertainty Under Real-World Distribution Shifts? [[arXiv2023]](<https://arxiv.org/abs/2302.03679>) - [[PyTorch]](<https://github.com/fregu856/regression_uncertainty>)
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomographaphy [[arXiv2022]](<https://arxiv.org/abs/2202.10847>)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](<https://arxiv.org/abs/2108.09676>)
 
@@ -584,6 +588,9 @@ Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTor
 - Confidence Estimation Using Unlabeled Data [[ICLR2023]](<https://openreview.net/pdf?id=sOXU-PEJSgQ>) - [[PyTorch]](<https://github.com/TopoXLab/consistency-ranking-loss>)
 
 ### Natural Language Processing
+
+Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.com/jxzhangjhu/Awesome-LLM-Uncertainty-Reliability-Robustness>)
+
 
 **Conference**
 

@@ -129,11 +129,11 @@ Table of Contents
 - Bayesian Neural Networks with Soft Evidence [[ICML Workshop2021]](<https://arxiv.org/abs/2010.09570>) - [[PyTorch]](<https://github.com/edwardyu/soft-evidence-bnn>)
 - TRADI: Tracking deep neural network weight distributions for uncertainty estimation [[ECCV2020]](<https://arxiv.org/abs/1912.11316>) - [[PyTorch]](<https://github.com/giannifranchi/TRADI_Tracking_DNN_weights>)
 - How Good is the Bayes Posterior in Deep Neural Networks Really? [[ICML2020]](<http://proceedings.mlr.press/v119/wenzel20a.html>)
-- Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2020]](<http://proceedings.mlr.press/v80/teye18a.html>)
 - Efficient and Scalable Bayesian Neural Nets with Rank-1 Factors [[ICML2020]](<http://proceedings.mlr.press/v119/dusenberry20a/dusenberry20a.pdf>) - [[TensorFlow]](<https://github.com/google/edward2>)
 - Being Bayesian, Even Just a Bit, Fixes Overconfidence in ReLU Networks [[ICML2020]](<http://proceedings.mlr.press/v119/kristiadi20a/kristiadi20a.pdf>) - [[PyTorch]](<https://github.com/AlexImmer/Laplace>)
 - Bayesian Deep Learning and a Probabilistic Perspective of Generalization [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/file/322f62469c5e3c7dc3e58f5a4d1ea399-Paper.pdf>)
 - A Simple Baseline for Bayesian Uncertainty in Deep Learning [[NeurIPS2019]](<https://arxiv.org/abs/1902.02476>) - [[PyTorch]](<https://github.com/wjmaddox/swa_gaussian>)
+- Bayesian Uncertainty Estimation for Batch Normalized Deep Networks [[ICML2018]](<http://proceedings.mlr.press/v80/teye18a.html>) - [TensorFlow](https://github.com/icml-mcbn/mcbn) - [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - Lightweight Probabilistic Deep Networks [[CVPR2018]](<https://github.com/ezjong/lightprobnets>) - [[PyTorch]](<https://github.com/ezjong/lightprobnets>)
 - A Scalable Laplace Approximation for Neural Networks [[ICLR2018]](<https://openreview.net/pdf?id=Skdvd2xAZ>) - [[Theano]](<https://github.com/BB-UCL/Lasagne>)
 - Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning [[ICML2018]](<http://proceedings.mlr.press/v80/depeweg18a.html>)
@@ -157,7 +157,7 @@ Table of Contents
 - Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](https://arxiv.org/abs/2303.08010) - [[PyTorch]](https://github.com/guoxoug/window-early-exit)
 - Weighted Ensemble Self-Supervised Learning [[ICLR2023]](<https://arxiv.org/pdf/2211.09981.pdf>)
 - Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](<https://arxiv.org/pdf/2202.04414.pdf>) - [[PyTorch]](<https://github.com/mpagli/Agree-to-Disagree>)
-- Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](<https://arxiv.org/abs/2210.09184>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
+- Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](<https://arxiv.org/abs/2210.09184>) - [[PyTorch/TorchUncertainty]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
 - Sub-Ensembles for Fast Uncertainty Estimation in Neural Networks [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/LXCV/papers/Valdenegro-Toro_Sub-Ensembles_for_Fast_Uncertainty_Estimation_in_Neural_Networks_ICCVW_2023_paper.pdf)
 - Prune and Tune Ensembles: Low-Cost Ensemble Learning With Sparse Independent Subnetworks [[AAAI2022]](<https://arxiv.org/abs/2202.11782>)
 - Deep Ensembles Work, But Are They Necessary? [[NeurIPS2022]](<https://arxiv.org/abs/2202.06985>)
@@ -177,7 +177,7 @@ Table of Contents
 - Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[ICCV2019]](<https://arxiv.org/abs/1903.11341>)
 - Accurate Uncertainty Estimation and Decomposition in Ensemble Learning [[NeurIPS2019]](<https://papers.nips.cc/paper/2019/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html>)
 - High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](<https://arxiv.org/abs/1802.07167>) - [[TensorFlow]](<https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals>)
-- Simple and scalable predictive uncertainty estimation using deep ensembles [[NeurIPS2017]](<https://arxiv.org/abs/1612.01474>)
+- Simple and scalable predictive uncertainty estimation using deep ensembles [[NeurIPS2017]](<https://arxiv.org/abs/1612.01474>) - [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty)
 
 **Journal**
 
@@ -201,7 +201,7 @@ Table of Contents
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](<https://arxiv.org/abs/1710.06677>)
 - Test-time data augmentation for estimation of heteroscedastic aleatoric uncertainty in deep neural networks [[MIDL2018]](<https://openreview.net/forum?id=rJZz-knjz>)
 - Concrete Dropout [[NeurIPS2017]](<https://arxiv.org/abs/1705.07832>)
-- Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](<https://arxiv.org/abs/1506.02142>)
+- Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning [[ICML2016]](<https://arxiv.org/abs/1506.02142>) - [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty)
 
 **Journal**
 
@@ -284,7 +284,7 @@ Table of Contents
 **Conference**
 
 - Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/DIDO>)
-- The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>)
+- The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>) - [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
 - Plausible Uncertainties for Human Pose Regression [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Bramlage_Plausible_Uncertainties_for_Human_Pose_Regression_ICCV_2023_paper.pdf) - [[PyTorch]](<https://github.com/biggzlar/plausible-uncertainties>)
 - Uncertainty Estimation by Fisher Information-based Evidential Deep Learning [[ICML2023]](https://arxiv.org/pdf/2303.02045.pdf) - [[PyTorch]](<https://github.com/danruod/iedl>)
@@ -420,7 +420,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Measuring Calibration in Deep Learning [[CVPR Workshop2019]](<https://arxiv.org/abs/1904.01685>)
 - Accurate Uncertainties for Deep Learning Using Calibrated Regression [[ICML2018]](<https://arxiv.org/abs/1807.00263>)
 - Generalized zero-shot learning with deep calibration network [[NeurIPS2018]](<https://proceedings.neurips.cc/paper/2018/hash/1587965fb4d4b5afe8428a4a024feb0d-Abstract.html>)
-- On calibration of modern neural networks [[ICML2017]](<https://arxiv.org/abs/1706.04599>)
+- On calibration of modern neural networks [[ICML2017]](<https://arxiv.org/abs/1706.04599>) - [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - On Fairness and Calibration [[NeurIPS2017]](<https://arxiv.org/abs/1709.02012>)
 - Obtaining Well Calibrated Probabilities Using Bayesian Binning [[AAAI2015]](<https://ojs.aaai.org/index.php/AAAI/article/view/9602/9461>)
 

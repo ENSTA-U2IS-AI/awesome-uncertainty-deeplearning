@@ -153,8 +153,9 @@ Table of Contents
 
 **Conference**
 
+- Bayesian Posterior Approximation With Stochastic Ensembles [[CVPR2023]](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10203042>)
 - Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](<https://arxiv.org/abs/2302.01312>)
-- Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](https://arxiv.org/abs/2303.08010) - [[PyTorch]](https://github.com/guoxoug/window-early-exit)
+- Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](<https://arxiv.org/abs/2303.08010>) - [[PyTorch]](<https://github.com/guoxoug/window-early-exit>)
 - Weighted Ensemble Self-Supervised Learning [[ICLR2023]](<https://arxiv.org/pdf/2211.09981.pdf>)
 - Agree to Disagree: Diversity through Disagreement for Better Transferability [[ICLR2023]](<https://arxiv.org/pdf/2202.04414.pdf>) - [[PyTorch]](<https://github.com/mpagli/Agree-to-Disagree>)
 - Packed-Ensembles for Efficient Uncertainty Estimation [[ICLR2023]](<https://arxiv.org/abs/2210.09184>) - [[PyTorch/TorchUncertainty]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
@@ -177,7 +178,7 @@ Table of Contents
 - Diversity with Cooperation: Ensemble Methods for Few-Shot Classification [[ICCV2019]](<https://arxiv.org/abs/1903.11341>)
 - Accurate Uncertainty Estimation and Decomposition in Ensemble Learning [[NeurIPS2019]](<https://papers.nips.cc/paper/2019/hash/1cc8a8ea51cd0adddf5dab504a285915-Abstract.html>)
 - High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach [[ICML2018]](<https://arxiv.org/abs/1802.07167>) - [[TensorFlow]](<https://github.com/TeaPearce/Deep_Learning_Prediction_Intervals>)
-- Simple and scalable predictive uncertainty estimation using deep ensembles [[NeurIPS2017]](<https://arxiv.org/abs/1612.01474>) - [[TorchUncertainty]](https://github.com/ENSTA-U2IS/torch-uncertainty)
+- Simple and scalable predictive uncertainty estimation using deep ensembles [[NeurIPS2017]](<https://arxiv.org/abs/1612.01474>) - [[TorchUncertainty]](<https://github.com/ENSTA-U2IS/torch-uncertainty>)
 
 **Journal**
 

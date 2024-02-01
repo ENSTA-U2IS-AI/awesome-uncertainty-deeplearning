@@ -153,6 +153,7 @@ Table of Contents
 
 **Conference**
 
+- Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization [[ICML2023]](<https://arxiv.org/pdf/2212.10445.pdf>)
 - Bayesian Posterior Approximation With Stochastic Ensembles [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/papers/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper.pdf>)
 - Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](<https://arxiv.org/abs/2302.01312>)
 - Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models [[ICCV2023]](<https://arxiv.org/abs/2303.08010>) - [[PyTorch]](<https://github.com/guoxoug/window-early-exit>)

@@ -71,6 +71,7 @@ Table of Contents
 
 **Arxiv**
 
+- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[ArXiv2024]](https://arxiv.org/pdf/2402.19460.pdf) - [[PyTorch]](https://github.com/bmucsanyi/bud/tree/main)
 - A System-Level View on Out-of-Distribution Data in Robotics [[arXiv2022]](<https://arxiv.org/abs/2212.14020>)
 - A Survey on Uncertainty Reasoning and Quantification for Decision Making: Belief Theory Meets Deep Learning [[arXiv2022]](<https://arxiv.org/abs/2206.05675>)
 
@@ -146,7 +147,6 @@ Table of Contents
 
 **Arxiv**
 
-- Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[arXiv2023]](<https://arxiv.org/abs/2312.15297>)
 - Density Uncertainty Layers for Reliable Uncertainty Estimation [[arXiv2023]](<https://arxiv.org/abs/2306.12497>)
 
 ## Ensemble-Methods
@@ -198,6 +198,7 @@ Table of Contents
 
 **Conference**
 
+- Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[arXiv2023]](<https://arxiv.org/abs/2312.15297>)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](<https://arxiv.org/abs/1910.04858v3>)
 - Efficient Bayesian Uncertainty Estimation for nnU-Net [[MICCAI2022]](<https://link.springer.com/chapter/10.1007/978-3-031-16452-1_51>)
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](<https://arxiv.org/abs/1710.06677>)

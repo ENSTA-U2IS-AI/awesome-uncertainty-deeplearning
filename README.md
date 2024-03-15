@@ -198,7 +198,7 @@ Table of Contents
 
 **Conference**
 
-- Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[arXiv2023]](<https://arxiv.org/abs/2312.15297>)
+- Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[CVPR2024]](<https://arxiv.org/abs/2312.15297>)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](<https://arxiv.org/abs/1910.04858v3>)
 - Efficient Bayesian Uncertainty Estimation for nnU-Net [[MICCAI2022]](<https://link.springer.com/chapter/10.1007/978-3-031-16452-1_51>)
 - Dropout Sampling for Robust Object Detection in Open-Set Conditions [[ICRA2018]](<https://arxiv.org/abs/1710.06677>)
@@ -261,6 +261,7 @@ Table of Contents
 - OpenMix: Exploring Outlier Samples for Misclassification Detection [[CVPR2023]](https://arxiv.org/abs/2303.17093) - [[PyTorch]](https://github.com/Impression2805/OpenMix)
 - On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
+- Out-of-distribution Detection with Implicit Outlier Transformation [[ICLR2023]](https://arxiv.org/abs/2303.05033) - [[PyTorch]](https://github.com/qizhouwang/doe)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](<https://arxiv.org/abs/2112.05135>)
 - RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy & Out-of-Distribution Robustness [[NeurIPS2022]](https://arxiv.org/abs/2206.14502) - [[PyTorch]](https://github.com/francescopinto/regmixup)
 - Towards efficient feature sharing in MIMO architectures [[CVPR Workshop2022]](<https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html>)
@@ -519,7 +520,9 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
 - NECO: NEural Collapse Based Out-of-distribution Detection [[ICLR2024]](<https://arxiv.org/abs/2310.06823>)
+- Anomaly Detection under Distribution Shift [[ICCV2023]](<https://arxiv.org/abs/2303.13845>) - [[PyTorch]](<https://github.com/mala-lab/ADShift>)
 - Normalizing Flows for Human Pose Anomaly Detection [[ICCV2023]](https://orhir.github.io/STG_NF/) - [[PyTorch]](https://github.com/orhir/stg-nf)
 - RbA: Segmenting Unknown Regions Rejected by All [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nayal_RbA_Segmenting_Unknown_Regions_Rejected_by_All_ICCV_2023_paper.pdf) - [[PyTorch]](https://github.com/NazirNayal8/RbA)
 - Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
@@ -666,6 +669,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 
 # Lectures and tutorials
 
+- Dan Hendrycks: Intro to ML Safety course [[Website]](<https://course.mlsafety.org/>)
 - Uncertainty and Robustness in Deep Learning Workshop in ICML (2020, 2021) [[SlidesLive]](<https://slideslive.com/icml-2020/icml-workshop-on-uncertainty-and-robustness-in-deep-learning-udl>)
 - Yarin Gal: Bayesian Deep Learning 101 [[Website]](<http://www.cs.ox.ac.uk/people/yarin.gal/website/bdl101/>)
 - MIT 6.S191: Evidential Deep Learning and Uncertainty (2021) [[Youtube]](<https://www.youtube.com/watch?v=toTcf7tZK8c>)

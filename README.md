@@ -31,6 +31,7 @@ Table of Contents
   - [Quantile-Regression/Predicted-Intervals](#quantile-regressionpredicted-intervals)
   - [Conformal Predictions](#conformal-predictions)
   - [Calibration/Evaluation-Metrics](#calibrationevaluation-metrics)
+  - [Misclassification Detection \& Selective Classification](#misclassification-detection--selective-classification)
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
@@ -116,6 +117,8 @@ Table of Contents
 
 **Conference**
 
+- Training Bayesian Neural Networks with Sparse Subspace Variational Inference [[ICLR2024]](https://arxiv.org/abs/2402.11025)
+- Variational Bayesian Last Layers [[ICLR2024]](https://arxiv.org/abs/2404.11599)
 - A Symmetry-Aware Exploration of Bayesian Neural Network Posteriors [[ICLR2024]](<https://arxiv.org/abs/2310.08287>)
 - Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning [[CVPR2023]](<https://arxiv.org/abs/2304.04824>)
 - Robustness to corruption in pre-trained Bayesian neural networks [[ICLR2023]](<https://arxiv.org/pdf/2206.12361.pdf>)
@@ -142,6 +145,7 @@ Table of Contents
 
 **Journal**
 
+- Analytically Tractable Hidden-States Inference in Bayesian Neural Networks [[JMLR2024]](https://jmlr.org/papers/v23/21-0758.html)
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[TPAMI2023]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
 - Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](<https://link.springer.com/article/10.1007%2FBF00126502>)
 
@@ -153,6 +157,9 @@ Table of Contents
 
 **Conference**
 
+- Input-gradient space particle inference for neural network ensembles [[ICLR2024]](https://arxiv.org/abs/2306.02775)
+- Fast Ensembling with Diffusion Schrödinger Bridge [[ICLR2024]](https://arxiv.org/abs/2404.15814)
+- Pathologies of Predictive Diversity in Deep Ensembles [[ICLR2024]](https://arxiv.org/abs/2302.00704)
 - Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization [[ICML2023]](<https://arxiv.org/pdf/2212.10445.pdf>)
 - Bayesian Posterior Approximation With Stochastic Ensembles [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/papers/Balabanov_Bayesian_Posterior_Approximation_With_Stochastic_Ensembles_CVPR_2023_paper.pdf>)
 - Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty Modeling [[AAAI2023]](<https://arxiv.org/abs/2302.01312>)
@@ -218,7 +225,7 @@ Table of Contents
 
 **Conference**
 
-- Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/DIDO>)
+- On the Limitations of Temperature Scaling for Distributions with Overlaps [[ICLR2024]](https://arxiv.org/abs/2306.00740)
 - Post-hoc Uncertainty Learning using a Dirichlet Meta-Model [[AAAI2023]](<https://arxiv.org/abs/2212.07359>) - [[PyTorch]](<https://github.com/maohaos2/PosthocUQ>)
 - ProbVLM: Probabilistic Adapter for Frozen Vision-Language Models [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/html/Upadhyay_ProbVLM_Probabilistic_Adapter_for_Frozen_Vison-Language_Models_ICCV_2023_paper.html)
 - Out-of-Distribution Detection for Monocular Depth Estimation [[ICCV2023]](<https://arxiv.org/abs/2308.06072>)
@@ -287,6 +294,7 @@ Table of Contents
 
 **Conference**
 
+- Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
 - Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/DIDO>)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>) - [[TorchUncertainty]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
@@ -400,6 +408,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Smooth ECE: Principled Reliability Diagrams via Kernel Smoothing [[ICLR2024]](https://arxiv.org/abs/2309.12236)
 - Calibrating Transformers via Sparse Gaussian Processes [[ICLR2023]](<https://arxiv.org/abs/2303.02444>) - [[PyTorch]](<https://github.com/chenw20/sgpa>)
 - Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>) - [[Python]](<https://github.com/aperezlebel/beyond_calibration>)
 - What Are Effective Labels for Augmented Data? Improving Calibration and Robustness with AutoLabel [[SaTML2023]](https://arxiv.org/abs/2302.11188)
@@ -439,6 +448,13 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Towards Understanding Label Smoothing [[arXiv2020]](<https://arxiv.org/abs/2006.11653>)
 - An Investigation of how Label Smoothing Affects Generalization [[arXiv2020]](<https://arxiv.org/abs/2010.12648>)
   
+## Misclassification Detection & Selective Classification
+
+- A Data-Driven Measure of Relative Uncertainty for Misclassification Detection [[ICLR2024]](https://arxiv.org/abs/2306.01710)
+- Plugin estimators for selective classification with out-of-distribution detection [[ICLR2024]](https://arxiv.org/abs/2301.12386)
+- Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
+- Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
+
 ## Applications
 
 ### Classification and Semantic-Segmentation
@@ -540,8 +556,6 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://arxiv.org/abs/2305.13849>)
 - Calibrated Out-of-Distribution Detection with a Generic Representation [[ICCV Workshop2023]](<https://arxiv.org/abs/2303.13148>) - [[PyTorch]](<https://github.com/vojirt/grood>)
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
-- Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
-- Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Towards Total Recall in Industrial Anomaly Detection [[CVPR2022]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
@@ -622,6 +636,11 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 - Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling [[arXiv2023]](https://arxiv.org/abs/2311.08718)
 
 ### Others
+
+**Conference**
+
+- Uncertainty Quantification via Stable Distribution Propagation [[ICLR2024]](https://arxiv.org/abs/2402.08324)
+- Assessing Uncertainty in Similarity Scoring: Performance & Fairness in Face Recognition [[ICLR2024]](https://arxiv.org/abs/2211.07245)
 
 **Arxiv**
 

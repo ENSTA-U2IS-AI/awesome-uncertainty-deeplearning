@@ -642,6 +642,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 
 **Conference**
 
+- PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness [[CVPR2024]](https://arxiv.org/pdf/2312.02158.pdf) - [[Website]](https://astra-vision.github.io/PaSCo/)
 - Uncertainty Quantification via Stable Distribution Propagation [[ICLR2024]](https://arxiv.org/abs/2402.08324)
 - Assessing Uncertainty in Similarity Scoring: Performance & Fairness in Face Recognition [[ICLR2024]](https://arxiv.org/abs/2211.07245)
 

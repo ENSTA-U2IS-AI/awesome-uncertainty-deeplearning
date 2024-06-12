@@ -190,7 +190,7 @@ Table of Contents
 
 **Journal**
 
-- One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
+- One Versus all for deep Neural Network for uncertainty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
 
 **Arxiv**
 
@@ -200,6 +200,7 @@ Table of Contents
 - Confident Neural Network Regression with Bootstrapped Deep Ensembles [[arXiv2022]](<https://arxiv.org/abs/2202.10903>) - [[TensorFlow]](<https://github.com/LaurensSluyterman/Bootstrapped_Deep_Ensembles>)
 - Dense Uncertainty Estimation via an Ensemble-based Conditional Latent Variable Model [[arXiv2021]](<https://arxiv.org/abs/2111.11055>)
 - Deep Ensembles: A Loss Landscape Perspective [[arXiv2019]](<https://arxiv.org/abs/1912.02757>)
+- Checkpoint ensembles: Ensemble methods from a single training process [[arXiv2017]](https://arxiv.org/abs/1710.03282)
 
 ## Sampling/Dropout-based-Methods
 

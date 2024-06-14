@@ -296,6 +296,7 @@ Table of Contents
 **Conference**
 
 - Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
+- The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution [[AAAI2024]](<https://ojs.aaai.org/index.php/AAAI/article/view/30172>)
 - Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS/DIDO>)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>) - [[TorchUncertainty]](https://github.com/ENSTA-U2IS/torch-uncertainty)
 - Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification [[CVPR2023]](https://arxiv.org/abs/2304.05165)
@@ -456,6 +457,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 - A Data-Driven Measure of Relative Uncertainty for Misclassification Detection [[ICLR2024]](https://arxiv.org/abs/2306.01710)
 - Plugin estimators for selective classification with out-of-distribution detection [[ICLR2024]](https://arxiv.org/abs/2301.12386)
+- SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 
@@ -540,8 +542,10 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
-- SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
+- Learning Transferable Negative Prompts for Out-of-Distribution Detection [[CVPR2024]](<https://arxiv.org/abs/2404.03248>) - [[PyTorch]](<https://github.com/mala-lab/negprompt>)
+- Epistemic Uncertainty Quantification For Pre-trained Neural Networks [[CVPR2024]](<https://arxiv.org/abs/2404.10124>)
 - NECO: NEural Collapse Based Out-of-distribution Detection [[ICLR2024]](<https://arxiv.org/abs/2310.06823>)
+- When and How Does In-Distribution Label Help Out-of-Distribution Detection? [[ICML2024]](<https://arxiv.org/abs/2405.18635>) - [[PyTorch]](<https://github.com/deeplearning-wisc/id_label>)
 - Anomaly Detection under Distribution Shift [[ICCV2023]](<https://arxiv.org/abs/2303.13845>) - [[PyTorch]](<https://github.com/mala-lab/ADShift>)
 - Normalizing Flows for Human Pose Anomaly Detection [[ICCV2023]](https://orhir.github.io/STG_NF/) - [[PyTorch]](https://github.com/orhir/stg-nf)
 - RbA: Segmenting Unknown Regions Rejected by All [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nayal_RbA_Segmenting_Unknown_Regions_Rejected_by_All_ICCV_2023_paper.pdf) - [[PyTorch]](https://github.com/NazirNayal8/RbA)
@@ -562,6 +566,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
 - Towards Total Recall in Industrial Anomaly Detection [[CVPR2022]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
+- POEM: Out-of-Distribution Detection with Posterior Sampling [[ICML2022]](<https://arxiv.org/abs/2206.13687>) - [[PyTorch]](<https://github.com/deeplearning-wisc/poem>)
 - VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
 - Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](<https://arxiv.org/abs/2110.02855>) - [[PyTorch]](<https://github.com/marco-rudolph/cs-flow>)
 - Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces [[CVPR2021]](<https://openaccess.thecvf.com/content/CVPR2021/html/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.html>) - [[PyTorch]](<https://github.com/zaeemzadeh/OOD>)
@@ -637,6 +642,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 
 **Arxiv**
 
+- To Believe or Not to Believe Your LLM [[arXiv2024]](<https://arxiv.org/abs/2406.02543>)
 - Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling [[arXiv2023]](https://arxiv.org/abs/2311.08718)
 
 ### Others

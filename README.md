@@ -206,6 +206,7 @@ Table of Contents
 
 **Conference**
 
+- Enabling Uncertainty Estimation in Iterative Neural Networks [[ICML2024]](<https://arxiv.org/pdf/2403.16732>) - [[Pytorch]](https://github.com/cvlab-epfl/iter_unc)
 - Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[CVPR2024]](<https://arxiv.org/abs/2312.15297>)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](<https://arxiv.org/abs/1910.04858v3>)
 - Efficient Bayesian Uncertainty Estimation for nnU-Net [[MICCAI2022]](<https://link.springer.com/chapter/10.1007/978-3-031-16452-1_51>)
@@ -367,6 +368,7 @@ Table of Contents
 
 **Journal**
 
+- ZigZag: Universal Sampling-free Uncertainty Estimation Through Two-Step Inference [[TMLR2024]](<https://arxiv.org/pdf/2211.11435>) - [[Pytorch]](https://github.com/cvlab-epfl/zigzag)
 - Density estimation in representation space [[EDSMLS2020]](<https://arxiv.org/abs/1908.07235>)
 
 **Arxiv**

@@ -7,7 +7,9 @@
 
 </div>
 
-This repo is a collection of *awesome* papers, codes, books, and blogs about Uncertainty and Deep learning. :star: Feel free to star and fork. :star:
+This repo is a collection of *awesome* papers, codes, books, and blogs about Uncertainty and Deep learning. 
+
+:star: Feel free to star and fork. :star:
 
 If you think we missed a paper, please open a pull request or send a message on the corresponding [GitHub discussion](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions). Tell us where the article was published and when, and send us GitHub and ArXiv links if they are available.
 

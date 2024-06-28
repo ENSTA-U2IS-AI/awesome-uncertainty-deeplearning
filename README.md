@@ -7,9 +7,9 @@
 
 </div>
 
-This repo is a collection of *awesome* papers, codes, books, and blogs about Uncertainty and Deep learning. Feel free to star and fork.
+This repo is a collection of *awesome* papers, codes, books, and blogs about Uncertainty and Deep learning. :star: Feel free to star and fork. :star:
 
-If you think that we miss a paper, please open a pull request or send a message on the corresponding [GitHub discussion](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions). Tell us where the article was published and when, and send us GitHub and ArXiv links if they are available.
+If you think we missed a paper, please open a pull request or send a message on the corresponding [GitHub discussion](https://github.com/ENSTA-U2IS/awesome-uncertainty-deeplearning/discussions). Tell us where the article was published and when, and send us GitHub and ArXiv links if they are available.
 
 We are also open to any ideas for improvements!
 
@@ -94,6 +94,7 @@ Table of Contents
 - Residual Pathway Priors for Soft Equivariance Constraints [[NeurIPS2021]](<https://arxiv.org/abs/2112.01388>)
 - Dangers of Bayesian Model Averaging under Covariate Shift [[NeurIPS2021]](<https://arxiv.org/abs/2106.11905>) - [[TensorFlow]](<https://github.com/izmailovpavel/bnn_covariate_shift>)
 - A Mathematical Analysis of Learning Loss for Active Learning in Regression [[CVPR Workshop2021]](<https://openaccess.thecvf.com/content/CVPR2021W/TCV/html/Shukla_A_Mathematical_Analysis_of_Learning_Loss_for_Active_Learning_in_CVPRW_2021_paper.html>)
+- Why Are Bootstrapped Deep Ensembles Not Better? [[NeurIPS Workshop]](<https://openreview.net/forum?id=dTCir0ceyv0>)
 - Deep Convolutional Networks as shallow Gaussian Processes [[ICLR2019]](<https://arxiv.org/abs/1808.05587>)
 - On the accuracy of influence functions for measuring group effects [[NeurIPS2018]](<https://proceedings.neurips.cc/paper/2019/hash/a78482ce76496fcf49085f2190e675b4-Abstract.html>)
 - To Trust Or Not To Trust A Classifier [[NeurIPS2018]](<https://arxiv.org/abs/1805.11783>) - [[Python]](<https://github.com/google/TrustScore>)
@@ -101,6 +102,7 @@ Table of Contents
 
 **Journal**
 
+- Martingale posterior distributions [[Royal Statistical Society Series B]](<https://arxiv.org/abs/2103.15671>)
 - A Unified Theory of Diversity in Ensemble Learning [[JMLR2023]](<https://jmlr.org/papers/volume24/23-0041/23-0041.pdf>)
 - Multivariate Uncertainty in Deep Learning [[TNNLS2021]](<https://arxiv.org/abs/1910.14215>)
 - A General Framework for Uncertainty Estimation in Deep Learning [[RAL2020]](<https://arxiv.org/abs/1907.06890>)
@@ -266,6 +268,7 @@ Table of Contents
 
 **Conference**
 
+- Posterior Uncertainty Quantification in Neural Networks using Data Augmentation [[AISTATS2024]](<https://arxiv.org/abs/2403.12729>)
 - Learning to Generate Training Datasets for Robust Semantic Segmentation [[WACV2024]](<https://arxiv.org/abs/2308.02535>)
 - OpenMix: Exploring Outlier Samples for Misclassification Detection [[CVPR2023]](https://arxiv.org/abs/2303.17093) - [[PyTorch]](https://github.com/Impression2805/OpenMix)
 - On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)

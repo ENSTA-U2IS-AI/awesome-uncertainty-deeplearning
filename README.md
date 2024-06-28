@@ -82,6 +82,7 @@ Table of Contents
 
 **Conference**
 
+- A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods [[NeurIPS2023]](<https://arxiv.org/pdf/2305.15027>)
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[ICLR2023]](<https://arxiv.org/pdf/2012.09816.pdf>)
 - Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[ICLR2023]](<https://arxiv.org/pdf/2210.03044.pdf>)
 - Probabilistic Contrastive Learning Recovers the Correct Aleatoric Uncertainty of Ambiguous Inputs [[ICML2023]](https://arxiv.org/pdf/2302.02865.pdf) - [[PyTorch]](https://github.com/mkirchhof/Probabilistic_Contrastive_Learning)

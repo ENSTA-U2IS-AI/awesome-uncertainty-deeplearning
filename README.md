@@ -357,7 +357,7 @@ Table of Contents
 ## Deterministic-Uncertainty-Methods
 
 **Conference**
-
+- A Rate-Distortion View of Uncertainty Quantification [[ICML2024]](https://arxiv.org/abs/2406.10775) - [[Tensorflow]](https://github.com/ifiaposto/Distance_Aware_Bottleneck)
 - Deep Deterministic Uncertainty: A Simple Baseline [[CVPR2023]](<https://arxiv.org/abs/2102.11582>) - [[PyTorch]](<https://github.com/omegafragger/DDU>)
 - Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://openaccess.thecvf.com/content/ICCV2023W/UnCV/papers/Venkataramanan_Gaussian_Latent_Representations_for_Uncertainty_Estimation_Using_Mahalanobis_Distance_in_ICCVW_2023_paper.pdf>) - [[PyTorch]](<https://github.com/vaishwarya96/MAPLE-uncertainty-estimation>)
 - A Simple and Explainable Method for Uncertainty Estimation using Attribute Prototype Networks [[ICCV Workshop2023]](<https://openaccess.thecvf.com/content/ICCV2023W/UnCV/papers/Zelenka_A_Simple_and_Explainable_Method_for_Uncertainty_Estimation_Using_Attribute_ICCVW_2023_paper.pdf>)

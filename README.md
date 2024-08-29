@@ -611,9 +611,9 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
-- Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection [[CVPR2023]](<https://arxiv.org/pdf/2303.14404.pdf>)
+- Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection [[CVPR2023]](<https://arxiv.org/pdf/2303.14404.pdf>) - [[PyTorch]](<https://github.com/akhtarvision/bpc_calibration?tab=readme-ov-file>)
 - Parametric and Multivariate Uncertainty Calibration for Regression and Object Detection [[ECCV Workshop2022]](<https://arxiv.org/abs/2207.01242>) - [[PyTorch]](<https://github.com/EFS-OpenSource/calibration-framework>)
-- Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors [[ICLR2021]](<https://openreview.net/forum?id=YLewtnvKgR7>)
+- Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors [[ICLR2021]](<https://openreview.net/forum?id=YLewtnvKgR7>) - [[PyTorch]](<https://github.com/asharakeh/probdet?tab=readme-ov-file>)
 - Multivariate Confidence Calibration for Object Detection [[CVPR Workshop2020]](<https://arxiv.org/abs/2004.13546>) - [[PyTorch]](<https://github.com/EFS-OpenSource/calibration-framework>)
 - Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving [[ICCV2019]](<https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Gaussian_YOLOv3_An_Accurate_and_Fast_Object_Detector_Using_Localization_ICCV_2019_paper.pdf>) - [[CUDA]](<https://github.com/jwchoi384/Gaussian_YOLOv3>) - [[PyTorch]](<https://github.com/motokimura/PyTorch_Gaussian_YOLOv3>) - [[Keras]](<https://github.com/xuannianz/keras-GaussianYOLOv3>)
 

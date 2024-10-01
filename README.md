@@ -596,7 +596,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Journal**
 
-- Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2023]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
+- Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2024]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
 
 **Arxiv**

@@ -431,6 +431,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Diagnostic Uncertainty Calibration: Towards Reliable Machine Predictions in Medical Domain [[AIStats2021]](https://arxiv.org/pdf/2007.01659)
 - Rethinking Calibration of Deep Neural Networks: Do Not Be Afraid of Overconfidence [[NeurIPS2021]](<https://proceedings.neurips.cc/paper/2021/hash/61f3a6dbc9120ea78ef75544826c814e-Abstract.html>)
 - Beyond Pinball Loss: Quantile Methods for Calibrated Uncertainty Quantification [[NeurIPS2021]](<https://arxiv.org/abs/2011.09588>)
+- Soft Calibration Objectives for Neural Networks [[NeurIPS2021]](<https://proceedings.neurips.cc/paper_files/paper/2021/file/f8905bd3df64ace64a68e154ba72f24c-Paper.pdf>) - [[TensorFlow]](<https://github.com/google/uncertainty-baselines/tree/main/experimental/caltrain>)
 - Confidence-Aware Learning for Deep Neural Networks [[ICML2020]](<https://arxiv.org/abs/2007.01458>) - [[PyTorch]](<https://github.com/daintlab/confidence-aware-learning>)
 - Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](<http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf>)
 - Regularization via structural label smoothing [[ICML2020]](<https://proceedings.mlr.press/v108/li20e.html>)

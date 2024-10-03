@@ -471,6 +471,14 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 
+## Uncertainty sources & Aleatoric and Epistemic Uncertainty Disentenglement
+
+**ArXiv**
+
+- Sources of Uncertainty in Machine Learning - A Statisticians’ View [[ArXiv2024]](<https://arxiv.org/pdf/2305.16703>)
+- How disentangled are your classification uncertainties? [[ArXiv2024](<https://arxiv.org/abs/2408.12175>)
+- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[ArXiv2024](<https://arxiv.org/abs/2402.19460>) - [[PyTorch]](<https://github.com/bmucsanyi/bud>)
+
 ## Applications
 
 ### Classification and Semantic-Segmentation

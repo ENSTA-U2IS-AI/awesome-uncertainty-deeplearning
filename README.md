@@ -59,6 +59,7 @@ Table of Contents
 
 **Conference**
 
+- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[NeurIPS2024](<https://arxiv.org/abs/2402.19460>) - [[PyTorch]](<https://github.com/bmucsanyi/untangle>)
 - A Comparison of Uncertainty Estimation Approaches in Deep Learning Components for Autonomous Vehicle Applications [[AISafety Workshop 2020]](<https://arxiv.org/abs/2006.15172>)
 
 **Journal**
@@ -74,7 +75,6 @@ Table of Contents
 
 **Arxiv**
 
-- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[ArXiv2024]](<https://arxiv.org/pdf/2402.19460.pdf>) - [[PyTorch]](<https://github.com/bmucsanyi/bud>)
 - A System-Level View on Out-of-Distribution Data in Robotics [[arXiv2022]](<https://arxiv.org/abs/2212.14020>)
 - A Survey on Uncertainty Reasoning and Quantification for Decision Making: Belief Theory Meets Deep Learning [[arXiv2022]](<https://arxiv.org/abs/2206.05675>)
 
@@ -125,6 +125,7 @@ Table of Contents
 - Training Bayesian Neural Networks with Sparse Subspace Variational Inference [[ICLR2024]](<https://arxiv.org/abs/2402.11025>)
 - Variational Bayesian Last Layers [[ICLR2024]](https://arxiv.org/abs/2404.11599)
 - A Symmetry-Aware Exploration of Bayesian Neural Network Posteriors [[ICLR2024]](<https://arxiv.org/abs/2310.08287>)
+- Uncertainty-aware Unsupervised Video Hashing [[AISTATS2023]](<https://proceedings.mlr.press/v206/wang23i.html>) - [[PyTorch]](<https://github.com/wangyucheng1234/BerVAE>)
 - Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning [[CVPR2023]](<https://arxiv.org/abs/2304.04824>)
 - Robustness to corruption in pre-trained Bayesian neural networks [[ICLR2023]](<https://arxiv.org/pdf/2206.12361.pdf>)
 - Beyond Deep Ensembles: A Large-Scale Evaluation of Bayesian Deep Learning under Distribution Shift [[NeurIPS2023]](<https://arxiv.org/abs/2306.12306>) - [[PyTorch]](<https://github.com/Feuermagier/Beyond_Deep_Ensembles>)
@@ -150,7 +151,8 @@ Table of Contents
 
 **Journal**
 
-- Analytically Tractable Hidden-States Inference in Bayesian Neural Networks [[JMLR2024]](https://jmlr.org/papers/v23/21-0758.html)
+- Hashing with Uncertainty Quantification via Sampling-based Hypothesis Testing [[TMLR2024]](<https://openreview.net/forum?id=cc4v6v310f>) - [[PyTorch]](<https://github.com/QianLab/HashUQ>)
+- Analytically Tractable Hidden-States Inference in Bayesian Neural Networks [[JMLR2024]](<https://jmlr.org/papers/v23/21-0758.html>)
 - Encoding the latent posterior of Bayesian Neural Networks for uncertainty quantification [[TPAMI2023]](<https://arxiv.org/abs/2012.02818>) - [[PyTorch]](<https://github.com/giannifranchi/LP_BNN>)
 - Bayesian modeling of uncertainty in low-level vision [[IJCV1990]](<https://link.springer.com/article/10.1007%2FBF00126502>)
 
@@ -183,7 +185,7 @@ Table of Contents
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](<https://arxiv.org/abs/2006.10562>) - [[PyTorch]](<https://github.com/yandex-research/GBDT-uncertainty>)
 - Uncertainty Quantification and Deep Ensembles [[NeurIPS2021]](<https://openreview.net/forum?id=wg_kD_nyAF>)
 - Maximizing Overall Diversity for Improved Uncertainty Estimates in Deep Ensembles [[AAAI2020]](<https://ojs.aaai.org/index.php/AAAI/article/view/5849>)
-- Uncertainty in Neural Networks: Approximately Bayesian Ensembling [[AISTATS 2020]](<https://arxiv.org/abs/1810.05546>)
+- Uncertainty in Neural Networks: Approximately Bayesian Ensembling [[AISTATS2020]](<https://arxiv.org/abs/1810.05546>)
 - Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning [[ICLR2020]](<https://arxiv.org/abs/2002.06470>) - [[PyTorch]](<https://github.com/SamsungLabs/pytorch-ensembles>)
 - BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning [[ICLR2020]](<https://arxiv.org/abs/2002.06715>) - [[TensorFlow]](<https://github.com/google/edward2>) - [[TorchUncertainty]](<https://github.com/ENSTA-U2IS-AI/torch-uncertainty>)
 - Hyperparameter Ensembles for Robustness and Uncertainty Quantification [[NeurIPS2020]](<https://proceedings.neurips.cc/paper/2020/hash/481fbfa59da2581098e841b7afc122f1-Abstract.html>)
@@ -302,6 +304,7 @@ Table of Contents
 
 **Conference**
 
+- Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection [[NeurIPS2024]](<https://openreview.net/forum?id=Te8vI2wGTh&referrer=%5Bthe%20profile%20of%20Yufei%20Chen%5D(%2Fprofile%3Fid%3D~Yufei_Chen1)>)
 - Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
 - The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution [[AAAI2024]](<https://ojs.aaai.org/index.php/AAAI/article/view/30172>)
 - Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS-AI/DIDO>)
@@ -473,11 +476,14 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 ## Uncertainty sources & Aleatoric and Epistemic Uncertainty Disentenglement
 
+**Conference**
+
+- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[NeurIPS2024](<https://arxiv.org/abs/2402.19460>) - [[PyTorch]](<https://github.com/bmucsanyi/untangle>)
+
 **ArXiv**
 
 - Sources of Uncertainty in Machine Learning - A Statisticians’ View [[ArXiv2024]](<https://arxiv.org/pdf/2305.16703>)
 - How disentangled are your classification uncertainties? [[ArXiv2024](<https://arxiv.org/abs/2408.12175>)
-- Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks [[ArXiv2024](<https://arxiv.org/abs/2402.19460>) - [[PyTorch]](<https://github.com/bmucsanyi/bud>)
 
 ## Applications
 
@@ -605,6 +611,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Journal**
 
+- Generalized out-of-distribution detection: A survey [[IJCV2024]](<https://arxiv.org/abs/2110.11334>)
 - Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2024]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
 
@@ -612,7 +619,6 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 - Neuron Activation Coverage: Rethinking Out-of-distribution Detection and Generalization [[arXiv2023]](<https://arxiv.org/abs/2306.02879>) - [[PyTorch]](<https://github.com/bierone/ood_coverage>)
 - A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
-- Generalized out-of-distribution detection: A survey [[arXiv2021]](<https://arxiv.org/abs/2110.11334>)
 - Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
 - Frequentist uncertainty estimates for deep learning [[arXiv2018]](<http://bayesiandeeplearning.org/2018/papers/31.pdf>)
 

@@ -163,7 +163,7 @@ Table of Contents
 ## Ensemble-Methods
 
 **Conference**
-
+- Divergent Ensemble Networks: Enhancing Uncertainty Estimation with Shared Representations and Independent Branching [[ICJI2024]](https://arxiv.org/abs/2412.01193)
 - Input-gradient space particle inference for neural network ensembles [[ICLR2024]](<https://arxiv.org/abs/2306.02775>)
 - Fast Ensembling with Diffusion Schrödinger Bridge [[ICLR2024]](<https://arxiv.org/abs/2404.15814>)
 - Pathologies of Predictive Diversity in Deep Ensembles [[ICLR2024]](<https://arxiv.org/abs/2302.00704>)

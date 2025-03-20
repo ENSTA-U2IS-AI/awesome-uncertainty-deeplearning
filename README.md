@@ -567,6 +567,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Combining Statistical Depth and Fermat Distance for Uncertainty Quantification [[NeurIPS2024]](https://openreview.net/pdf?id=xeXRhTUmcf) - [[PyTorch]](https://github.com/HaiVyNGUYEN/ld_official)
 - Learning Transferable Negative Prompts for Out-of-Distribution Detection [[CVPR2024]](<https://arxiv.org/abs/2404.03248>) - [[PyTorch]](<https://github.com/mala-lab/negprompt>)
 - Epistemic Uncertainty Quantification For Pre-trained Neural Networks [[CVPR2024]](<https://arxiv.org/abs/2404.10124>)
 - NECO: NEural Collapse Based Out-of-distribution Detection [[ICLR2024]](<https://arxiv.org/abs/2310.06823>)

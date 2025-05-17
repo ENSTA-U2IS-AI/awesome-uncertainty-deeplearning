@@ -467,12 +467,18 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
   
 ## Misclassification Detection & Selective Classification
 
+**Conference**
+
 - A Data-Driven Measure of Relative Uncertainty for Misclassification Detection [[ICLR2024]](https://arxiv.org/abs/2306.01710)
 - Plugin estimators for selective classification with out-of-distribution detection [[ICLR2024]](https://arxiv.org/abs/2301.12386)
 - SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
+
+**ArXiv**
+
+- Similarity-Distance-Magnitude Universal Verification [[arXiv2025]](<https://arxiv.org/abs/2502.20167>) - [[Python]](<https://github.com/ReexpressAI/sdm>)
 
 ## Uncertainty sources & Aleatoric and Epistemic Uncertainty Disentenglement
 

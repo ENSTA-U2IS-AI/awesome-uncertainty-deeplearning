@@ -125,6 +125,7 @@ Table of Contents
 - Training Bayesian Neural Networks with Sparse Subspace Variational Inference [[ICLR2024]](<https://arxiv.org/abs/2402.11025>)
 - Variational Bayesian Last Layers [[ICLR2024]](https://arxiv.org/abs/2404.11599)
 - A Symmetry-Aware Exploration of Bayesian Neural Network Posteriors [[ICLR2024]](<https://arxiv.org/abs/2310.08287>)
+- Beyond Unimodal: Generalising Neural Processes for Multimodal Uncertainty Estimation [[NeurIPS2023]](<https://arxiv.org/abs/2304.01518>)
 - Uncertainty-aware Unsupervised Video Hashing [[AISTATS2023]](<https://proceedings.mlr.press/v206/wang23i.html>) - [[PyTorch]](<https://github.com/wangyucheng1234/BerVAE>)
 - Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning [[CVPR2023]](<https://arxiv.org/abs/2304.04824>)
 - Robustness to corruption in pre-trained Bayesian neural networks [[ICLR2023]](<https://arxiv.org/pdf/2206.12361.pdf>)
@@ -306,6 +307,7 @@ Table of Contents
 
 - Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection [[NeurIPS2024]](<https://openreview.net/forum?id=Te8vI2wGTh&referrer=%5Bthe%20profile%20of%20Yufei%20Chen%5D(%2Fprofile%3Fid%3D~Yufei_Chen1)>)
 - Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
+- Reliable conflictive multi-view learning [[AAAI2024]](<https://arxiv.org/abs/2402.16897>) - [[Pytorch]](<https://github.com/jiajunsi/RCML>)
 - The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution [[AAAI2024]](<https://ojs.aaai.org/index.php/AAAI/article/view/30172>)
 - Discretization-Induced Dirichlet Posterior for Robust Uncertainty Quantification on Regression [[AAAI2024]](<https://arxiv.org/abs/2308.09065>) - [[PyTorch]](<https://github.com/ENSTA-U2IS-AI/DIDO>)
 - The Unreasonable Effectiveness of Deep Evidential Regression [[AAAI2023]](<https://arxiv.org/abs/2205.10060>) - [[PyTorch]](<https://github.com/pasteurlabs/unreasonable_effective_der>) - [[TorchUncertainty]](https://github.com/ENSTA-U2IS-AI/torch-uncertainty)
@@ -339,6 +341,7 @@ Table of Contents
 
 **Journal**
 
+- Multimodal Learning with Uncertainty Quantification based on Discounted Belief Fusion [[PMLR2025]](<https://arxiv.org/abs/2412.18024>)
 - Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation [[TMLR2023]](<https://arxiv.org/abs/2110.03051>)
 - Region-Based Evidential Deep Learning to Quantify Uncertainty and Improve Robustness of Brain Tumor Segmentation [[NCA2022]](<http://arxiv.org/abs/2208.06038>)
 - An evidential classifier based on Dempster-Shafer theory and deep learning [[Neurocomputing2021]](<https://www.sciencedirect.com/science/article/pii/S0925231221004525>) - [[TensorFlow]](<https://github.com/tongzheng1992/E-CNN-classifier>)
@@ -348,6 +351,7 @@ Table of Contents
 
 **Arxiv**
 
+- Deep evidential fusion with uncertainty quantification and contextual discounting for multimodal medical image segmentation [[arXiv2023]](<https://arxiv.org/abs/2309.05919>)
 - Evidential Uncertainty Quantification: A Variance-Based Perspective [[arXiv2023]](<https://arxiv.org/pdf/2311.11367.pdf>)
 - Effective Uncertainty Estimation with Evidential Models for Open-World Recognition [[arXiv2022]](<https://openreview.net/pdf?id=NrB52z3eOTY>)
 - Multivariate Deep Evidential Regression [[arXiv2022]](<https://arxiv.org/abs/2104.06135>)

@@ -305,6 +305,7 @@ Table of Contents
 
 **Conference**
 
+- Multimodal Learning with Uncertainty Quantification based on Discounted Belief Fusion [[AISTATS2025]](<https://arxiv.org/abs/2412.18024>)
 - Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection [[NeurIPS2024]](<https://openreview.net/forum?id=Te8vI2wGTh&referrer=%5Bthe%20profile%20of%20Yufei%20Chen%5D(%2Fprofile%3Fid%3D~Yufei_Chen1)>)
 - Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
 - Reliable conflictive multi-view learning [[AAAI2024]](<https://arxiv.org/abs/2402.16897>) - [[Pytorch]](<https://github.com/jiajunsi/RCML>)
@@ -341,7 +342,6 @@ Table of Contents
 
 **Journal**
 
-- Multimodal Learning with Uncertainty Quantification based on Discounted Belief Fusion [[PMLR2025]](<https://arxiv.org/abs/2412.18024>)
 - Prior and Posterior Networks: A Survey on Evidential Deep Learning Methods For Uncertainty Estimation [[TMLR2023]](<https://arxiv.org/abs/2110.03051>)
 - Region-Based Evidential Deep Learning to Quantify Uncertainty and Improve Robustness of Brain Tumor Segmentation [[NCA2022]](<http://arxiv.org/abs/2208.06038>)
 - An evidential classifier based on Dempster-Shafer theory and deep learning [[Neurocomputing2021]](<https://www.sciencedirect.com/science/article/pii/S0925231221004525>) - [[TensorFlow]](<https://github.com/tongzheng1992/E-CNN-classifier>)

@@ -34,13 +34,16 @@ Table of Contents
   - [Conformal Predictions](#conformal-predictions)
   - [Calibration/Evaluation-Metrics](#calibrationevaluation-metrics)
   - [Misclassification Detection \& Selective Classification](#misclassification-detection--selective-classification)
+  - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
+  - [Uncertainty sources & Aleatoric and Epistemic Uncertainty Disentenglement](#uncertainty-sources--aleatoric-and-epistemic-uncertainty-disentenglement)
+  - [Uncertainty Quantification in Multimodal Models / GenAI](#uncertainty-quantification-in-multimodal-models--genai)
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
     - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
     - [Object detection](#object-detection)
     - [Domain adaptation](#domain-adaptation)
-    - [Semi-supervised](#semi-supervised)
+    - [Semi-supervised and Active Learning](#semi-supervised-and-active-learning)
     - [Natural Language Processing](#natural-language-processing)
     - [Others](#others)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
@@ -215,6 +218,7 @@ Table of Contents
 
 **Conference**
 
+- Rate-In: Information-Driven Adaptive Dropout Rates for Improved Inference-Time Uncertainty Estimation [[CVPR2025]](<https://arxiv.org/abs/2412.07169>) - [[PyTorch]](<https://github.com/code-supplement-25/rate-in>)
 - Enabling Uncertainty Estimation in Iterative Neural Networks [[ICML2024]](<https://arxiv.org/pdf/2403.16732>) - [[Pytorch]](<https://github.com/cvlab-epfl/iter_unc>)
 - Make Me a BNN: A Simple Strategy for Estimating Bayesian Uncertainty from Pre-trained Models [[CVPR2024]](<https://arxiv.org/abs/2312.15297>) - [[TorchUncertainty]](<https://github.com/ENSTA-U2IS-AI/torch-uncertainty>)
 - Training-Free Uncertainty Estimation for Dense Regression: Sensitivity as a Surrogate [[AAAI2022]](<https://arxiv.org/abs/1910.04858v3>)
@@ -303,10 +307,13 @@ Table of Contents
 
 ## Output-Space-Modeling/Evidential-deep-learning
 
+Awesome Evidential Deep Learning [[GitHub]](<https://github.com/MengyuanChen21/Awesome-Evidential-Deep-Learning>)
+
 **Conference**
 
 - Multimodal Learning with Uncertainty Quantification based on Discounted Belief Fusion [[AISTATS2025]](<https://arxiv.org/abs/2412.18024>)
 - Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection [[NeurIPS2024]](<https://openreview.net/forum?id=Te8vI2wGTh&referrer=%5Bthe%20profile%20of%20Yufei%20Chen%5D(%2Fprofile%3Fid%3D~Yufei_Chen1)>)
+- R-EDL: Relaxing Nonessential Settings of Evidential Deep Learning [[ICLR2024]](<https://openreview.net/forum?id=Si3YFA641c>) - [[PyTorch]](<https://github.com/MengyuanChen21/ICLR2024-REDL/tree/main>)
 - Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty [[ICLR2024]](https://arxiv.org/abs/2404.10980)
 - Reliable conflictive multi-view learning [[AAAI2024]](<https://arxiv.org/abs/2402.16897>) - [[Pytorch]](<https://github.com/jiajunsi/RCML>)
 - The Evidence Contraction Issue in Deep Evidential Regression: Discussion and Solution [[AAAI2024]](<https://ojs.aaai.org/index.php/AAAI/article/view/30172>)
@@ -425,6 +432,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Uncertainty Weighted Gradients for Model Calibration [[CVPR2025]](<https://www.arxiv.org/abs/2503.22725>)
 - Smooth ECE: Principled Reliability Diagrams via Kernel Smoothing [[ICLR2024]](<https://arxiv.org/abs/2309.12236>)
 - Calibrating Transformers via Sparse Gaussian Processes [[ICLR2023]](<https://arxiv.org/abs/2303.02444>) - [[PyTorch]](<https://github.com/chenw20/sgpa>)
 - Beyond calibration: estimating the grouping loss of modern neural networks [[ICLR2023]](<https://openreview.net/pdf?id=6w1k-IixnL8>) - [[Python]](<https://github.com/aperezlebel/beyond_calibration>)
@@ -484,6 +492,67 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 - Similarity-Distance-Magnitude Universal Verification [[arXiv2025]](<https://arxiv.org/abs/2502.20167>) - [[Python]](<https://github.com/ReexpressAI/sdm>)
 
+## Anomaly-detection and Out-of-Distribution-Detection
+
+**Conference**
+
+- Dual Energy-Based Model with Open-World Uncertainty Estimation for Out-of-distribution Detection [[CVPR2025]](<https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Dual_Energy-Based_Model_with_Open-World_Uncertainty_Estimation_for_Out-of-distribution_Detection_CVPR_2025_paper.html>)
+- Combining Statistical Depth and Fermat Distance for Uncertainty Quantification [[NeurIPS2024]](https://openreview.net/pdf?id=xeXRhTUmcf) - [[PyTorch]](https://github.com/HaiVyNGUYEN/ld_official)
+- Learning Transferable Negative Prompts for Out-of-Distribution Detection [[CVPR2024]](<https://arxiv.org/abs/2404.03248>) - [[PyTorch]](<https://github.com/mala-lab/negprompt>)
+- Epistemic Uncertainty Quantification For Pre-trained Neural Networks [[CVPR2024]](<https://arxiv.org/abs/2404.10124>)
+- NECO: NEural Collapse Based Out-of-distribution Detection [[ICLR2024]](<https://arxiv.org/abs/2310.06823>)
+- When and How Does In-Distribution Label Help Out-of-Distribution Detection? [[ICML2024]](<https://arxiv.org/abs/2405.18635>) - [[PyTorch]](<https://github.com/deeplearning-wisc/id_label>)
+- Anomaly Detection under Distribution Shift [[ICCV2023]](<https://arxiv.org/abs/2303.13845>) - [[PyTorch]](<https://github.com/mala-lab/ADShift>)
+- Normalizing Flows for Human Pose Anomaly Detection [[ICCV2023]](https://orhir.github.io/STG_NF/) - [[PyTorch]](https://github.com/orhir/stg-nf)
+- RbA: Segmenting Unknown Regions Rejected by All [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nayal_RbA_Segmenting_Unknown_Regions_Rejected_by_All_ICCV_2023_paper.pdf) - [[PyTorch]](https://github.com/NazirNayal8/RbA)
+- Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
+- Modeling the Distributional Uncertainty for Salient Object Detection Models [[CVPR2023]](https://npucvr.github.io/Distributional_uncer/) - [[PyTorch]](https://github.com/txynwpu/Distributional_uncertainty_SOD)
+- SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)
+- How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](<https://github.com/deeplearning-wisc/cider>)
+- Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](<https://arxiv.org/pdf/2206.07837.pdf>)
+- Can CNNs Be More Robust Than Transformers? [[ICLR2023]](<https://arxiv.org/pdf/2206.03452.pdf>)
+- A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](<https://arxiv.org/pdf/2302.11893.pdf>)
+- Extremely Simple Activation Shaping for Out-of-Distribution Detection [[ICLR2023]](<https://arxiv.org/abs/2209.09858>) - [[PyTorch]](<https://github.com/andrijazz/ash>)
+- Quantification of Uncertainty with Adversarial Models [[NeurIPS2023]](<https://arxiv.org/abs/2307.03217>)
+- The Robust Semantic Segmentation UNCV2023 Challenge Results [[ICCV Workshop2023]](https://arxiv.org/abs/2309.15478)
+- Continual Evidential Deep Learning for Out-of-Distribution Detection [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/VCL/html/Aguilar_Continual_Evidential_Deep_Learning_for_Out-of-Distribution_Detection_ICCVW_2023_paper.html)
+- Far Away in the Deep Space: Nearest-Neighbor-Based Dense Out-of-Distribution Detection [[ICCV Workshop2023]](<https://arxiv.org/abs/2211.06660>)
+- Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://arxiv.org/abs/2305.13849>)
+- Calibrated Out-of-Distribution Detection with a Generic Representation [[ICCV Workshop2023]](<https://arxiv.org/abs/2303.13148>) - [[PyTorch]](<https://github.com/vojirt/grood>)
+- Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
+- Towards Total Recall in Industrial Anomaly Detection [[CVPR2022]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
+- POEM: Out-of-Distribution Detection with Posterior Sampling [[ICML2022]](<https://arxiv.org/abs/2206.13687>) - [[PyTorch]](<https://github.com/deeplearning-wisc/poem>)
+- VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
+- Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](<https://arxiv.org/abs/2110.02855>) - [[PyTorch]](<https://github.com/marco-rudolph/cs-flow>)
+- Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces [[CVPR2021]](<https://openaccess.thecvf.com/content/CVPR2021/html/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.html>) - [[PyTorch]](<https://github.com/zaeemzadeh/OOD>)
+- NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization [[ICCV2021]](<https://arxiv.org/abs/2109.02038>)
+- On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](<https://arxiv.org/abs/2110.00218>)
+- Exploring the Limits of Out-of-Distribution Detection [[NeurIPS2021]](<https://arxiv.org/abs/2106.03004>)
+- Detecting out-of-distribution image without learning from out-of-distribution data. [[CVPR2020]](<https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html>)
+- Learning Open Set Network with Discriminative Reciprocal Points [[ECCV2020]](<https://arxiv.org/abs/2011.00178>)
+- Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](<https://arxiv.org/abs/2003.08440>) - [[PyTorch]](<https://github.com/YingdaXia/SynthCP>)
+- NADS: Neural Architecture Distribution Search for Uncertainty Awareness [[ICML2020]](<https://arxiv.org/abs/2006.06646>)
+- PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](<https://arxiv.org/abs/2011.08785>) - [[PyTorch]](<https://github.com/openvinotoolkit/anomalib>)
+- Energy-based Out-of-distribution Detection [[NeurIPS2020]](<https://arxiv.org/abs/2010.03759?context=cs>)
+- Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples [[NeurIPS Workshop2020]](<https://arxiv.org/abs/2010.10474>)
+- Memorizing Normality to Detect Anomaly: Memory-Augmented Deep Autoencoder for Unsupervised Anomaly Detection [[ICCV2019]](<https://arxiv.org/abs/1904.02639>) - [[PyTorch]](<https://github.com/donggong1/memae-anomaly-detection>)
+- Detecting the Unexpected via Image Resynthesis [[ICCV2019]](<https://arxiv.org/abs/1904.07595>) - [[PyTorch]](<https://github.com/cvlab-epfl/detecting-the-unexpected>)
+- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks [[ICLR2018]](<https://arxiv.org/abs/1706.02690>)
+- A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks [[ICLR2017]](<https://arxiv.org/abs/1610.02136>) - [[TensorFlow]](<https://github.com/hendrycks/error-detection>)
+
+**Journal**
+
+- Generalized out-of-distribution detection: A survey [[IJCV2024]](<https://arxiv.org/abs/2110.11334>)
+- Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2024]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
+- One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
+
+**Arxiv**
+
+- Neuron Activation Coverage: Rethinking Out-of-distribution Detection and Generalization [[arXiv2023]](<https://arxiv.org/abs/2306.02879>) - [[PyTorch]](<https://github.com/bierone/ood_coverage>)
+- A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
+- Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
+- Frequentist uncertainty estimates for deep learning [[arXiv2018]](<http://bayesiandeeplearning.org/2018/papers/31.pdf>)
+
 ## Uncertainty sources & Aleatoric and Epistemic Uncertainty Disentenglement
 
 **Conference**
@@ -493,7 +562,14 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 **ArXiv**
 
 - Sources of Uncertainty in Machine Learning - A Statisticians’ View [[ArXiv2024]](<https://arxiv.org/pdf/2305.16703>)
-- How disentangled are your classification uncertainties? [[ArXiv2024](<https://arxiv.org/abs/2408.12175>)
+- How disentangled are your classification uncertainties? [[ArXiv2024]](<https://arxiv.org/abs/2408.12175>)
+
+## Uncertainty Quantification in Multimodal Models / GenAI
+
+**Conference**
+
+- Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation [[CVPR2025]](<https://arxiv.org/abs/2412.03178>)
+- Hyperdimensional Uncertainty Quantification for Multimodal Uncertainty Fusion in Autonomous Vehicles Perception [[CVPR2025]](<https://arxiv.org/abs/2503.20011>)
 
 ## Applications
 
@@ -573,66 +649,6 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomographaphy [[arXiv2022]](<https://arxiv.org/abs/2202.10847>)
 - Efficient Gaussian Neural Processes for Regression [[arXiv2021]](<https://arxiv.org/abs/2108.09676>)
 
-### Anomaly-detection and Out-of-Distribution-Detection
-
-**Conference**
-
-- Combining Statistical Depth and Fermat Distance for Uncertainty Quantification [[NeurIPS2024]](https://openreview.net/pdf?id=xeXRhTUmcf) - [[PyTorch]](https://github.com/HaiVyNGUYEN/ld_official)
-- Learning Transferable Negative Prompts for Out-of-Distribution Detection [[CVPR2024]](<https://arxiv.org/abs/2404.03248>) - [[PyTorch]](<https://github.com/mala-lab/negprompt>)
-- Epistemic Uncertainty Quantification For Pre-trained Neural Networks [[CVPR2024]](<https://arxiv.org/abs/2404.10124>)
-- NECO: NEural Collapse Based Out-of-distribution Detection [[ICLR2024]](<https://arxiv.org/abs/2310.06823>)
-- When and How Does In-Distribution Label Help Out-of-Distribution Detection? [[ICML2024]](<https://arxiv.org/abs/2405.18635>) - [[PyTorch]](<https://github.com/deeplearning-wisc/id_label>)
-- Anomaly Detection under Distribution Shift [[ICCV2023]](<https://arxiv.org/abs/2303.13845>) - [[PyTorch]](<https://github.com/mala-lab/ADShift>)
-- Normalizing Flows for Human Pose Anomaly Detection [[ICCV2023]](https://orhir.github.io/STG_NF/) - [[PyTorch]](https://github.com/orhir/stg-nf)
-- RbA: Segmenting Unknown Regions Rejected by All [[ICCV2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Nayal_RbA_Segmenting_Unknown_Regions_Rejected_by_All_ICCV_2023_paper.pdf) - [[PyTorch]](https://github.com/NazirNayal8/RbA)
-- Uncertainty-Aware Optimal Transport for Semantically Coherent Out-of-Distribution Detection [[CVPR2023]](<https://arxiv.org/abs/2303.10449>) - [[PyTorch]](<https://github.com/lufan31/et-ood>)
-- Modeling the Distributional Uncertainty for Salient Object Detection Models [[CVPR2023]](https://npucvr.github.io/Distributional_uncer/) - [[PyTorch]](https://github.com/txynwpu/Distributional_uncertainty_SOD)
-- SQUID: Deep Feature In-Painting for Unsupervised Anomaly Detection [[CVPR2023]](<https://arxiv.org/abs/2111.13495>) - [[PyTorch]](<https://github.com/tiangexiang/SQUID>)
-- How to Exploit Hyperspherical Embeddings for Out-of-Distribution Detection? [[ICLR2023]](<https://arxiv.org/pdf/2203.04450.pdf>) - [[PyTorch]](<https://github.com/deeplearning-wisc/cider>)
-- Modeling the Data-Generating Process is Necessary for Out-of-Distribution Generalization [[ICLR2023]](<https://arxiv.org/pdf/2206.07837.pdf>)
-- Can CNNs Be More Robust Than Transformers? [[ICLR2023]](<https://arxiv.org/pdf/2206.03452.pdf>)
-- A framework for benchmarking class-out-of-distribution detection and its application to ImageNet [[ICLR2023]](<https://arxiv.org/pdf/2302.11893.pdf>)
-- Extremely Simple Activation Shaping for Out-of-Distribution Detection [[ICLR2023]](<https://arxiv.org/abs/2209.09858>) - [[PyTorch]](<https://github.com/andrijazz/ash>)
-- Quantification of Uncertainty with Adversarial Models [[NeurIPS2023]](<https://arxiv.org/abs/2307.03217>)
-- The Robust Semantic Segmentation UNCV2023 Challenge Results [[ICCV Workshop2023]](https://arxiv.org/abs/2309.15478)
-- Continual Evidential Deep Learning for Out-of-Distribution Detection [[ICCV Workshop2023]](https://openaccess.thecvf.com/content/ICCV2023W/VCL/html/Aguilar_Continual_Evidential_Deep_Learning_for_Out-of-Distribution_Detection_ICCVW_2023_paper.html)
-- Far Away in the Deep Space: Nearest-Neighbor-Based Dense Out-of-Distribution Detection [[ICCV Workshop2023]](<https://arxiv.org/abs/2211.06660>)
-- Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers [[ICCV Workshop2023]](<https://arxiv.org/abs/2305.13849>)
-- Calibrated Out-of-Distribution Detection with a Generic Representation [[ICCV Workshop2023]](<https://arxiv.org/abs/2303.13148>) - [[PyTorch]](<https://github.com/vojirt/grood>)
-- Detecting Misclassification Errors in Neural Networks with a Gaussian Process Model [[AAAI2022]](<https://ojs.aaai.org/index.php/AAAI/article/view/20773>)
-- Towards Total Recall in Industrial Anomaly Detection [[CVPR2022]](<https://arxiv.org/abs/2106.08265>) - [[PyTorch]](<https://github.com/hcw-00/PatchCore_anomaly_detection>)
-- POEM: Out-of-Distribution Detection with Posterior Sampling [[ICML2022]](<https://arxiv.org/abs/2206.13687>) - [[PyTorch]](<https://github.com/deeplearning-wisc/poem>)
-- VOS: Learning What You Don't Know by Virtual Outlier Synthesis [[ICLR2022]](<https://arxiv.org/abs/2202.01197>) - [[PyTorch]](<https://github.com/deeplearning-wisc/vos>)
-- Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection [[WACV2022]](<https://arxiv.org/abs/2110.02855>) - [[PyTorch]](<https://github.com/marco-rudolph/cs-flow>)
-- Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces [[CVPR2021]](<https://openaccess.thecvf.com/content/CVPR2021/html/Zaeemzadeh_Out-of-Distribution_Detection_Using_Union_of_1-Dimensional_Subspaces_CVPR_2021_paper.html>) - [[PyTorch]](<https://github.com/zaeemzadeh/OOD>)
-- NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization [[ICCV2021]](<https://arxiv.org/abs/2109.02038>)
-- On the Importance of Gradients for Detecting Distributional Shifts in the Wild [[NeurIPS2021]](<https://arxiv.org/abs/2110.00218>)
-- Exploring the Limits of Out-of-Distribution Detection [[NeurIPS2021]](<https://arxiv.org/abs/2106.03004>)
-- Detecting out-of-distribution image without learning from out-of-distribution data. [[CVPR2020]](<https://openaccess.thecvf.com/content_CVPR_2020/html/Hsu_Generalized_ODIN_Detecting_Out-of-Distribution_Image_Without_Learning_From_Out-of-Distribution_Data_CVPR_2020_paper.html>)
-- Learning Open Set Network with Discriminative Reciprocal Points [[ECCV2020]](<https://arxiv.org/abs/2011.00178>)
-- Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](<https://arxiv.org/abs/2003.08440>) - [[PyTorch]](<https://github.com/YingdaXia/SynthCP>)
-- NADS: Neural Architecture Distribution Search for Uncertainty Awareness [[ICML2020]](<https://arxiv.org/abs/2006.06646>)
-- PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization [[ICPR2020]](<https://arxiv.org/abs/2011.08785>) - [[PyTorch]](<https://github.com/openvinotoolkit/anomalib>)
-- Energy-based Out-of-distribution Detection [[NeurIPS2020]](<https://arxiv.org/abs/2010.03759?context=cs>)
-- Towards Maximizing the Representation Gap between In-Domain & Out-of-Distribution Examples [[NeurIPS Workshop2020]](<https://arxiv.org/abs/2010.10474>)
-- Memorizing Normality to Detect Anomaly: Memory-Augmented Deep Autoencoder for Unsupervised Anomaly Detection [[ICCV2019]](<https://arxiv.org/abs/1904.02639>) - [[PyTorch]](<https://github.com/donggong1/memae-anomaly-detection>)
-- Detecting the Unexpected via Image Resynthesis [[ICCV2019]](<https://arxiv.org/abs/1904.07595>) - [[PyTorch]](<https://github.com/cvlab-epfl/detecting-the-unexpected>)
-- Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks [[ICLR2018]](<https://arxiv.org/abs/1706.02690>)
-- A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks [[ICLR2017]](<https://arxiv.org/abs/1610.02136>) - [[TensorFlow]](<https://github.com/hendrycks/error-detection>)
-
-**Journal**
-
-- Generalized out-of-distribution detection: A survey [[IJCV2024]](<https://arxiv.org/abs/2110.11334>)
-- Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2024]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
-- One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
-
-**Arxiv**
-
-- Neuron Activation Coverage: Rethinking Out-of-distribution Detection and Generalization [[arXiv2023]](<https://arxiv.org/abs/2306.02879>) - [[PyTorch]](<https://github.com/bierone/ood_coverage>)
-- A Simple Fix to Mahalanobis Distance for Improving Near-OOD Detection [[arXiv2021]](<https://arxiv.org/abs/2106.09022>)
-- Do We Really Need to Learn Representations from In-domain Data for Outlier Detection? [[arXiv2021]](<https://arxiv.org/abs/2105.09270>)
-- Frequentist uncertainty estimates for deep learning [[arXiv2018]](<http://bayesiandeeplearning.org/2018/papers/31.pdf>)
-
 ### Object detection
 
 **Conference**
@@ -648,13 +664,19 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 **Conference**
 
 - Guiding Pseudo-labels with Uncertainty Estimation for Source-free Unsupervised Domain Adaptation [[CVPR2023]](<https://arxiv.org/abs/2303.03770>) - [[PyTorch]](https://github.com/mattialitrico/guiding-pseudo-labels-with-uncertainty-estimation-for-source-free-unsupervised-domain-adaptation)
-- Uncertainty-guided Source-free
-Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
+- Uncertainty-guided Source-free Domain Adaptation [[ECCV2022]](<https://arxiv.org/pdf/2208.07591.pdf>) - [[PyTorch]](<https://github.com/roysubhankar/uncertainty-sfda>)
 
-### Semi-supervised
+### Semi-supervised and Active Learning
+
+Awesome Semi-Supervised Learning [[GitHub]](<https://github.com/yassouali/awesome-semi-supervised-learning>)
+Awesome Active Learning [[GitHub]](<https://github.com/baifanxxx/awesome-active-learning>)
 
 **Conference**
 
+- Rethinking Epistemic and Aleatoric Uncertainty for Active Open-Set Annotation: An Energy-Based Approach [[CVPR2025]](<https://arxiv.org/abs/2502.19691>) - [[PyTorch]](<https://github.com/chenchenzong/EAOA>)
+- Uncertainty Meets Diversity: A Comprehensive Active Learning Framework for Indoor 3D Object Detection [[CVPR2025]](<https://arxiv.org/abs/2503.16125>)
+- Joint Out-of-Distribution Filtering and Data Discovery Active Learning [[CVPR2025]](<https://arxiv.org/abs/2503.02491>)
+- Towards Cost-Effective Learning: A Synergy of Semi-Supervised and Active Learning [[CVPR2025]](<https://openaccess.thecvf.com/content/CVPR2025/papers/Yin_Towards_Cost-Effective_Learning_A_Synergy_of_Semi-Supervised_and_Active_Learning_CVPR_2025_paper.pdf>)
 - Confidence Estimation Using Unlabeled Data [[ICLR2023]](<https://openreview.net/pdf?id=sOXU-PEJSgQ>) - [[PyTorch]](<https://github.com/TopoXLab/consistency-ranking-loss>)
 
 ### Natural Language Processing

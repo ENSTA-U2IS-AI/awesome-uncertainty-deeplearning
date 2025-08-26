@@ -40,7 +40,6 @@ Table of Contents
   - [Applications](#applications)
     - [Classification and Semantic-Segmentation](#classification-and-semantic-segmentation)
     - [Regression](#regression)
-    - [Anomaly-detection and Out-of-Distribution-Detection](#anomaly-detection-and-out-of-distribution-detection)
     - [Object detection](#object-detection)
     - [Domain adaptation](#domain-adaptation)
     - [Semi-supervised and Active Learning](#semi-supervised-and-active-learning)
@@ -481,12 +480,16 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Overcoming Common Flaws in the Evaluation of Selective Classification Systems [[NeurIPS2024]](<https://arxiv.org/abs/2407.01032>) - [[PyTorch]](<https://github.com/IML-DKFZ/fd-shifts/tree/main>)
 - A Data-Driven Measure of Relative Uncertainty for Misclassification Detection [[ICLR2024]](https://arxiv.org/abs/2306.01710)
 - Plugin estimators for selective classification with out-of-distribution detection [[ICLR2024]](https://arxiv.org/abs/2301.12386)
 - SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
-- Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>)
+- RCL: Reliable Continual Learning for Unified Failure Detection [[CVPR2024]](<https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_RCL_Reliable_Continual_Learning_for_Unified_Failure_Detection_CVPR_2024_paper.pdf>) - [[PyTorch]](<https://github.com/Impression2805/RCL>)
+-  A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification [[ICLR2023]](<https://openreview.net/pdf?id=YnkGMIh0gvX>) - [[PyTorch]](<https://github.com/IML-DKFZ/fd-shifts/tree/main>)
+- Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>) - [[PyTorch]](<https://github.com/Guoxoug/SIRC>)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
+- Selective Classification for Deep Neural Networks [[NeurIPS2017]](<https://arxiv.org/abs/1705.08500>)
 
 **ArXiv**
 

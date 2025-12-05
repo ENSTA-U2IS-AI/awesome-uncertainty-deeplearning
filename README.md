@@ -84,6 +84,7 @@ Table of Contents
 
 **Conference**
 
+- Exploring and Exploiting Model Uncertainty in Bayesian Optimization [[NeurIPS2025]](<https://openreview.net/forum?id=p58mKXaeWC>)
 - A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods [[NeurIPS2023]](<https://arxiv.org/pdf/2305.15027>)
 - Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning [[ICLR2023]](<https://arxiv.org/pdf/2012.09816.pdf>)
 - Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[ICLR2023]](<https://arxiv.org/pdf/2210.03044.pdf>)
@@ -124,6 +125,7 @@ Table of Contents
 
 **Conference**
 
+- Quantifying Uncertainty in the Presence of Distribution Shifts [[NeurIPS2025]](<https://openreview.net/forum?id=04p7u1gIsv&referrer=%5Bthe%20profile%20of%20Yuli%20Slavutsky%5D(%2Fprofile%3Fid%3D~Yuli_Slavutsky1)>)
 - Training Bayesian Neural Networks with Sparse Subspace Variational Inference [[ICLR2024]](<https://arxiv.org/abs/2402.11025>)
 - Variational Bayesian Last Layers [[ICLR2024]](https://arxiv.org/abs/2404.11599)
 - A Symmetry-Aware Exploration of Bayesian Neural Network Posteriors [[ICLR2024]](<https://arxiv.org/abs/2310.08287>)
@@ -285,6 +287,7 @@ Table of Contents
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
 - Out-of-distribution Detection with Implicit Outlier Transformation [[ICLR2023]](<https://arxiv.org/abs/2303.05033>) - [[PyTorch]](<https://github.com/qizhouwang/doe>)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](<https://arxiv.org/abs/2112.05135>)
+- Breaking Down Out-of-Distribution Detection: Many Methods Based on OOD Training Data Estimate a Combination of the Same Core Quantities [[ICML2022]](<https://proceedings.mlr.press/v162/bitterwolf22a.html>)
 - RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy & Out-of-Distribution Robustness [[NeurIPS2022]](<https://arxiv.org/abs/2206.14502>) - [[PyTorch]](<https://github.com/francescopinto/regmixup>)
 - Towards efficient feature sharing in MIMO architectures [[CVPR Workshop2022]](<https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Sun_Towards_Efficient_Feature_Sharing_in_MIMO_Architectures_CVPRW_2022_paper.html>)
 - Robust Semantic Segmentation with Superpixel-Mix [[BMVC2021]](<https://arxiv.org/abs/2108.00968>) - [[PyTorch]](<https://github.com/giannifranchi/deeplabv3-superpixelmix>)
@@ -310,6 +313,7 @@ Awesome Evidential Deep Learning [[GitHub]](<https://github.com/MengyuanChen21/A
 
 **Conference**
 
+- Vicinal Label Supervision for Reliable Aleatoric and Epistemic Uncertainty Estimation [[NeurIPS2025]](<https://openreview.net/forum?id=hPfICQIDOm>)
 - Multimodal Learning with Uncertainty Quantification based on Discounted Belief Fusion [[AISTATS2025]](<https://arxiv.org/abs/2412.18024>)
 - Hyper-opinion Evidential Deep Learning for Out-of-Distribution Detection [[NeurIPS2024]](<https://openreview.net/forum?id=Te8vI2wGTh&referrer=%5Bthe%20profile%20of%20Yufei%20Chen%5D(%2Fprofile%3Fid%3D~Yufei_Chen1)>)
 - R-EDL: Relaxing Nonessential Settings of Evidential Deep Learning [[ICLR2024]](<https://openreview.net/forum?id=Si3YFA641c>) - [[PyTorch]](<https://github.com/MengyuanChen21/ICLR2024-REDL/tree/main>)
@@ -431,6 +435,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration [[NeurIPS2025]](<https://openreview.net/forum?id=AjOl3iahHd&referrer=%5Bthe%20profile%20of%20Volker%20Tresp%5D(%2Fprofile%3Fid%3D~Volker_Tresp1)>)
 - Uncertainty Weighted Gradients for Model Calibration [[CVPR2025]](<https://www.arxiv.org/abs/2503.22725>)
 - Smooth ECE: Principled Reliability Diagrams via Kernel Smoothing [[ICLR2024]](<https://arxiv.org/abs/2309.12236>)
 - Calibrating Transformers via Sparse Gaussian Processes [[ICLR2023]](<https://arxiv.org/abs/2303.02444>) - [[PyTorch]](<https://github.com/chenw20/sgpa>)
@@ -486,16 +491,22 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 - SURE: SUrvey REcipes for building reliable and robust deep networks [[CVPR2024]](https://arxiv.org/abs/2403.00543) - [[PyTorch]](https://yutingli0606.github.io/SURE/)
 - RCL: Reliable Continual Learning for Unified Failure Detection [[CVPR2024]](<https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_RCL_Reliable_Continual_Learning_for_Unified_Failure_Detection_CVPR_2024_paper.pdf>) - [[PyTorch]](<https://github.com/Impression2805/RCL>)
 -  A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification [[ICLR2023]](<https://openreview.net/pdf?id=YnkGMIh0gvX>) - [[PyTorch]](<https://github.com/IML-DKFZ/fd-shifts/tree/main>)
+- The Devil is in the Wrongly-classified Samples: Towards Unified Open-set Recognition [[ICLR2023]](<https://openreview.net/forum?id=xLr0I_xYGAs>) - [[PyTorch]](<https://github.com/Jun-CEN/Unified-Open-Set-Recognition>)
 - Augmenting Softmax Information for Selective Classification with Out-of-Distribution Data [[ACCV2022]](<https://openaccess.thecvf.com/content/ACCV2022/html/Xia_Augmenting_Softmax_Information_for_Selective_Classification_with_Out-of-Distribution_Data_ACCV_2022_paper.html>) - [[PyTorch]](<https://github.com/Guoxoug/SIRC>)
 - Anomaly Detection via Reverse Distillation from One-Class Embedding [[CVPR2022]](<https://arxiv.org/abs/2201.10703>)
 - Rethinking Confidence Calibration for Failure Prediction [[ECCV2022]](<https://link.springer.com/chapter/10.1007/978-3-031-19806-9_30>) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - Selective Classification for Deep Neural Networks [[NeurIPS2017]](<https://arxiv.org/abs/1705.08500>)
+
+**Journal**
+
+- A Unified Benchmark for the Unknown Detection Capability of Deep Neural Networks [[Expert Systems with Applications2023]](<https://www.sciencedirect.com/science/article/abs/pii/S0957417423009636>)
 
 **ArXiv**
 
 - Similarity-Distance-Magnitude Universal Verification [[arXiv2025]](<https://arxiv.org/abs/2502.20167>) - [[Python]](<https://github.com/ReexpressAI/sdm>)
 
 ## Anomaly-detection and Out-of-Distribution-Detection
+Awesome Out-of-distribution Detection [[GitHub]](<https://github.com/continuousml/Awesome-Out-Of-Distribution-Detection>)
 
 **Conference**
 
@@ -545,6 +556,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Journal**
 
+- Foundation Models and Transformers for Anomaly Detection: A Survey [[Information Fusion2025]](<https://arxiv.org/abs/2507.15905>)
 - Generalized out-of-distribution detection: A survey [[IJCV2024]](<https://arxiv.org/abs/2110.11334>)
 - Revisiting Confidence Estimation: Towards Reliable Failure Prediction [[TPAMI2024]](https://www.computer.org/csdl/journal/tp/5555/01/10356834/1SQHDHvGg9i) - [[PyTorch]](<https://github.com/Impression2805/FMFP>)
 - One Versus all for deep Neural Network for uncertaInty (OVNNI) quantification [[IEEE Access2021]](<https://arxiv.org/abs/2006.00954>)
@@ -710,6 +722,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 
 **Conference**
 
+- Epistemic Uncertainty for Generated Image Detection [[NeurIPS2025]](<https://arxiv.org/abs/2412.05897>)
 - PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness [[CVPR2024]](<https://arxiv.org/pdf/2312.02158.pdf>) - [[Website]](<https://astra-vision.github.io/PaSCo/>)
 - Uncertainty Quantification via Stable Distribution Propagation [[ICLR2024]](<https://arxiv.org/abs/2402.08324>)
 - Assessing Uncertainty in Similarity Scoring: Performance & Fairness in Face Recognition [[ICLR2024]](<https://arxiv.org/abs/2211.07245>)

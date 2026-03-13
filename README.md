@@ -586,6 +586,10 @@ Awesome Out-of-distribution Detection [[GitHub]](<https://github.com/continuousm
 - Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation [[CVPR2025]](<https://arxiv.org/abs/2412.03178>)
 - Hyperdimensional Uncertainty Quantification for Multimodal Uncertainty Fusion in Autonomous Vehicles Perception [[CVPR2025]](<https://arxiv.org/abs/2503.20011>)
 
+**Journal**
+
+- Multimodal Out-of-Distribution Individual Uncertainty Quantification Enhances Binding Affinity Prediction for Polypharmacology [[Nature Machine Intelligence 2025]](<https://www.nature.com/articles/s42256-025-01151-2>)
+
 ## Applications
 
 ### Classification and Semantic-Segmentation

@@ -714,6 +714,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 
 **Arxiv**
 
+- DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness [[arXiv2026]](<https://arxiv.org/abs/2601.14210>)
 - Gaussian Stochastic Weight Averaging for Bayesian Low-Rank Adaptation of Large Language Models [[arXiv2024]](<https://arxiv.org/pdf/2405.03425>)
 - To Believe or Not to Believe Your LLM [[arXiv2024]](<https://arxiv.org/abs/2406.02543>)
 - Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling [[arXiv2023]](<https://arxiv.org/abs/2311.08718>)

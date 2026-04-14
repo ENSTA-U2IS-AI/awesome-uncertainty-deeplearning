@@ -91,7 +91,7 @@ Table of Contents
 - Probabilistic Contrastive Learning Recovers the Correct Aleatoric Uncertainty of Ambiguous Inputs [[ICML2023]](<https://arxiv.org/pdf/2302.02865.pdf>) - [[PyTorch]](<https://github.com/mkirchhof/Probabilistic_Contrastive_Learning>)
 - On Second-Order Scoring Rules for Epistemic Uncertainty Quantification [[ICML2023]](<https://arxiv.org/pdf/2301.12736.pdf>)
 - Neural Variational Gradient Descent [[AABI2022]](<https://openreview.net/forum?id=oG0vTBw58ic>)
-- Top-label calibration and multiclass-to-binary reductions [[ICLR2022]](<https://openreview.net/forum?id=WqoBaaPHS->)
+- Top-label  and multiclass-to-binary reductions [[ICLR2022]](<https://openreview.net/forum?id=WqoBaaPHS->)
 - Bayesian Model Selection, the Marginal Likelihood, and Generalization [[ICML2022]](<https://arxiv.org/abs/2202.11678>)
 - With malice towards none: Assessing uncertainty via equalized coverage [[AIES 2021]](<https://arxiv.org/abs/1908.05428>)
 - Uncertainty in Gradient Boosting via Ensembles [[ICLR2021]](<https://arxiv.org/abs/2006.10562>) - [[PyTorch]](<https://github.com/yandex-research/GBDT-uncertainty>)
@@ -283,7 +283,7 @@ Table of Contents
 - Posterior Uncertainty Quantification in Neural Networks using Data Augmentation [[AISTATS2024]](<https://arxiv.org/abs/2403.12729>)
 - Learning to Generate Training Datasets for Robust Semantic Segmentation [[WACV2024]](<https://arxiv.org/abs/2308.02535>)
 - OpenMix: Exploring Outlier Samples for Misclassification Detection [[CVPR2023]](<https://arxiv.org/abs/2303.17093>) - [[PyTorch]](<https://github.com/Impression2805/OpenMix>)
-- On the Pitfall of Mixup for Uncertainty Calibration [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty_Calibration_CVPR_2023_paper.html>)
+- On the Pitfall of Mixup for Uncertainty  [[CVPR2023]](<https://openaccess.thecvf.com/content/CVPR2023/html/Wang_On_the_Pitfall_of_Mixup_for_Uncertainty__CVPR_2023_paper.html>)
 - Diverse, Global and Amortised Counterfactual Explanations for Uncertainty Estimates [[AAAI2022]](<https://arxiv.org/abs/2112.02646>)
 - Out-of-distribution Detection with Implicit Outlier Transformation [[ICLR2023]](<https://arxiv.org/abs/2303.05033>) - [[PyTorch]](<https://github.com/qizhouwang/doe>)
 - PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures [[CVPR2022]](<https://arxiv.org/abs/2112.05135>)
@@ -298,9 +298,9 @@ Table of Contents
 - Uncertainty-Aware Deep Classifiers using Generative Models [[AAAI2020]](<https://arxiv.org/abs/2006.04183>)
 - Synthesize then Compare: Detecting Failures and Anomalies for Semantic Segmentation [[ECCV2020]](<https://arxiv.org/abs/2003.08440>) - [[PyTorch]](<https://github.com/YingdaXia/SynthCP>)
 - Detecting the Unexpected via Image Resynthesis [[ICCV2019]](<https://arxiv.org/abs/1904.07595>) - [[PyTorch]](<https://github.com/cvlab-epfl/detecting-the-unexpected>)
-- Mix-n-match: Ensemble and compositional methods for uncertainty calibration in deep learning [[ICML2020]](<http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf>)
+- Mix-n-match: Ensemble and compositional methods for uncertainty  in deep learning [[ICML2020]](<http://proceedings.mlr.press/v119/zhang20k/zhang20k.pdf>)
 - Deep Anomaly Detection with Outlier Exposure [[ICLR2019]](<https://arxiv.org/pdf/1812.04606.pdf>)
-- On Mixup Training: Improved Calibration and Predictive Uncertainty for Deep Neural Networks [[NeurIPS2019]](<https://arxiv.org/abs/1905.11001>)
+- On Mixup Training: Improved  and Predictive Uncertainty for Deep Neural Networks [[NeurIPS2019]](<https://arxiv.org/abs/1905.11001>)
 
 **Arxiv**
 
@@ -435,6 +435,8 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Confidence Should Be Calibrated More Than One Turn Deep [[ACL2026]] (<https://arxiv.org/pdf/2604.05397>)
+- Grace: A generative approach to better confidence elicitation in large language models [[ACL2026]] (<https://arxiv.org/pdf/2509.09438>)
 - Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration [[NeurIPS2025]](<https://openreview.net/forum?id=AjOl3iahHd&referrer=%5Bthe%20profile%20of%20Volker%20Tresp%5D(%2Fprofile%3Fid%3D~Volker_Tresp1)>)
 - Uncertainty Weighted Gradients for Model Calibration [[CVPR2025]](<https://www.arxiv.org/abs/2503.22725>)
 - Smooth ECE: Principled Reliability Diagrams via Kernel Smoothing [[ICLR2024]](<https://arxiv.org/abs/2309.12236>)

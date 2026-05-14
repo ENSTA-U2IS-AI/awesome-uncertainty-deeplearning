@@ -716,6 +716,8 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 - Calibrated Language Model Fine-Tuning for In- and Out-of-Distribution Data [[EMNLP2020]](<https://aclanthology.org/2020.emnlp-main.102/>) - [[PyTorch]](https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning)
 
 **Journal**
+- UQLM: A Python Package for Uncertainty Quantification in Large Language Models [[JMLR2026]](<https://www.jmlr.org/papers/v27/25-1557.html/>) 
+- Uncertainty Quantification for Language Models: A Suite of Black-Box, White-Box, LLM Judge, and Ensemble Scorers [[TMLR2025]](<https://openreview.net/pdf?id=WOFspd4lq5/>) 
 - How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering [[TACL2021]](https://arxiv.org/abs/2012.00955) - [[PyTorch]](https://github.com/jzbjyb/lm-calibration)
 
 **Arxiv**

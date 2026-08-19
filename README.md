@@ -768,6 +768,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 - Darts: Forecasting and anomaly detection on time series [[GitHub]](<https://github.com/unit8co/darts>)
 - Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](<https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>)
 - UQLM: Uncertainty Quantification for Language Models [[GitHub]](<https://github.com/cvs-health/uqlm>)
+- SafetyCage: A unified interface for misclassification detection methods (MSP, DOCTOR, Mahalanobis, RED, SPARDACUS) [[GitHub]](<https://github.com/SINTEF/safetycage>)
 
 ## PyTorch
 

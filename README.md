@@ -769,6 +769,7 @@ Awesome LLM Uncertainty, Reliability, & Robustness [[GitHub]](<https://github.co
 - Mixture Density Networks (MDN) for distribution and uncertainty estimation [[GitHub]](<https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>)
 - UQLM: Uncertainty Quantification for Language Models [[GitHub]](<https://github.com/cvs-health/uqlm>)
 - SafetyCage: A unified interface for misclassification detection methods (MSP, DOCTOR, Mahalanobis, RED, SPARDACUS) [[GitHub]](<https://github.com/SINTEF/safetycage>)
+- jebadiah-decide: Calibrated per-option probabilities for typed LLM decisions (choice, yes/no, score), read from label-token logits of the open Jebadiah models [[GitHub]](<https://github.com/getainode/jebadiah>)
 
 ## PyTorch
 

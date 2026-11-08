@@ -488,6 +488,7 @@ Awesome Conformal Prediction [[GitHub]](<https://github.com/valeman/awesome-conf
 
 **Conference**
 
+- Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care [[NeurIPS2026]](https://arxiv.org/abs/2606.31036) - [[Code]](https://github.com/roychowdhuryresearch/Manana)
 - Overcoming Common Flaws in the Evaluation of Selective Classification Systems [[NeurIPS2024]](<https://arxiv.org/abs/2407.01032>) - [[PyTorch]](<https://github.com/IML-DKFZ/fd-shifts/tree/main>)
 - A Data-Driven Measure of Relative Uncertainty for Misclassification Detection [[ICLR2024]](https://arxiv.org/abs/2306.01710)
 - Plugin estimators for selective classification with out-of-distribution detection [[ICLR2024]](https://arxiv.org/abs/2301.12386)
